@@ -1,0 +1,6 @@
+Graph.new(type: :undirected)
+|> Graph.add_vertex(:h1, "H")
+|> Graph.add_vertex(:h2, "H")
+|> Graph.add_vertex(:o, "O")
+|> Graph.add_edge(:o, :h1)
+|> Graph.add_edge(:o, :h2)

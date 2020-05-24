@@ -1,0 +1,532 @@
+arpanet = Graph.new(type: :undirected)
+
+## Segment 1 - Outer Circuit - Clockwise from RML to ETAC
+
+# Site: RML
+
+rml_n = %{ id: :rml_n, gateway: "TIP", site: "RML" }
+
+rml_h1 = %{ id: :rml_h1, computer: "360/67" }
+
+rml = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(rml_n, "rml_n")
+|> Graph.add_vertex(rml_h1, "rml_h1")
+|> Graph.add_edge(rml_h1, rml_n) |> Graph.add_edge(rml_n, rml_h1)
+
+
+# Site: USC-ISI
+
+usc_isi_n = %{ id: :usc_isi_n, gateway: "IMP", site: "USC-ISI" }
+
+usc_isi_h1 = %{ id: :usc_isi_h1, computer: "PDP-10" }
+
+usc_isi = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(usc_isi_n, "usc_isi_n")
+|> Graph.add_vertex(usc_isi_h1, "usc_isi_h1")
+|> Graph.add_edge(usc_isi_h1, usc_isi_n) |> Graph.add_edge(usc_isi_n, usc_isi_h1)
+|> Graph.add_edge(usc_isi_n, rml_n) |> Graph.add_edge(rml_n, usc_isi_n)
+
+
+# Site: STANFORD
+
+stanford_n = %{ id: :stanford_n, gateway: "IMP", site: "STANFORD" }
+
+stanford_h1 = %{ id: :stanford_h1, computer: "PDP-10" }
+
+stanford = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(stanford_n, "stanford_n")
+|> Graph.add_vertex(stanford_h1, "stanford_h1")
+|> Graph.add_edge(stanford_h1, stanford_n) |> Graph.add_edge(stanford_n, stanford_h1)
+|> Graph.add_edge(stanford_n, usc_isi_n) |> Graph.add_edge(usc_isi_n, stanford_n)
+
+
+# Site: AMES
+
+ames_n = %{ id: :ames_n, gateway: "IMP", site: "AMES" }
+
+ames_h1 = %{ id: :ames_h1, computer: "PDP-10" }
+
+ames = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(ames_n, "ames_n")
+|> Graph.add_vertex(ames_h1, "ames_h1")
+|> Graph.add_edge(ames_h1, ames_n) |> Graph.add_edge(ames_n, ames_h1)
+|> Graph.add_edge(ames_n, stanford_n) |> Graph.add_edge(stanford_n, ames_n)
+
+
+# Site: AMES1
+
+ames1_n = %{ id: :ames1_n, gateway: "TIP", site: "AMES1" }
+
+ames1_h1 = %{ id: :ames1_h1, computer: "360/67" }
+
+ames1 = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(ames1_n, "ames1_n")
+|> Graph.add_vertex(ames1_h1, "ames1_h1")
+|> Graph.add_edge(ames1_h1, ames1_n) |> Graph.add_edge(ames1_n, ames1_h1)
+|> Graph.add_edge(ames1_n, ames_n) |> Graph.add_edge(ames_n, ames1_n)
+
+
+# Site: SRI
+
+sri_n = %{ id: :sri_n, gateway: "IMP", site: "SRI" }
+
+sri_h1 = %{ id: :sri_h1, computer: "PDP-10" }
+sri_h2 = %{ id: :sri_h2, computer: "PDP-15" }
+# sri_h3 = %{ id: :sri_h3, computer: "PDP-10" }
+
+sri = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(sri_n, "sri_n")
+|> Graph.add_vertex(sri_h1, "sri_h1")
+|> Graph.add_vertex(sri_h2, "sri_h2")
+# |> Graph.add_vertex(sri_h3, "sri_h3")
+|> Graph.add_edge(sri_h1, sri_n) |> Graph.add_edge(sri_n, sri_h1)
+|> Graph.add_edge(sri_h2, sri_n) |> Graph.add_edge(sri_n, sri_h2)
+# |> Graph.add_edge(sri_h3, sri_n) |> Graph.add_edge(sri_n, sri_h3)
+|> Graph.add_edge(sri_n, ames1_n) |> Graph.add_edge(ames1_n, sri_n)
+
+
+# Site: LBL
+
+lbl_n = %{ id: :lbl_n, gateway: "IMP", site: "LBL" }
+
+lbl = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(lbl_n, "lbl_n")
+|> Graph.add_edge(lbl_n, sri_n) |> Graph.add_edge(sri_n, lbl_n)
+
+
+
+# Site: UTAH
+
+utah_n = %{ id: :utah_n, gateway: "IMP", site: "UTAH" }
+
+utah_h1 = %{ id: :utah_h1, computer: "PDP-10" }
+
+utah = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(utah_n, "utah_n")
+|> Graph.add_vertex(utah_h1, "utah_h1")
+|> Graph.add_edge(utah_h1, utah_n) |> Graph.add_edge(utah_n, utah_h1)
+|> Graph.add_edge(utah_n, lbl_n) |> Graph.add_edge(lbl_n, utah_n)
+
+
+# Site: ILLINOIS
+
+illinois_n = %{ id: :illinois_n, gateway: "IMP", site: "ILLINOIS" }
+
+illinois_h1 = %{ id: :illinois_h1, computer: "PDP-11" }
+
+illinois = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(illinois_n, "illinois_n")
+|> Graph.add_vertex(illinois_h1, "illinois_h1")
+|> Graph.add_edge(illinois_h1, illinois_n) |> Graph.add_edge(illinois_n, illinois_h1)
+|> Graph.add_edge(illinois_n, utah_n) |> Graph.add_edge(utah_n, illinois_n)
+
+
+# Site: MIT
+
+mit_n = %{ id: :mit_n, gateway: "IMP", site: "MIT" }
+
+mit_h1 = %{ id: :mit_h1, computer: "PDP-10" }
+mit_h2 = %{ id: :mit_h2, computer: "PDP-10" }
+mit_h3 = %{ id: :mit_h3, computer: "PDP-10" }
+mit_h4 = %{ id: :mit_h4, computer: "H-645" }
+
+mit = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(mit_n, "mit_n")
+|> Graph.add_vertex(mit_h1, "mit_h1")
+|> Graph.add_vertex(mit_h2, "mit_h2")
+|> Graph.add_vertex(mit_h3, "mit_h3")
+|> Graph.add_vertex(mit_h4, "mit_h4")
+|> Graph.add_edge(mit_h1, mit_n) |> Graph.add_edge(mit_n, mit_h1)
+|> Graph.add_edge(mit_h2, mit_n) |> Graph.add_edge(mit_n, mit_h2)
+|> Graph.add_edge(mit_h3, mit_n) |> Graph.add_edge(mit_n, mit_h3)
+|> Graph.add_edge(mit_h4, mit_n) |> Graph.add_edge(mit_n, mit_h4)
+|> Graph.add_edge(mit_n, illinois_n) |> Graph.add_edge(illinois_n, mit_n)
+
+
+# Site: CCA
+
+cca_n = %{ id: :cca_n, gateway: "TIP", site: "CCA" }
+
+cca_h1 = %{ id: :cca_h1, computer: "PDP-10" }
+
+cca = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(cca_n, "cca_n")
+|> Graph.add_vertex(cca_h1, "cca_h1")
+|> Graph.add_edge(cca_h1, cca_n) |> Graph.add_edge(cca_n, cca_h1)
+|> Graph.add_edge(cca_n, mit_n) |> Graph.add_edge(mit_n, cca_n)
+
+
+# Site: BBN
+
+bbn_n = %{ id: :bbn_n, gateway: "IMP", site: "BBN" }
+
+bbn_h1 = %{ id: :bbn_h1, computer: "PDP-1" }
+bbn_h2 = %{ id: :bbn_h2, computer: "PDP-10" }
+bbn_h3 = %{ id: :bbn_h3, computer: "PDP-10" }
+bbn_h4 = %{ id: :bbn_h4, computer: "H-316" }
+
+bbn = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(bbn_n, "bbn_n")
+|> Graph.add_vertex(bbn_h1, "bbn_h1")
+|> Graph.add_vertex(bbn_h2, "bbn_h2")
+|> Graph.add_vertex(bbn_h3, "bbn_h3")
+|> Graph.add_vertex(bbn_h4, "bbn_h4")
+|> Graph.add_edge(bbn_h1, bbn_n) |> Graph.add_edge(bbn_n, bbn_h1)
+|> Graph.add_edge(bbn_h2, bbn_n) |> Graph.add_edge(bbn_n, bbn_h2)
+|> Graph.add_edge(bbn_h3, bbn_n) |> Graph.add_edge(bbn_n, bbn_h3)
+|> Graph.add_edge(bbn_h4, bbn_n) |> Graph.add_edge(bbn_n, bbn_h4)
+|> Graph.add_edge(bbn_n, cca_n) |> Graph.add_edge(cca_n, bbn_n)
+
+
+
+# Site: BBN1
+
+bbn1_n = %{ id: :bbn1_n, gateway: "TIP", site: "BBN1" }
+
+arpanet = arpanet
+|> Graph.add_vertex(bbn1_n, "bbn1_n")
+|> Graph.add_edge(bbn1_n, bbn_n) |> Graph.add_edge(bbn_n, bbn1_n)
+
+# Site: HARVARD
+
+harvard_n = %{ id: :harvard_n, gateway: "IMP", site: "HARVARD" }
+
+harvard_h1 = %{ id: :harvard_h1, computer: "PDP-1" }
+harvard_h2 = %{ id: :harvard_h2, computer: "PDP-10" }
+harvard_h3 = %{ id: :harvard_h3, computer: "PDP-11" }
+
+harvard = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(harvard_n, "harvard_n")
+|> Graph.add_vertex(harvard_h1, "harvard_h1")
+|> Graph.add_vertex(harvard_h2, "harvard_h2")
+|> Graph.add_vertex(harvard_h3, "harvard_h3")
+|> Graph.add_edge(harvard_h1, harvard_n) |> Graph.add_edge(harvard_n, harvard_h1)
+|> Graph.add_edge(harvard_h2, harvard_n) |> Graph.add_edge(harvard_n, harvard_h2)
+|> Graph.add_edge(harvard_h3, harvard_n) |> Graph.add_edge(harvard_n, harvard_h3)
+|> Graph.add_edge(harvard_n, bbn_n) |> Graph.add_edge(bbn_n, harvard_n)
+
+
+# Site: ABERDEEN
+
+aberdeen_n = %{ id: :aberdeen_n, gateway: "IMP", site: "ABERDEEN" }
+
+aberdeen = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(aberdeen_n, "aberdeen_n")
+|> Graph.add_edge(aberdeen_n, harvard_n) |> Graph.add_edge(harvard_n, aberdeen_n)
+
+
+# Site: NBS
+
+nbs_n = %{ id: :nbs_n, gateway: "TIP", site: "NBS" }
+
+nbs_h1 = %{ id: :nbs_h1, computer: "PDP-11" }
+
+nbs = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(nbs_n, "nbs_n")
+|> Graph.add_vertex(nbs_h1, "nbs_h1")
+|> Graph.add_edge(nbs_h1, nbs_n) |> Graph.add_edge(nbs_n, nbs_h1)
+|> Graph.add_edge(nbs_n, aberdeen_n) |> Graph.add_edge(aberdeen_n, nbs_n)
+
+
+# Site: ETAC
+
+etac_n = %{ id: :etac_n, gateway: "TIP", site: "ETAC" }
+
+etac = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(etac_n, "etac_n")
+|> Graph.add_edge(etac_n, nbs_n) |> Graph.add_edge(nbs_n, etac_n)
+|> Graph.add_edge(rml_n, etac_n) |> Graph.add_edge(etac_n, rml_n)
+
+
+## Segment 2 - Main Diagonal - Up from RAND to LINCOLN
+
+# Site: RAND
+
+rand_n = %{ id: :rand_n, gateway: "IMP", site: "RAND" }
+
+rand_h1 = %{ id: :rand_h1, computer: "IBM 1800" }
+# rand_h2 = %{ id: :rand_h2, computer: "360/65" }
+
+rand = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(rand_n, "rand_n")
+|> Graph.add_vertex(rand_h1, "rand_h1")
+# |> Graph.add_vertex(rand_h2, "rand_h2")
+|> Graph.add_edge(rand_h1, rand_n) |> Graph.add_edge(rand_n, rand_h1)
+# |> Graph.add_edge(rand_h2, rand_n) |> Graph.add_edge(rand_n, rand_h2)
+|> Graph.add_edge(usc_isi_n, rand_n) |> Graph.add_edge(rand_n, usc_isi_n)
+
+
+# Site: UCSD
+
+ucsd_n = %{ id: :ucsd_n, gateway: "IMP", site: "UCSD" }
+
+ucsd_h1 = %{ id: :ucsd_h1, computer: "MICRO 810" }
+# ucsd_h2 = %{ id: :ucsd_h2, computer: "B6700" }
+
+ucsd = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(ucsd_n, "ucsd_n")
+|> Graph.add_vertex(ucsd_h1, "ucsd_h1")
+# |> Graph.add_vertex(ucsd_h2, "ucsd_h2")
+|> Graph.add_edge(ucsd_h1, ucsd_n) |> Graph.add_edge(ucsd_n, ucsd_h1)
+# |> Graph.add_edge(ucsd_h2, ucsd_n) |> Graph.add_edge(ucsd_n, ucsd_h2)
+|> Graph.add_edge(rand_n, ucsd_n) |> Graph.add_edge(ucsd_n, rand_n)
+
+
+# Site: UCLA
+
+ucla_n = %{ id: :ucla_n, gateway: "IMP", site: "UCLA" }
+
+ucla_h1 = %{ id: :ucla_h1, computer: "360/91" }
+ucla_h2 = %{ id: :ucla_h2, computer: "SIGMA7" }
+
+ucla = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(ucla_n, "ucla_n")
+|> Graph.add_vertex(ucla_h1, "ucla_h1")
+|> Graph.add_vertex(ucla_h2, "ucla_h2")
+|> Graph.add_edge(ucla_h1, ucla_n) |> Graph.add_edge(ucla_n, ucla_h1)
+|> Graph.add_edge(ucla_h2, ucla_n) |> Graph.add_edge(ucla_n, ucla_h2)
+|> Graph.add_edge(ucsd_n, ucla_n) |> Graph.add_edge(ucla_n, ucsd_n)
+
+
+# Site: SDC
+
+sdc_n = %{ id: :sdc_n, gateway: "IMP", site: "SDC" }
+
+sdc_h1 = %{ id: :sdc_h1, computer: "DDP-516" }
+# sdc_h2 = %{ id: :sdc_h2, computer: "370/145" }
+
+sdc = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(sdc_n, "sdc_n")
+|> Graph.add_vertex(sdc_h1, "sdc_h1")
+# |> Graph.add_vertex(sdc_h2, "sdc_h2")
+|> Graph.add_edge(sdc_h1, sdc_n) |> Graph.add_edge(sdc_n, sdc_h1)
+# |> Graph.add_edge(sdc_h2, sdc_n) |> Graph.add_edge(sdc_n, sdc_h2)
+|> Graph.add_edge(ucla_n, sdc_n) |> Graph.add_edge(sdc_n, ucla_n)
+
+
+# Site: USC
+
+usc_n = %{ id: :usc_n, gateway: "TIP", site: "USC" }
+
+usc_h1 = %{ id: :usc_h1, computer: "360/44" }
+
+usc = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(usc_n, "usc_n")
+|> Graph.add_vertex(usc_h1, "usc_h1")
+|> Graph.add_edge(usc_h1, usc_n) |> Graph.add_edge(usc_n, usc_h1)
+|> Graph.add_edge(sdc_n, usc_n) |> Graph.add_edge(usc_n, sdc_n)
+
+
+# Site: DOCB
+
+docb_n = %{ id: :docb_n, gateway: "TIP", site: "DOCB" }
+
+docb = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(docb_n, "docb_n")
+|> Graph.add_edge(usc_n, docb_n) |> Graph.add_edge(docb_n, usc_n)
+
+
+
+# Site: GWC
+
+gwc_n = %{ id: :gwc_n, gateway: "TIP", site: "GWC" }
+
+gwc = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(gwc_n, "gwc_n")
+|> Graph.add_edge(docb_n, gwc_n) |> Graph.add_edge(gwc_n, docb_n)
+
+
+
+# Site: CASE
+
+case_n = %{ id: :case_n, gateway: "IMP", site: "CASE" }
+
+case_h1 = %{ id: :case_h1, computer: "PDP-10" }
+
+case = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(case_n, "case_n")
+|> Graph.add_vertex(case_h1, "case_h1")
+|> Graph.add_edge(case_h1, case_n) |> Graph.add_edge(case_n, case_h1)
+|> Graph.add_edge(gwc_n, case_n) |> Graph.add_edge(case_n, gwc_n)
+
+
+# Site: RADC
+
+radc_n = %{ id: :radc_n, gateway: "TIP", site: "RADC" }
+
+radc = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(radc_n, "radc_n")
+|> Graph.add_edge(case_n, radc_n) |> Graph.add_edge(radc_n, case_n)
+
+
+# Site: LINCOLN
+
+lincoln_n = %{ id: :lincoln_n, gateway: "IMP", site: "LINCOLN" }
+
+lincoln_h1 = %{ id: :lincoln_h1, computer: "360/67" }
+lincoln_h2 = %{ id: :lincoln_h2, computer: "TX2" }
+lincoln_h3 = %{ id: :lincoln_h3, computer: "TSP" }
+
+lincoln = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(lincoln_n, "lincoln_n")
+|> Graph.add_vertex(lincoln_h1, "lincoln_h1")
+|> Graph.add_vertex(lincoln_h2, "lincoln_h2")
+|> Graph.add_vertex(lincoln_h3, "lincoln_h3")
+|> Graph.add_edge(lincoln_h1, lincoln_n) |> Graph.add_edge(lincoln_n, lincoln_h1)
+|> Graph.add_edge(lincoln_h2, lincoln_n) |> Graph.add_edge(lincoln_n, lincoln_h2)
+|> Graph.add_edge(lincoln_h3, lincoln_n) |> Graph.add_edge(lincoln_n, lincoln_h3)
+|> Graph.add_edge(radc_n, lincoln_n) |> Graph.add_edge(lincoln_n, radc_n)
+|> Graph.add_edge(lincoln_n, mit_n) |> Graph.add_edge(mit_n, lincoln_n)
+
+
+## Segment 3 - Second Diagonal, LHS - Up from UCSB to XEROX
+
+# Site: UCSB
+
+ucsb_n = %{ id: :ucsb_n, gateway: "IMP", site: "UCSB" }
+
+ucsb_h1 = %{ id: :ucsb_h1, computer: "360/75" }
+ucsb_h2 = %{ id: :ucsb_h2, computer: "PDP-11" }
+
+ucsb = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(ucsb_n, "ucsb_n")
+|> Graph.add_vertex(ucsb_h1, "ucsb_h1")
+|> Graph.add_vertex(ucsb_h2, "ucsb_h2")
+|> Graph.add_edge(ucsb_h1, ucsb_n) |> Graph.add_edge(ucsb_n, ucsb_h1)
+|> Graph.add_edge(ucsb_h2, ucsb_n) |> Graph.add_edge(ucsb_n, ucsb_h2)
+|> Graph.add_edge(ucla_n, ucsb_n) |> Graph.add_edge(ucsb_n, ucla_n)
+
+
+# Site: FNWC
+
+fnwc_n = %{ id: :fnwc_n, gateway: "TIP", site: "FNWC" }
+
+fnwc = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(fnwc_n, "fnwc_n")
+|> Graph.add_edge(ucsb_n, fnwc_n) |> Graph.add_edge(fnwc_n, ucsb_n)
+
+
+# Site: XEROX
+
+xerox_n = %{ id: :xerox_n, gateway: "IMP", site: "XEROX" }
+
+xerox_h1 = %{ id: :xerox_h1, computer: "NOVA" }
+# xerox_h2 = %{ id: :xerox_h2, computer: "MAXC" }
+
+xerox = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(xerox_n, "xerox_n")
+|> Graph.add_vertex(xerox_h1, "xerox_h1")
+# |> Graph.add_vertex(xerox_h2, "xerox_h2")
+|> Graph.add_edge(xerox_h1, xerox_n) |> Graph.add_edge(xerox_n, xerox_h1)
+# |> Graph.add_edge(xerox_h2, xerox_n) |> Graph.add_edge(xerox_n, xerox_h2)
+|> Graph.add_edge(fnwc_n, xerox_n) |> Graph.add_edge(xerox_n, fnwc_n)
+|> Graph.add_edge(xerox_n, sri_n) |> Graph.add_edge(sri_n, xerox_n)
+
+
+## Segment 4 - Second Diagonal, RHS - Up from ARPA to CARNEGIE
+
+# Site: ARPA
+
+arpa_n = %{ id: :arpa_n, gateway: "TIP", site: "ARPA" }
+
+arpa_h1 = %{ id: :arpa_h1, computer: "PDP-15" }
+
+arpa = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(arpa_n, "arpa_n")
+|> Graph.add_vertex(arpa_h1, "arpa_h1")
+|> Graph.add_edge(arpa_h1, arpa_n) |> Graph.add_edge(arpa_n, arpa_h1)
+|> Graph.add_edge(etac_n, arpa_n) |> Graph.add_edge(arpa_n, etac_n)
+
+
+# Site:  MITRE
+
+mitre_n = %{ id: :mitre_n, gateway: "TIP", site: "MITRE" }
+
+mitre = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(mitre_n, "mitre_n")
+|> Graph.add_edge(arpa_n, mitre_n) |> Graph.add_edge(mitre_n, arpa_n)
+
+
+# Site: SDAC
+
+sdac_n = %{ id: :sdac_n, gateway: "TIP", site: "SDAC" }
+
+sdac = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(sdac_n, "sdac_n")
+|> Graph.add_edge(mitre_n, sdac_n) |> Graph.add_edge(sdac_n, mitre_n)
+
+
+# Site: BELVOIR
+
+belvoir_n = %{ id: :belvoir_n, gateway: "IMP", site: "BELVOIR" }
+
+belvoir = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(belvoir_n, "belvoir_n")
+|> Graph.add_edge(sdac_n, belvoir_n) |> Graph.add_edge(belvoir_n, sdac_n)
+|> Graph.add_edge(belvoir_n, aberdeen_n) |> Graph.add_edge(aberdeen_n, belvoir_n)
+
+
+# Site: CARNEGIE
+
+carnegie_n = %{ id: :carnegie_n, gateway: "IMP", site: "CARNEGIE" }
+
+carnegie_h1 = %{ id: :carnegie_h1, computer: "PDP-10" }
+carnegie_h2 = %{ id: :carnegie_h2, computer: "PDP-10" }
+
+carnegie = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(carnegie_n, "carnegie_n")
+|> Graph.add_vertex(carnegie_h1, "carnegie_h1")
+|> Graph.add_vertex(carnegie_h2, "carnegie_h2")
+|> Graph.add_edge(carnegie_h1, carnegie_n) |> Graph.add_edge(carnegie_n, carnegie_h1)
+|> Graph.add_edge(carnegie_h2, carnegie_n) |> Graph.add_edge(carnegie_n, carnegie_h2)
+|> Graph.add_edge(belvoir_n, carnegie_n) |> Graph.add_edge(carnegie_n, belvoir_n)
+|> Graph.add_edge(carnegie_n, case_n) |> Graph.add_edge(case_n, carnegie_n)
+
+
+## Segment 5 - Satellite Link (Hawaii)
+
+# Site: HAWAII
+
+hawaii_n = %{ id: :hawaii_n, gateway: "TIP", site: "HAWAII" }
+
+hawaii = Graph.new
+arpanet = arpanet
+|> Graph.add_vertex(hawaii_n, "hawaii_n")
+|> Graph.add_edge(hawaii_n, ames_n) |> Graph.add_edge(ames_n, hawaii_n)
+
+
+arpanet

@@ -1,0 +1,5 @@
+{
+  q(func: has(uid)) {
+    uid
+  }
+}

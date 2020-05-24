@@ -1,0 +1,12 @@
+defmodule GraphCommons.Service.GraphInfo do
+  defstruct ~w[type num_nodes num_edges density labels]a
+
+  @typedoc "Type for `%GraphCommons.Service.GraphInfo{}` struct."
+  @type t :: %__MODULE__{
+          type: :dgraph | :native | :property | :rdf | :tinker,
+          num_nodes: integer,
+          num_edges: integer,
+          density: float,
+          labels: list
+        }
+end

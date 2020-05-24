@@ -1,0 +1,46 @@
+book = graph.addVertex(label,'Adopting Elixir',
+  'type', 'Book',
+  'iri', 'urn:isbn:978-1-68050-252-7',
+  'date', '2018-03-14',
+  'format', 'Paper',
+  'title', 'Adopting Elixir',
+)
+author1 =
+graph.addVertex(label,'Ben Marx',
+  'type', 'Author',
+  'iri', 'https://twitter.com/bgmarx',
+  'name', 'Ben Marx',
+)
+author2 =
+graph.addVertex(label,'José Valim',
+  'type', 'Author',
+  'iri', 'https://twitter.com/josevalim',
+  'name', 'José Valim',
+)
+author3 =
+graph.addVertex(label,'Bruce Tate',
+  'type', 'Author',
+  'iri', 'https://twitter.com/redrapids',
+  'name', 'Bruce Tate',
+)
+publisher =
+graph.addVertex(label,'The Pragmatic Bookshelf',
+  'type', 'Publisher',
+  'iri', 'https://pragprog.com/',
+  'name', 'The Pragmatic Bookshelf',
+)
+book.addEdge('edge', author1,
+  'labelE', 'AUTHORED_BY',
+)
+book.addEdge('edge', author2,
+  'labelE', 'AUTHORED_BY',
+  'role', 'first author',
+)
+book.addEdge('edge', author3,
+  'labelE', 'AUTHORED_BY',
+  'role', 'second author',
+)
+book.addEdge('edge', publisher,
+  'labelE', 'PUBLISHED_BY',
+  'role', 'third author',
+)

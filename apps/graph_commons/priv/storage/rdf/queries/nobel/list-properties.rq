@@ -1,0 +1,6 @@
+SELECT DISTINCT ?p
+WHERE {
+  ?s ?_ "Bob Dylan" .
+  ?s ?p ?o .
+}
+ORDER BY ?p

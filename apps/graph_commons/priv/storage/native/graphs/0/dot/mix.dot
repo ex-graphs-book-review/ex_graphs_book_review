@@ -1,0 +1,89 @@
+strict digraph {
+    "sparql"
+    "bolt_sips"
+    "retry"
+    "libgraph"
+    "test_match"
+    "csv"
+    "connection"
+    "fuzzyurl"
+    "jason"
+    "makeup"
+    "sparql_client"
+    "earmark"
+    "sweet_xml"
+    "content_type"
+    "json_ld"
+    "calendar"
+    "nimble_parsec"
+    "ex_doc"
+    "db_connection"
+    "ssl_verify_fun"
+    "decimal"
+    "metrics"
+    "rdf"
+    "mimerl"
+    "parse_trans"
+    "poison"
+    "parallel_stream"
+    "makeup_elixir"
+    "certifi"
+    "hackney"
+    "nimble_csv"
+    "tesla"
+    "unicode_util_compat"
+    "dep_from_git"
+    "idna"
+    "mime"
+    "elixir_uuid"
+    "tzdata"
+    "sparql" -> "rdf" [label="~> 0.5"; weight=1]
+    "sparql" -> "elixir_uuid" [label="~> 1.2"; weight=1]
+    "sparql" -> "jason" [label="~> 1.0"; weight=1]
+    "sparql" -> "nimble_csv" [label="~> 0.4"; weight=1]
+    "sparql" -> "sweet_xml" [label="~> 0.6"; weight=1]
+    "bolt_sips" -> "jason" [label="~> 1.1"; weight=1]
+    "bolt_sips" -> "retry" [label="0.9.1"; weight=1]
+    "bolt_sips" -> "poison" [label="~> 3.1"; weight=1]
+    "bolt_sips" -> "calendar" [label="~> 0.17.2"; weight=1]
+    "bolt_sips" -> "fuzzyurl" [label="~> 1.0"; weight=1]
+    "bolt_sips" -> "db_connection" [label="~> 2.0"; weight=1]
+    "test_match" -> "csv" [label="~> 2.3"; weight=1]
+    "test_match" -> "sparql_client" [label="~> 0.2"; weight=1]
+    "test_match" -> "dep_from_git" [label=""; weight=1]
+    "test_match" -> "bolt_sips" [label="~> 1.5"; weight=1]
+    "test_match" -> "ex_doc" [label="~> 0.20"; weight=1]
+    "test_match" -> "hackney" [label="~> 1.15"; weight=1]
+    "test_match" -> "libgraph" [label="~> 0.13"; weight=1]
+    "csv" -> "parallel_stream" [label="~> 1.0.4"; weight=1]
+    "jason" -> "decimal" [label="~> 1.0"; weight=1]
+    "makeup" -> "nimble_parsec" [label="~> 0.5.0"; weight=1]
+    "sparql_client" -> "rdf" [label="~> 0.5"; weight=1]
+    "sparql_client" -> "tesla" [label="~> 1.1"; weight=1]
+    "sparql_client" -> "json_ld" [label="~> 0.3"; weight=1]
+    "sparql_client" -> "content_type" [label="~> 0.1"; weight=1]
+    "sparql_client" -> "sparql" [label="~> 0.2.1"; weight=1]
+    "json_ld" -> "rdf" [label="~> 0.5"; weight=1]
+    "json_ld" -> "jason" [label="~> 1.1.1"; weight=1]
+    "calendar" -> "tzdata" [label="~> 0.5.20 or ~> 0.1.201603"; weight=1]
+    "ex_doc" -> "makeup_elixir" [label="~> 0.10"; weight=1]
+    "ex_doc" -> "earmark" [label="~> 1.3"; weight=1]
+    "db_connection" -> "connection" [label="~> 1.0.2"; weight=1]
+    "rdf" -> "decimal" [label="~> 1.5"; weight=1]
+    "makeup_elixir" -> "makeup" [label="~> 0.8"; weight=1]
+    "certifi" -> "parse_trans" [label="~>3.3"; weight=1]
+    "hackney" -> "idna" [label="6.0.0"; weight=1]
+    "hackney" -> "metrics" [label="1.0.1"; weight=1]
+    "hackney" -> "ssl_verify_fun" [label="1.1.4"; weight=1]
+    "hackney" -> "mimerl" [label="~>1.1"; weight=1]
+    "hackney" -> "certifi" [label="2.5.1"; weight=1]
+    "tesla" -> "mime" [label="~> 1.0"; weight=1]
+    "tesla" -> "jason" [label=">= 1.0.0"; weight=1]
+    "tesla" -> "poison" [label=">= 1.0.0"; weight=1]
+    "tesla" -> "hackney" [label="~> 1.6"; weight=1]
+    "dep_from_git" -> "tesla" [label="~> 1.2"; weight=1]
+    "dep_from_git" -> "bolt_sips" [label="~> 1.5"; weight=1]
+    "dep_from_git" -> "hackney" [label="~> 1.15"; weight=1]
+    "idna" -> "unicode_util_compat" [label="0.4.1"; weight=1]
+    "tzdata" -> "hackney" [label="~> 1.0"; weight=1]
+}

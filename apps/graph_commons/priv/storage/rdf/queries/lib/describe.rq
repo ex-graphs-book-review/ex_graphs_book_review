@@ -1,0 +1,4 @@
+DESCRIBE ?s
+WHERE {
+    ?s ?p "Bruce Tate"
+}

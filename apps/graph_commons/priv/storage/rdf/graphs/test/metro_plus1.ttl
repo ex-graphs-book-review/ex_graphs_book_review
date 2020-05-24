@@ -1,0 +1,2070 @@
+@prefix ex: <http://example/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix line: <http://datadock.io/kal/data/id/resource/line/> .
+@prefix station: <http://datadock.io/kal/data/id/resource/station/> .
+@prefix stop: <http://datadock.io/kal/data/id/resource/stop/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix stops: <http://datadock.io/kal/data/id/dataset/tokyo_metro_stops.csv#> .
+@prefix stations: <http://datadock.io/kal/data/id/dataset/tokyo_metro_stations.csv#> .
+@prefix schema: <http://datadock.io/kal/data/id/definition/> .
+
+@prefix metro: <http://example/resource/metro/> .
+@prefix lines: <http://example/dataset/tokyo_metro_lines.csv#> .
+
+
+# line:tokyo-metro-C
+#     a ex:Line ;
+#     schema:line_colour "green"^^xsd:string ;
+#     schema:line_name "千代田線"^^xsd:string ;
+#     schema:line_name_english "Chiyoda Line"^^xsd:string ;
+#     schema:line_name_french "Ligne Chiyoda"^^xsd:string .
+#
+# station:tokyo-metro-仲御徒町駅
+#     a ex:Station ;
+#     stations:on_line line:tokyo-metro-H ;
+#     schema:station_name "仲御徒町駅"^^xsd:string ;
+#     schema:station_name_english "Naka-Okachimachi"^^xsd:string .
+#
+# stop:M-10
+#     a ex:Stop ;
+#     stops:at_station station:tokyo-metro-新宿御苑前駅 ;
+#     stops:on_line line:tokyo-metro-M ;
+#     stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-10> .
+
+
+metro:tokyo-metro
+    a ex:Metro ;
+    lines:on_metro line:tokyo-metro-C ;
+    lines:on_metro line:tokyo-metro-F ;
+    lines:on_metro line:tokyo-metro-G ;
+    lines:on_metro line:tokyo-metro-H ;
+    lines:on_metro line:tokyo-metro-M ;
+    lines:on_metro line:tokyo-metro-Mb ;
+    lines:on_metro line:tokyo-metro-N ;
+    lines:on_metro line:tokyo-metro-T ;
+    lines:on_metro line:tokyo-metro-Y ;
+    lines:on_metro line:tokyo-metro-Z .
+
+line:tokyo-metro-C
+    a ex:Line ;
+    schema:line_colour "green"^^xsd:string ;
+    schema:line_name "千代田線"^^xsd:string ;
+    schema:line_name_english "Chiyoda Line"^^xsd:string ;
+    schema:line_name_french "Ligne Chiyoda"^^xsd:string .
+
+line:tokyo-metro-F
+    a ex:Line ;
+    schema:line_colour "brown"^^xsd:string ;
+    schema:line_name "副都心線"^^xsd:string ;
+    schema:line_name_english "Fukutoshin Line"^^xsd:string ;
+    schema:line_name_french "Ligne Fukutoshin"^^xsd:string .
+
+line:tokyo-metro-G
+    a ex:Line ;
+    schema:line_colour "orange"^^xsd:string ;
+    schema:line_name "銀座線"^^xsd:string ;
+    schema:line_name_english "Ginza Line"^^xsd:string ;
+    schema:line_name_french "Ligne Ginza"^^xsd:string .
+
+line:tokyo-metro-H
+    a ex:Line ;
+    schema:line_colour "silver"^^xsd:string ;
+    schema:line_name "日比谷線"^^xsd:string ;
+    schema:line_name_english "Hibiya Line"^^xsd:string ;
+    schema:line_name_french "Ligne Hibiya"^^xsd:string .
+
+line:tokyo-metro-M
+    a ex:Line ;
+    schema:line_colour "red"^^xsd:string ;
+    schema:line_name "丸ノ内線"^^xsd:string ;
+    schema:line_name_english "Marunouchi Line"^^xsd:string ;
+    schema:line_name_french "Ligne Marunouchi"^^xsd:string .
+
+line:tokyo-metro-Mb
+    a ex:Line ;
+    schema:line_colour "red"^^xsd:string ;
+    schema:line_name "丸ノ内線分岐線"^^xsd:string ;
+    schema:line_name_english "Marunouchi Line Branch Line"^^xsd:string ;
+    schema:line_name_french "Ligne Marunouchi Ligne secondaire"^^xsd:string .
+
+line:tokyo-metro-N
+    a ex:Line ;
+    schema:line_colour "dark aqua"^^xsd:string ;
+    schema:line_name "南北線"^^xsd:string ;
+    schema:line_name_english "Namboku Line"^^xsd:string ;
+    schema:line_name_french "Ligne Namboku"^^xsd:string .
+
+line:tokyo-metro-T
+    a ex:Line ;
+    schema:line_colour "sky blue"^^xsd:string ;
+    schema:line_name "東西線"^^xsd:string ;
+    schema:line_name_english "Tōzai Line"^^xsd:string ;
+    schema:line_name_french "Ligne Tōzai"^^xsd:string .
+
+line:tokyo-metro-Y
+    a ex:Line ;
+    schema:line_colour "gold"^^xsd:string ;
+    schema:line_name "有楽町線"^^xsd:string ;
+    schema:line_name_english "Yūrakuchō Line"^^xsd:string ;
+    schema:line_name_french "Ligne Yūrakuchō"^^xsd:string .
+
+line:tokyo-metro-Z
+    a ex:Line ;
+    schema:line_colour "purple"^^xsd:string ;
+    schema:line_name "半蔵門線"^^xsd:string ;
+    schema:line_name_english "Hanzōmon Line"^^xsd:string ;
+    schema:line_name_french "Ligne Hanzōmon"^^xsd:string .
+
+station:tokyo-metro-三ノ輪駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "三ノ輪駅"^^xsd:string ;
+    schema:station_name_english "Minowa"^^xsd:string .
+
+station:tokyo-metro-三越前駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G, line:tokyo-metro-Z ;
+    schema:station_name "三越前駅"^^xsd:string ;
+    schema:station_name_english "Mitsukoshimae"^^xsd:string .
+
+station:tokyo-metro-上野広小路駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G ;
+    schema:station_name "上野広小路駅"^^xsd:string ;
+    schema:station_name_english "Ueno-Hirokōji"^^xsd:string .
+
+station:tokyo-metro-上野駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G, line:tokyo-metro-H ;
+    schema:station_name "上野駅"^^xsd:string ;
+    schema:station_name_english "Ueno"^^xsd:string .
+
+station:tokyo-metro-中目黒駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "中目黒駅"^^xsd:string ;
+    schema:station_name_english "Naka-Meguro"^^xsd:string .
+
+station:tokyo-metro-中野坂上駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "中野坂上駅"^^xsd:string ;
+    schema:station_name_english "Nakano-Sakaue"^^xsd:string, "Nakano-sakaue"^^xsd:string .
+
+station:tokyo-metro-中野富士見町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "中野富士見町駅"^^xsd:string ;
+    schema:station_name_english "Nakano-fujimichō"^^xsd:string .
+
+station:tokyo-metro-中野新橋駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "中野新橋駅"^^xsd:string ;
+    schema:station_name_english "Nakano-shimbashi"^^xsd:string .
+
+station:tokyo-metro-中野駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "中野駅"^^xsd:string ;
+    schema:station_name_english "Nakano"^^xsd:string .
+
+station:tokyo-metro-乃木坂駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "乃木坂駅"^^xsd:string ;
+    schema:station_name_english "Nogizaka"^^xsd:string .
+
+station:tokyo-metro-九段下駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T, line:tokyo-metro-Z ;
+    schema:station_name "九段下駅"^^xsd:string ;
+    schema:station_name_english "Kudanshita"^^xsd:string .
+
+station:tokyo-metro-二重橋前駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "二重橋前駅"^^xsd:string ;
+    schema:station_name_english "Nijūbashimae"^^xsd:string .
+
+station:tokyo-metro-京橋駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G ;
+    schema:station_name "京橋駅"^^xsd:string ;
+    schema:station_name_english "Kyōbashi"^^xsd:string .
+
+station:tokyo-metro-人形町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "人形町駅"^^xsd:string ;
+    schema:station_name_english "Ningyōchō"^^xsd:string .
+
+station:tokyo-metro-代々木上原駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "代々木上原駅"^^xsd:string ;
+    schema:station_name_english "Yoyogi-Uehara"^^xsd:string .
+
+station:tokyo-metro-代々木公園駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "代々木公園駅"^^xsd:string ;
+    schema:station_name_english "Yoyogi-Kōen"^^xsd:string .
+
+station:tokyo-metro-仲御徒町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "仲御徒町駅"^^xsd:string ;
+    schema:station_name_english "Naka-Okachimachi"^^xsd:string .
+
+station:tokyo-metro-住吉駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Z ;
+    schema:station_name "住吉駅"^^xsd:string ;
+    schema:station_name_english "Sumiyoshi"^^xsd:string .
+
+station:tokyo-metro-入谷駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "入谷駅"^^xsd:string ;
+    schema:station_name_english "Iriya"^^xsd:string .
+
+station:tokyo-metro-八丁堀駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "八丁堀駅"^^xsd:string ;
+    schema:station_name_english "Hatchōbori"^^xsd:string .
+
+station:tokyo-metro-六本木一丁目駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "六本木一丁目駅"^^xsd:string ;
+    schema:station_name_english "Roppongi-Itchōme"^^xsd:string .
+
+station:tokyo-metro-六本木駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "六本木駅"^^xsd:string ;
+    schema:station_name_english "Roppongi"^^xsd:string .
+
+station:tokyo-metro-北千住駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C, line:tokyo-metro-H ;
+    schema:station_name "北千住駅"^^xsd:string ;
+    schema:station_name_english "Kita-Senju"^^xsd:string .
+
+station:tokyo-metro-北参道駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F ;
+    schema:station_name "北参道駅"^^xsd:string ;
+    schema:station_name_english "Kitasandō"^^xsd:string .
+
+station:tokyo-metro-千川駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F, line:tokyo-metro-Y ;
+    schema:station_name "千川駅"^^xsd:string ;
+    schema:station_name_english "Senkawa"^^xsd:string .
+
+station:tokyo-metro-千駄木駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "千駄木駅"^^xsd:string ;
+    schema:station_name_english "Sendagi"^^xsd:string .
+
+station:tokyo-metro-半蔵門駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Z ;
+    schema:station_name "半蔵門駅"^^xsd:string ;
+    schema:station_name_english "Hanzōmon"^^xsd:string .
+
+station:tokyo-metro-南千住駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "南千住駅"^^xsd:string ;
+    schema:station_name_english "Minami-Senju"^^xsd:string .
+
+station:tokyo-metro-南砂町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "南砂町駅"^^xsd:string ;
+    schema:station_name_english "Minami-Sunamachi"^^xsd:string .
+
+station:tokyo-metro-南行徳駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "南行徳駅"^^xsd:string ;
+    schema:station_name_english "Minami-Gyōtoku"^^xsd:string .
+
+station:tokyo-metro-南阿佐ケ谷駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "南阿佐ケ谷駅"^^xsd:string ;
+    schema:station_name_english "Minami-Asagaya"^^xsd:string .
+
+station:tokyo-metro-原木中山駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "原木中山駅"^^xsd:string ;
+    schema:station_name_english "Baraki-Nakayama"^^xsd:string .
+
+station:tokyo-metro-和光市駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F, line:tokyo-metro-Y ;
+    schema:station_name "和光市駅"^^xsd:string ;
+    schema:station_name_english "Wakōshi"^^xsd:string .
+
+station:tokyo-metro-四ツ谷駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M, line:tokyo-metro-N ;
+    schema:station_name "四ツ谷駅"^^xsd:string ;
+    schema:station_name_english "Yotsuya"^^xsd:string .
+
+station:tokyo-metro-四谷三丁目駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "四谷三丁目駅"^^xsd:string ;
+    schema:station_name_english "Yotsuya-sanchōme"^^xsd:string .
+
+station:tokyo-metro-国会議事堂前駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C, line:tokyo-metro-M ;
+    schema:station_name "国会議事堂前駅"^^xsd:string ;
+    schema:station_name_english "Kokkai-Gijidō-mae"^^xsd:string, "Kokkai-gijidō-mae"^^xsd:string .
+
+station:tokyo-metro-地下鉄成増駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F, line:tokyo-metro-Y ;
+    schema:station_name "地下鉄成増駅"^^xsd:string ;
+    schema:station_name_english "Chikatetsu-Narimasu"^^xsd:string .
+
+station:tokyo-metro-地下鉄赤塚駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F, line:tokyo-metro-Y ;
+    schema:station_name "地下鉄赤塚駅"^^xsd:string ;
+    schema:station_name_english "Chikatetsu-Akatsuka"^^xsd:string .
+
+station:tokyo-metro-外苑前駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G ;
+    schema:station_name "外苑前駅"^^xsd:string ;
+    schema:station_name_english "Gaiemmae"^^xsd:string .
+
+station:tokyo-metro-大手町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C, line:tokyo-metro-M, line:tokyo-metro-T, line:tokyo-metro-Z ;
+    schema:station_name "大手町駅"^^xsd:string ;
+    schema:station_name_english "Ōtemachi"^^xsd:string .
+
+station:tokyo-metro-妙典駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "妙典駅"^^xsd:string ;
+    schema:station_name_english "Myōden"^^xsd:string .
+
+station:tokyo-metro-小伝馬町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "小伝馬町駅"^^xsd:string ;
+    schema:station_name_english "Kodemmachō"^^xsd:string .
+
+station:tokyo-metro-小竹向原駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F, line:tokyo-metro-Y ;
+    schema:station_name "小竹向原駅"^^xsd:string ;
+    schema:station_name_english "Kotake-Mukaihara"^^xsd:string .
+
+station:tokyo-metro-市ケ谷駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N, line:tokyo-metro-Y ;
+    schema:station_name "市ケ谷駅"^^xsd:string ;
+    schema:station_name_english "Ichigaya"^^xsd:string .
+
+station:tokyo-metro-平和台駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F, line:tokyo-metro-Y ;
+    schema:station_name "平和台駅"^^xsd:string ;
+    schema:station_name_english "Heiwadai"^^xsd:string .
+
+station:tokyo-metro-広尾駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "広尾駅"^^xsd:string ;
+    schema:station_name_english "Hiroo"^^xsd:string .
+
+station:tokyo-metro-後楽園駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M, line:tokyo-metro-N ;
+    schema:station_name "後楽園駅"^^xsd:string ;
+    schema:station_name_english "Kōrakuen"^^xsd:string .
+
+station:tokyo-metro-御茶ノ水駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "御茶ノ水駅"^^xsd:string ;
+    schema:station_name_english "Ochanomizu"^^xsd:string .
+
+station:tokyo-metro-志茂駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "志茂駅"^^xsd:string ;
+    schema:station_name_english "Shimo"^^xsd:string .
+
+station:tokyo-metro-恵比寿駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "恵比寿駅"^^xsd:string ;
+    schema:station_name_english "Ebisu"^^xsd:string .
+
+<http://datadock.io/kal/data/id/resource/station/tokyo-metro-押上〈スカイツリー前〉駅>
+    stations:on_line line:tokyo-metro-Z ;
+    schema:station_name "押上〈スカイツリー前〉駅"^^xsd:string ;
+    schema:station_name_english "Oshiage"^^xsd:string .
+
+station:tokyo-metro-新中野駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "新中野駅"^^xsd:string ;
+    schema:station_name_english "Shin-Nakano"^^xsd:string .
+
+station:tokyo-metro-新大塚駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "新大塚駅"^^xsd:string ;
+    schema:station_name_english "Shin-ōtsuka"^^xsd:string .
+
+station:tokyo-metro-新宿三丁目駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F, line:tokyo-metro-M ;
+    schema:station_name "新宿三丁目駅"^^xsd:string ;
+    schema:station_name_english "Shinjuku-Sanchōme"^^xsd:string, "Shinjuku-sanchōme"^^xsd:string .
+
+station:tokyo-metro-新宿御苑前駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "新宿御苑前駅"^^xsd:string ;
+    schema:station_name_english "Shinjuku-gyoemmae"^^xsd:string .
+
+station:tokyo-metro-新宿駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "新宿駅"^^xsd:string ;
+    schema:station_name_english "Shinjuku"^^xsd:string .
+
+station:tokyo-metro-新富町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "新富町駅"^^xsd:string ;
+    schema:station_name_english "Shintomichō"^^xsd:string .
+
+station:tokyo-metro-新御茶ノ水駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "新御茶ノ水駅"^^xsd:string ;
+    schema:station_name_english "Shin-Ochanomizu"^^xsd:string .
+
+station:tokyo-metro-新木場駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "新木場駅"^^xsd:string ;
+    schema:station_name_english "Shin-Kiba"^^xsd:string .
+
+station:tokyo-metro-新橋駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G ;
+    schema:station_name "新橋駅"^^xsd:string ;
+    schema:station_name_english "Shimbashi"^^xsd:string .
+
+station:tokyo-metro-新高円寺駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "新高円寺駅"^^xsd:string ;
+    schema:station_name_english "Shin-Kōenji"^^xsd:string .
+
+station:tokyo-metro-方南町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "方南町駅"^^xsd:string ;
+    schema:station_name_english "Hōnanchō"^^xsd:string .
+
+station:tokyo-metro-日本橋駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G, line:tokyo-metro-T ;
+    schema:station_name "日本橋駅"^^xsd:string ;
+    schema:station_name_english "Nihombashi"^^xsd:string .
+
+station:tokyo-metro-日比谷駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C, line:tokyo-metro-H ;
+    schema:station_name "日比谷駅"^^xsd:string ;
+    schema:station_name_english "Hibiya"^^xsd:string .
+
+station:tokyo-metro-早稲田駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "早稲田駅"^^xsd:string ;
+    schema:station_name_english "Waseda"^^xsd:string .
+
+<http://datadock.io/kal/data/id/resource/station/tokyo-metro-明治神宮前〈原宿〉駅>
+    stations:on_line line:tokyo-metro-C, line:tokyo-metro-F ;
+    schema:station_name "明治神宮前〈原宿〉駅"^^xsd:string ;
+    schema:station_name_english "Meiji-Jingūmae"^^xsd:string, "Meiji-Jingūmae (Harajuku)"^^xsd:string .
+
+station:tokyo-metro-月島駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "月島駅"^^xsd:string ;
+    schema:station_name_english "Tsukishima"^^xsd:string .
+
+station:tokyo-metro-有楽町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "有楽町駅"^^xsd:string ;
+    schema:station_name_english "Yūrakuchō"^^xsd:string .
+
+station:tokyo-metro-木場駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "木場駅"^^xsd:string ;
+    schema:station_name_english "Kiba"^^xsd:string .
+
+station:tokyo-metro-末広町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G ;
+    schema:station_name "末広町駅"^^xsd:string ;
+    schema:station_name_english "Suehirochō"^^xsd:string .
+
+station:tokyo-metro-本郷三丁目駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "本郷三丁目駅"^^xsd:string ;
+    schema:station_name_english "Hongō-sanchōme"^^xsd:string .
+
+station:tokyo-metro-本駒込駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "本駒込駅"^^xsd:string ;
+    schema:station_name_english "Hon-Komagome"^^xsd:string .
+
+station:tokyo-metro-東京駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "東京駅"^^xsd:string ;
+    schema:station_name_english "Tokyo"^^xsd:string .
+
+station:tokyo-metro-東大前駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "東大前駅"^^xsd:string ;
+    schema:station_name_english "Tōdaimae"^^xsd:string .
+
+station:tokyo-metro-東新宿駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F ;
+    schema:station_name "東新宿駅"^^xsd:string ;
+    schema:station_name_english "Higashi-Shinjuku"^^xsd:string .
+
+station:tokyo-metro-東池袋駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "東池袋駅"^^xsd:string ;
+    schema:station_name_english "Higashi-Ikebukuro"^^xsd:string .
+
+station:tokyo-metro-東銀座駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "東銀座駅"^^xsd:string ;
+    schema:station_name_english "Higashi-ginza"^^xsd:string .
+
+station:tokyo-metro-東陽町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "東陽町駅"^^xsd:string ;
+    schema:station_name_english "Tōyōchō"^^xsd:string .
+
+station:tokyo-metro-東高円寺駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "東高円寺駅"^^xsd:string ;
+    schema:station_name_english "Higashi-Kōenji"^^xsd:string .
+
+station:tokyo-metro-根津駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "根津駅"^^xsd:string ;
+    schema:station_name_english "Nezu"^^xsd:string .
+
+station:tokyo-metro-桜田門駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "桜田門駅"^^xsd:string ;
+    schema:station_name_english "Sakuradamon"^^xsd:string .
+
+station:tokyo-metro-水天宮前駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Z ;
+    schema:station_name "水天宮前駅"^^xsd:string ;
+    schema:station_name_english "Suitengūmae"^^xsd:string .
+
+station:tokyo-metro-氷川台駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F, line:tokyo-metro-Y ;
+    schema:station_name "氷川台駅"^^xsd:string ;
+    schema:station_name_english "Hikawadai"^^xsd:string .
+
+station:tokyo-metro-永田町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N, line:tokyo-metro-Y, line:tokyo-metro-Z ;
+    schema:station_name "永田町駅"^^xsd:string ;
+    schema:station_name_english "Nagatachō"^^xsd:string .
+
+station:tokyo-metro-江戸川橋駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "江戸川橋駅"^^xsd:string ;
+    schema:station_name_english "Edogawabashi"^^xsd:string .
+
+station:tokyo-metro-池袋駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F, line:tokyo-metro-M, line:tokyo-metro-Y ;
+    schema:station_name "池袋駅"^^xsd:string ;
+    schema:station_name_english "Ikebukuro"^^xsd:string .
+
+station:tokyo-metro-浅草駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G ;
+    schema:station_name "浅草駅"^^xsd:string ;
+    schema:station_name_english "Asakusa"^^xsd:string .
+
+station:tokyo-metro-浦安駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "浦安駅"^^xsd:string ;
+    schema:station_name_english "Urayasu"^^xsd:string .
+
+station:tokyo-metro-淡路町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "淡路町駅"^^xsd:string ;
+    schema:station_name_english "Awajichō"^^xsd:string .
+
+station:tokyo-metro-清澄白河駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Z ;
+    schema:station_name "清澄白河駅"^^xsd:string ;
+    schema:station_name_english "Kiyosumi-shirakawa"^^xsd:string .
+
+station:tokyo-metro-渋谷駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F, line:tokyo-metro-G, line:tokyo-metro-Z ;
+    schema:station_name "渋谷駅"^^xsd:string ;
+    schema:station_name_english "Shibuya"^^xsd:string .
+
+station:tokyo-metro-湯島駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "湯島駅"^^xsd:string ;
+    schema:station_name_english "Yushima"^^xsd:string .
+
+station:tokyo-metro-溜池山王駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G, line:tokyo-metro-N ;
+    schema:station_name "溜池山王駅"^^xsd:string ;
+    schema:station_name_english "Tameike-Sannō"^^xsd:string .
+
+station:tokyo-metro-王子神谷駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "王子神谷駅"^^xsd:string ;
+    schema:station_name_english "Ōji-Kamiya"^^xsd:string .
+
+station:tokyo-metro-王子駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "王子駅"^^xsd:string ;
+    schema:station_name_english "Ōji"^^xsd:string .
+
+station:tokyo-metro-田原町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G ;
+    schema:station_name "田原町駅"^^xsd:string ;
+    schema:station_name_english "Tawaramachi"^^xsd:string .
+
+station:tokyo-metro-町屋駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "町屋駅"^^xsd:string ;
+    schema:station_name_english "Machiya"^^xsd:string .
+
+station:tokyo-metro-白金台駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "白金台駅"^^xsd:string ;
+    schema:station_name_english "Shirokanedai"^^xsd:string .
+
+station:tokyo-metro-白金高輪駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "白金高輪駅"^^xsd:string ;
+    schema:station_name_english "Shirokane-Takanawa"^^xsd:string .
+
+station:tokyo-metro-目黒駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "目黒駅"^^xsd:string ;
+    schema:station_name_english "Meguro"^^xsd:string .
+
+station:tokyo-metro-神保町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Z ;
+    schema:station_name "神保町駅"^^xsd:string ;
+    schema:station_name_english "Jimbōchō"^^xsd:string .
+
+station:tokyo-metro-神楽坂駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "神楽坂駅"^^xsd:string ;
+    schema:station_name_english "Kagurazaka"^^xsd:string .
+
+station:tokyo-metro-神田駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G ;
+    schema:station_name "神田駅"^^xsd:string ;
+    schema:station_name_english "Kanda"^^xsd:string .
+
+station:tokyo-metro-神谷町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "神谷町駅"^^xsd:string ;
+    schema:station_name_english "Kamiyachō"^^xsd:string .
+
+station:tokyo-metro-秋葉原駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "秋葉原駅"^^xsd:string ;
+    schema:station_name_english "Akihabara"^^xsd:string .
+
+station:tokyo-metro-稲荷町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G ;
+    schema:station_name "稲荷町駅"^^xsd:string ;
+    schema:station_name_english "Inarichō"^^xsd:string .
+
+station:tokyo-metro-竹橋駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "竹橋駅"^^xsd:string ;
+    schema:station_name_english "Takebashi"^^xsd:string .
+
+station:tokyo-metro-築地駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H ;
+    schema:station_name "築地駅"^^xsd:string ;
+    schema:station_name_english "Tsukiji"^^xsd:string .
+
+station:tokyo-metro-綾瀬駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "綾瀬駅"^^xsd:string ;
+    schema:station_name_english "Ayase"^^xsd:string .
+
+station:tokyo-metro-茅場町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-H, line:tokyo-metro-T ;
+    schema:station_name "茅場町駅"^^xsd:string ;
+    schema:station_name_english "Kayabachō"^^xsd:string .
+
+station:tokyo-metro-茗荷谷駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "茗荷谷駅"^^xsd:string ;
+    schema:station_name_english "Myōgadani"^^xsd:string .
+
+station:tokyo-metro-荻窪駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "荻窪駅"^^xsd:string ;
+    schema:station_name_english "Ogikubo"^^xsd:string .
+
+station:tokyo-metro-落合駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "落合駅"^^xsd:string ;
+    schema:station_name_english "Ochiai"^^xsd:string .
+
+station:tokyo-metro-葛西駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "葛西駅"^^xsd:string ;
+    schema:station_name_english "Kasai"^^xsd:string .
+
+station:tokyo-metro-虎ノ門駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G ;
+    schema:station_name "虎ノ門駅"^^xsd:string ;
+    schema:station_name_english "Toranomon"^^xsd:string .
+
+station:tokyo-metro-行徳駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "行徳駅"^^xsd:string ;
+    schema:station_name_english "Gyōtoku"^^xsd:string .
+
+station:tokyo-metro-表参道駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C, line:tokyo-metro-G, line:tokyo-metro-Z ;
+    schema:station_name "表参道駅"^^xsd:string ;
+    schema:station_name_english "Omotesandō"^^xsd:string .
+
+station:tokyo-metro-西ケ原駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "西ケ原駅"^^xsd:string ;
+    schema:station_name_english "Nishigahara"^^xsd:string .
+
+station:tokyo-metro-西新宿駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-M ;
+    schema:station_name "西新宿駅"^^xsd:string ;
+    schema:station_name_english "Nishi-Shinjuku"^^xsd:string .
+
+station:tokyo-metro-西日暮里駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "西日暮里駅"^^xsd:string ;
+    schema:station_name_english "Nishi-Nippori"^^xsd:string .
+
+station:tokyo-metro-西早稲田駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F ;
+    schema:station_name "西早稲田駅"^^xsd:string ;
+    schema:station_name_english "Nishi-Waseda"^^xsd:string .
+
+station:tokyo-metro-西船橋駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "西船橋駅"^^xsd:string ;
+    schema:station_name_english "Nishi-Funabashi"^^xsd:string .
+
+station:tokyo-metro-西葛西駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "西葛西駅"^^xsd:string ;
+    schema:station_name_english "Nishi-Kasai"^^xsd:string .
+
+station:tokyo-metro-要町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F, line:tokyo-metro-Y ;
+    schema:station_name "要町駅"^^xsd:string ;
+    schema:station_name_english "Kanamechō"^^xsd:string .
+
+station:tokyo-metro-護国寺駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "護国寺駅"^^xsd:string ;
+    schema:station_name_english "Gokokuji"^^xsd:string .
+
+station:tokyo-metro-豊洲駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "豊洲駅"^^xsd:string ;
+    schema:station_name_english "Toyosu"^^xsd:string .
+
+station:tokyo-metro-赤坂見附駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G, line:tokyo-metro-M ;
+    schema:station_name "赤坂見附駅"^^xsd:string ;
+    schema:station_name_english "Akasaka-Mitsuke"^^xsd:string, "Akasaka-mitsuke"^^xsd:string .
+
+station:tokyo-metro-赤坂駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C ;
+    schema:station_name "赤坂駅"^^xsd:string ;
+    schema:station_name_english "Akasaka"^^xsd:string .
+
+station:tokyo-metro-赤羽岩淵駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "赤羽岩淵駅"^^xsd:string ;
+    schema:station_name_english "Akabane-Iwabuchi"^^xsd:string .
+
+station:tokyo-metro-辰巳駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "辰巳駅"^^xsd:string ;
+    schema:station_name_english "Tatsumi"^^xsd:string .
+
+station:tokyo-metro-銀座一丁目駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "銀座一丁目駅"^^xsd:string ;
+    schema:station_name_english "Ginza-itchōme"^^xsd:string .
+
+station:tokyo-metro-銀座駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G, line:tokyo-metro-H, line:tokyo-metro-M ;
+    schema:station_name "銀座駅"^^xsd:string ;
+    schema:station_name_english "Ginza"^^xsd:string .
+
+station:tokyo-metro-錦糸町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Z ;
+    schema:station_name "錦糸町駅"^^xsd:string ;
+    schema:station_name_english "Kinshichō"^^xsd:string .
+
+station:tokyo-metro-門前仲町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "門前仲町駅"^^xsd:string ;
+    schema:station_name_english "Monzen-Nakachō"^^xsd:string .
+
+station:tokyo-metro-雑司が谷駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-F ;
+    schema:station_name "雑司が谷駅"^^xsd:string ;
+    schema:station_name_english "Zōshigaya"^^xsd:string .
+
+station:tokyo-metro-霞ケ関駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-C, line:tokyo-metro-H, line:tokyo-metro-M ;
+    schema:station_name "霞ケ関駅"^^xsd:string ;
+    schema:station_name_english "Kasumigaseki"^^xsd:string .
+
+station:tokyo-metro-青山一丁目駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-G, line:tokyo-metro-Z ;
+    schema:station_name "青山一丁目駅"^^xsd:string ;
+    schema:station_name_english "Aoyama-Itchōme"^^xsd:string, "Aoyama-itchōme"^^xsd:string .
+
+station:tokyo-metro-飯田橋駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N, line:tokyo-metro-T, line:tokyo-metro-Y ;
+    schema:station_name "飯田橋駅"^^xsd:string ;
+    schema:station_name_english "Iidabashi"^^xsd:string .
+
+station:tokyo-metro-駒込駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "駒込駅"^^xsd:string ;
+    schema:station_name_english "Komagome"^^xsd:string .
+
+station:tokyo-metro-高田馬場駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-T ;
+    schema:station_name "高田馬場駅"^^xsd:string ;
+    schema:station_name_english "Takadanobaba"^^xsd:string .
+
+station:tokyo-metro-麹町駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-Y ;
+    schema:station_name "麹町駅"^^xsd:string ;
+    schema:station_name_english "Kōjimachi"^^xsd:string .
+
+station:tokyo-metro-麻布十番駅
+    a ex:Station ;
+    stations:on_line line:tokyo-metro-N ;
+    schema:station_name "麻布十番駅"^^xsd:string ;
+    schema:station_name_english "Azabu-Jūban"^^xsd:string .
+
+stop:C-01
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-代々木上原駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-01> .
+
+stop:C-02
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-代々木公園駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-02> .
+
+stop:C-03
+    a ex:Stop ;
+    stops:at_station <http://datadock.io/kal/data/id/resource/station/tokyo-metro-明治神宮前〈原宿〉駅> ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-03> .
+
+stop:C-04
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-表参道駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-04> .
+
+stop:C-05
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-乃木坂駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-05> .
+
+stop:C-06
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-赤坂駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-06> .
+
+stop:C-07
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-国会議事堂前駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-07> .
+
+stop:C-08
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-霞ケ関駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-08> .
+
+stop:C-09
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-日比谷駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-09> .
+
+stop:C-10
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-二重橋前駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-10> .
+
+stop:C-11
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-大手町駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-11> .
+
+stop:C-12
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-新御茶ノ水駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-12> .
+
+stop:C-13
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-湯島駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-13> .
+
+stop:C-14
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-根津駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-14> .
+
+stop:C-15
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-千駄木駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-15> .
+
+stop:C-16
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-西日暮里駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-16> .
+
+stop:C-17
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-町屋駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-17> .
+
+stop:C-18
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-北千住駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-18> .
+
+stop:C-19
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-綾瀬駅 ;
+    stops:on_line line:tokyo-metro-C ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#C-19> .
+
+stop:F-01
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-和光市駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-01> .
+
+stop:F-02
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-地下鉄成増駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-02> .
+
+stop:F-03
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-地下鉄赤塚駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-03> .
+
+stop:F-04
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-平和台駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-04> .
+
+stop:F-05
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-氷川台駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-05> .
+
+stop:F-06
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-小竹向原駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-06> .
+
+stop:F-07
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-千川駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-07> .
+
+stop:F-08
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-要町駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-08> .
+
+stop:F-09
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-池袋駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-09> .
+
+stop:F-10
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-雑司が谷駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-10> .
+
+stop:F-11
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-西早稲田駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-11> .
+
+stop:F-12
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-東新宿駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-12> .
+
+stop:F-13
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-新宿三丁目駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-13> .
+
+stop:F-14
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-北参道駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-14> .
+
+stop:F-15
+    a ex:Stop ;
+    stops:at_station <http://datadock.io/kal/data/id/resource/station/tokyo-metro-明治神宮前〈原宿〉駅> ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-15> .
+
+stop:F-16
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-渋谷駅 ;
+    stops:on_line line:tokyo-metro-F ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#F-16> .
+
+stop:G-01
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-渋谷駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-01> .
+
+stop:G-02
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-表参道駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-02> .
+
+stop:G-03
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-外苑前駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-03> .
+
+stop:G-04
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-青山一丁目駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-04> .
+
+stop:G-05
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-赤坂見附駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-05> .
+
+stop:G-06
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-溜池山王駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-06> .
+
+stop:G-07
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-虎ノ門駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-07> .
+
+stop:G-08
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-新橋駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-08> .
+
+stop:G-09
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-銀座駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-09> .
+
+stop:G-10
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-京橋駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-10> .
+
+stop:G-11
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-日本橋駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-11> .
+
+stop:G-12
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-三越前駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-12> .
+
+stop:G-13
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-神田駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-13> .
+
+stop:G-14
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-末広町駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-14> .
+
+stop:G-15
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-上野広小路駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-15> .
+
+stop:G-16
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-上野駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-16> .
+
+stop:G-17
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-稲荷町駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-17> .
+
+stop:G-18
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-田原町駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-18> .
+
+stop:G-19
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-浅草駅 ;
+    stops:on_line line:tokyo-metro-G ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#G-19> .
+
+stop:H-01
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-中目黒駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-01> .
+
+stop:H-02
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-恵比寿駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-02> .
+
+stop:H-03
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-広尾駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-03> .
+
+stop:H-04
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-六本木駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-04> .
+
+stop:H-05
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-神谷町駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-05> .
+
+stop:H-06
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-霞ケ関駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-06> .
+
+stop:H-07
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-日比谷駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-07> .
+
+stop:H-08
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-銀座駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-08> .
+
+stop:H-09
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-東銀座駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-09> .
+
+stop:H-10
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-築地駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-10> .
+
+stop:H-11
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-八丁堀駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-11> .
+
+stop:H-12
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-茅場町駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-12> .
+
+stop:H-13
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-人形町駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-13> .
+
+stop:H-14
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-小伝馬町駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-14> .
+
+stop:H-15
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-秋葉原駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-15> .
+
+stop:H-16
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-仲御徒町駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-16> .
+
+stop:H-17
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-上野駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-17> .
+
+stop:H-18
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-入谷駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-18> .
+
+stop:H-19
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-三ノ輪駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-19> .
+
+stop:H-20
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-南千住駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-20> .
+
+stop:H-21
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-北千住駅 ;
+    stops:on_line line:tokyo-metro-H ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#H-21> .
+
+stop:M-01
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-荻窪駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-01> .
+
+stop:M-02
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-南阿佐ケ谷駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-02> .
+
+stop:M-03
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-新高円寺駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-03> .
+
+stop:M-04
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-東高円寺駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-04> .
+
+stop:M-05
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-新中野駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-05> .
+
+stop:M-06
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-中野坂上駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-06> .
+
+stop:M-07
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-西新宿駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-07> .
+
+stop:M-08
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-新宿駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-08> .
+
+stop:M-09
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-新宿三丁目駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-09> .
+
+stop:M-10
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-新宿御苑前駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-10> .
+
+stop:M-11
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-四谷三丁目駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-11> .
+
+stop:M-12
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-四ツ谷駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-12> .
+
+stop:M-13
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-赤坂見附駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-13> .
+
+stop:M-14
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-国会議事堂前駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-14> .
+
+stop:M-15
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-霞ケ関駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-15> .
+
+stop:M-16
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-銀座駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-16> .
+
+stop:M-17
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-東京駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-17> .
+
+stop:M-18
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-大手町駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-18> .
+
+stop:M-19
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-淡路町駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-19> .
+
+stop:M-20
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-御茶ノ水駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-20> .
+
+stop:M-21
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-本郷三丁目駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-21> .
+
+stop:M-22
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-後楽園駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-22> .
+
+stop:M-23
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-茗荷谷駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-23> .
+
+stop:M-24
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-新大塚駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-24> .
+
+stop:M-25
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-池袋駅 ;
+    stops:on_line line:tokyo-metro-M ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#M-25> .
+
+stop:N-01
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-目黒駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-01> .
+
+stop:N-02
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-白金台駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-02> .
+
+stop:N-03
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-白金高輪駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-03> .
+
+stop:N-04
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-麻布十番駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-04> .
+
+stop:N-05
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-六本木一丁目駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-05> .
+
+stop:N-06
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-溜池山王駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-06> .
+
+stop:N-07
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-永田町駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-07> .
+
+stop:N-08
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-四ツ谷駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-08> .
+
+stop:N-09
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-市ケ谷駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-09> .
+
+stop:N-10
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-飯田橋駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-10> .
+
+stop:N-11
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-後楽園駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-11> .
+
+stop:N-12
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-東大前駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-12> .
+
+stop:N-13
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-本駒込駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-13> .
+
+stop:N-14
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-駒込駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-14> .
+
+stop:N-15
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-西ケ原駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-15> .
+
+stop:N-16
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-王子駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-16> .
+
+stop:N-17
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-王子神谷駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-17> .
+
+stop:N-18
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-志茂駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-18> .
+
+stop:N-19
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-赤羽岩淵駅 ;
+    stops:on_line line:tokyo-metro-N ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#N-19> .
+
+stop:T-01
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-中野駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-01> .
+
+stop:T-02
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-落合駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-02> .
+
+stop:T-03
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-高田馬場駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-03> .
+
+stop:T-04
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-早稲田駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-04> .
+
+stop:T-05
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-神楽坂駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-05> .
+
+stop:T-06
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-飯田橋駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-06> .
+
+stop:T-07
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-九段下駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-07> .
+
+stop:T-08
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-竹橋駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-08> .
+
+stop:T-09
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-大手町駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-09> .
+
+stop:T-10
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-日本橋駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-10> .
+
+stop:T-11
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-茅場町駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-11> .
+
+stop:T-12
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-門前仲町駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-12> .
+
+stop:T-13
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-木場駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-13> .
+
+stop:T-14
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-東陽町駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-14> .
+
+stop:T-15
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-南砂町駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-15> .
+
+stop:T-16
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-西葛西駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-16> .
+
+stop:T-17
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-葛西駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-17> .
+
+stop:T-18
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-浦安駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-18> .
+
+stop:T-19
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-南行徳駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-19> .
+
+stop:T-20
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-行徳駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-20> .
+
+stop:T-21
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-妙典駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-21> .
+
+stop:T-22
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-原木中山駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-22> .
+
+stop:T-23
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-西船橋駅 ;
+    stops:on_line line:tokyo-metro-T ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#T-23> .
+
+stop:Y-01
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-和光市駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-01> .
+
+stop:Y-02
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-地下鉄成増駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-02> .
+
+stop:Y-03
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-地下鉄赤塚駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-03> .
+
+stop:Y-04
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-平和台駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-04> .
+
+stop:Y-05
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-氷川台駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-05> .
+
+stop:Y-06
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-小竹向原駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-06> .
+
+stop:Y-07
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-千川駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-07> .
+
+stop:Y-08
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-要町駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-08> .
+
+stop:Y-09
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-池袋駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-09> .
+
+stop:Y-10
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-東池袋駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-10> .
+
+stop:Y-11
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-護国寺駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-11> .
+
+stop:Y-12
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-江戸川橋駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-12> .
+
+stop:Y-13
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-飯田橋駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-13> .
+
+stop:Y-14
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-市ケ谷駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-14> .
+
+stop:Y-15
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-麹町駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-15> .
+
+stop:Y-16
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-永田町駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-16> .
+
+stop:Y-17
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-桜田門駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-17> .
+
+stop:Y-18
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-有楽町駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-18> .
+
+stop:Y-19
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-銀座一丁目駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-19> .
+
+stop:Y-20
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-新富町駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-20> .
+
+stop:Y-21
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-月島駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-21> .
+
+stop:Y-22
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-豊洲駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-22> .
+
+stop:Y-23
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-辰巳駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-23> .
+
+stop:Y-24
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-新木場駅 ;
+    stops:on_line line:tokyo-metro-Y ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Y-24> .
+
+stop:Z-01
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-渋谷駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-01> .
+
+stop:Z-02
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-表参道駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-02> .
+
+stop:Z-03
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-青山一丁目駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-03> .
+
+stop:Z-04
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-永田町駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-04> .
+
+stop:Z-05
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-半蔵門駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-05> .
+
+stop:Z-06
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-九段下駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-06> .
+
+stop:Z-07
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-神保町駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-07> .
+
+stop:Z-08
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-大手町駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-08> .
+
+stop:Z-09
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-三越前駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-09> .
+
+stop:Z-10
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-水天宮前駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-10> .
+
+stop:Z-11
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-清澄白河駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-11> .
+
+stop:Z-12
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-住吉駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-12> .
+
+stop:Z-13
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-錦糸町駅 ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-13> .
+
+stop:Z-14
+    a ex:Stop ;
+    stops:at_station <http://datadock.io/kal/data/id/resource/station/tokyo-metro-押上〈スカイツリー前〉駅> ;
+    stops:on_line line:tokyo-metro-Z ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#Z-14> .
+
+stop:m-03
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-方南町駅 ;
+    stops:on_line line:tokyo-metro-Mb ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#m-03> .
+
+stop:m-04
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-中野富士見町駅 ;
+    stops:on_line line:tokyo-metro-Mb ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#m-04> .
+
+stop:m-05
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-中野新橋駅 ;
+    stops:on_line line:tokyo-metro-Mb ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#m-05> .
+
+stop:m-06
+    a ex:Stop ;
+    stops:at_station station:tokyo-metro-中野坂上駅 ;
+    stops:on_line line:tokyo-metro-Mb ;
+    stops:seealso <http://linkdata.org/resource/rdf1s3114i#m-06> .

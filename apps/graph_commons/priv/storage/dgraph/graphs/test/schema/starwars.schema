@@ -1,0 +1,6 @@
+id: string @index(exact).
+    name: string @index(exact, term) @count .
+    age: int @index(int) .
+    friend: uid @count .
+    dob: dateTime .
+

@@ -1,0 +1,1978 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xmls: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix np: <http://data.nobelprize.org/resource/> .
+@prefix npterms: <http://data.nobelprize.org/terms/> .
+
+<http://data.nobelprize.org/resource/awardfile_4441>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Bruce A. Beutler" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/beutler-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4442>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Jules A. Hoffmann" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/hoffmann-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4443>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/steinman-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4444>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/steinman-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4445>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Bruce A. Beutler" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/beutler-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4446>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Jules A. Hoffmann" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/hoffmann-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4447>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/steinman-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4448>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Jules A. Hoffmann" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/hoffmann-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4451>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Bruce A. Beutler" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/beutler-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4452>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/perlmutter-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4453>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Adam G. Riess" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/riess-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4454>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Brian P. Schmidt" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/schmidt-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4455>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/perlmutter-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4456>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/perlmutter-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4457>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Adam G. Riess" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/riess-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4458>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Brian P. Schmidt" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/schmidt-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4459>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Adam G. Riess" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/riess-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4460>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Bruce A. Beutler" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/beutler-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4461>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/perlmutter-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4462>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Brian P. Schmidt" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/schmidt-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4463>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/shechtman-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4464>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/shechtman-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4465>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/shechtman-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4466>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/shechtman-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4467>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Adam G. Riess" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/riess-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4468>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/transtromer-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4469>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/transtromer-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4470>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Jules A. Hoffmann" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/hoffmann-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4471>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/transtromer-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4472>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Leymah Gbowee" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/gbowee-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4473>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Ellen Johnson Sirleaf" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/johnson_sirleaf-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4474>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/karman-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4475>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Ellen Johnson Sirleaf" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/johnson_sirleaf-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4476>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/karman-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4477>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Ellen Johnson Sirleaf" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/johnson_sirleaf-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4478>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Leymah Gbowee" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/gbowee-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4479>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Leymah Gbowee" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/gbowee-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4480>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Poetry> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Poetry Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/transtromer-poetry.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4481>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sargent-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4482>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Biographical> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Christopher A. Sims" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sims-bio.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4483>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Christopher A. Sims" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sims-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4484>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sargent-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4485>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sargent-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4486>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Christopher A. Sims" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sims-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4487>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sargent-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4488>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Christopher A. Sims" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sims-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4489>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/karman-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4490>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/shechtman-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4491>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/perlmutter-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4492>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Adam G. Riess" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/riess-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4493>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Brian P. Schmidt" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/schmidt-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4494>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sargent-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4495>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Christopher A. Sims" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sims-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4496>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Bruce A. Beutler" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/beutler-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4497>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Jules A. Hoffmann" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/hoffmann-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4498>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/steinman-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4499>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/transtromer-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4500>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Leymah Gbowee" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/gbowee-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4501>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Ellen Johnson Sirleaf" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/johnson_sirleaf-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4502>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Lecture> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/karman-lecture.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4503>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Leymah Gbowee" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/gbowee-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4508>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Brian P. Schmidt" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/schmidt-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4509>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Leymah Gbowee" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/gbowee-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4510>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Ellen Johnson Sirleaf" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/johnson_sirleaf-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4511>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/karman-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4512>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/perlmutter-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4513>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Adam G. Riess" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/riess-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4514>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Brian P. Schmidt" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/schmidt-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4515>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/shechtman-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4516>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Bruce A. Beutler" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/beutler-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4517>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Jules A. Hoffmann" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/hoffmann-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4518>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/steinman-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4519>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/transtromer-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4520>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sargent-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4521>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Nobel_Diploma> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Christopher A. Sims" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sims-diploma.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4522>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Banquet_Speech> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/perlmutter-speech.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4523>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Banquet_Speech> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/shechtman-speech.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4524>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Banquet_Speech> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech Jules A. Hoffmann" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/hoffmann-speech.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4525>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Banquet_Speech> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/transtromer-speech.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4526>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Banquet_Speech> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sargent-speech.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4527>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Photo_Gallery> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/transtromer-photo.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4541>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Other_Resources> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/karman-or.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4561>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Interview> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview Ellen Johnson Sirleaf" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/johnson_sirleaf-interview.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4562>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/perlmutter-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4563>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Adam G. Riess" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/riess-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4564>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Brian P. Schmidt" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/schmidt-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4565>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/shechtman-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4566>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Bruce A. Beutler" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/beutler-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4567>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Jules A. Hoffmann" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/hoffmann-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4568>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/transtromer-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4569>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sargent-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4570>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Christopher A. Sims" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/sims-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4571>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Leymah Gbowee" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/gbowee-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4572>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Ellen Johnson Sirleaf" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/johnson_sirleaf-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4573>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/karman-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4574>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Presentation> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/steinman-prize-present.html> .
+
+<http://data.nobelprize.org/resource/awardfile_4577>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Bibliography> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/AwardFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/transtromer-bibl.html> .
+
+<http://data.nobelprize.org/resource/category_Chemistry>
+    a <http://data.nobelprize.org/terms/Category> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry" ;
+    <http://www.w3.org/2000/01/rdf-schema#value> "chemistry" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPrizeForChemistry> ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "The Nobel Prize in Chemistry"@en ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Chemistry"@en .
+
+<http://data.nobelprize.org/resource/category_Economic_Sciences>
+    a <http://data.nobelprize.org/terms/Category> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Economic Sciences" ;
+    <http://www.w3.org/2000/01/rdf-schema#value> "economics" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPrizeForEconomics> ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel"@en ;
+    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "The Prize in Economic Sciences"@en ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Economic Sciences"@en .
+
+<http://data.nobelprize.org/resource/category_Literature>
+    a <http://data.nobelprize.org/terms/Category> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Literature" ;
+    <http://www.w3.org/2000/01/rdf-schema#value> "literature" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPrizeForLiterature> ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "The Nobel Prize in  Literature"@en ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Literature"@en .
+
+<http://data.nobelprize.org/resource/category_Peace>
+    a <http://data.nobelprize.org/terms/Category> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Peace" ;
+    <http://www.w3.org/2000/01/rdf-schema#value> "peace" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPeacePrize> ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "The Nobel Peace Prize"@en ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Peace"@en .
+
+<http://data.nobelprize.org/resource/category_Physics>
+    a <http://data.nobelprize.org/terms/Category> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Physics" ;
+    <http://www.w3.org/2000/01/rdf-schema#value> "physics" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPrizeForPhysics> ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "The Nobel Prize in Physics"@en ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Physics"@en .
+
+<http://data.nobelprize.org/resource/category_Physiology_or_Medicine>
+    a <http://data.nobelprize.org/terms/Category> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Physiology or Medicine" ;
+    <http://www.w3.org/2000/01/rdf-schema#value> "medicine" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPrizeForMedicine> ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "The Nobel Prize in Physiology or Medicine"@en ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Physiology or Medicine"@en .
+
+<http://data.nobelprize.org/resource/city_Baltimore%2C_MD>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Baltimore, MD" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Baltimore%2C_MD> .
+
+<http://data.nobelprize.org/resource/city_Berkeley%2C_CA>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Berkeley, CA" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Berkeley%2C_CA> .
+
+<http://data.nobelprize.org/resource/city_Canberra>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Canberra" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Canberra> .
+
+<http://data.nobelprize.org/resource/city_Champaign-Urbana%2C_IL>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Champaign-Urbana, IL" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Champaign-Urbana%2C_IL> .
+
+<http://data.nobelprize.org/resource/city_Chicago%2C_IL>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Chicago, IL" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Chicago%2C_IL> .
+
+<http://data.nobelprize.org/resource/city_Dallas%2C_TX>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dallas, TX" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Dallas%2C_TX> .
+
+<http://data.nobelprize.org/resource/city_Echternach>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Echternach" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Echternach> .
+
+<http://data.nobelprize.org/resource/city_Haifa>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Haifa" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Haifa> .
+
+<http://data.nobelprize.org/resource/city_Irvine%2C_CA>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Irvine, CA" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Irvine%2C_CA> .
+
+<http://data.nobelprize.org/resource/city_La_Jolla%2C_CA>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "La Jolla, CA" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/La_Jolla%2C_CA> .
+
+<http://data.nobelprize.org/resource/city_Los_Angeles%2C_CA>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Los Angeles, CA" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Los_Angeles%2C_CA> .
+
+<http://data.nobelprize.org/resource/city_Missoula%2C_MT>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Missoula, MT" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Missoula%2C_MT> .
+
+<http://data.nobelprize.org/resource/city_Monrovia>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Monrovia" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Monrovia> .
+
+<http://data.nobelprize.org/resource/city_Montreal>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Montreal" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Montreal> .
+
+<http://data.nobelprize.org/resource/city_New_Jersey%2C_NJ>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "New Jersey, NJ" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/New_Jersey%2C_NJ> .
+
+<http://data.nobelprize.org/resource/city_New_York%2C_NY>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "New York, NY" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/New_York%2C_NY> .
+
+<http://data.nobelprize.org/resource/city_Pasadena%2C_CA>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Pasadena, CA" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Pasadena%2C_CA> .
+
+<http://data.nobelprize.org/resource/city_Princeton%2C_NJ>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Princeton, NJ" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Princeton%2C_NJ> .
+
+<http://data.nobelprize.org/resource/city_San_Diego%2C_CA>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "San Diego, CA" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/San_Diego%2C_CA> .
+
+<http://data.nobelprize.org/resource/city_San_Francisco%2C_CA>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "San Francisco, CA" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/San_Francisco%2C_CA> .
+
+<http://data.nobelprize.org/resource/city_Santa_Barbara%2C_CA>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Santa Barbara, CA" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Santa_Barbara%2C_CA> .
+
+<http://data.nobelprize.org/resource/city_Stockholm>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stockholm" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Stockholm> .
+
+<http://data.nobelprize.org/resource/city_Strasbourg>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Strasbourg" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Strasbourg> .
+
+<http://data.nobelprize.org/resource/city_Ta%27izz>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ta'izz" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Ta%27izz> .
+
+<http://data.nobelprize.org/resource/city_Tel_Aviv>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Tel Aviv" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Tel_Aviv> .
+
+<http://data.nobelprize.org/resource/city_Washington%2C_DC>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Washington, DC" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Washington%2C_DC> .
+
+<http://data.nobelprize.org/resource/city_Weston_Creek>
+    a <http://dbpedia.org/ontology/City> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Weston Creek" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Weston_Creek> .
+
+<http://data.nobelprize.org/resource/country_Australia>
+    a <http://dbpedia.org/ontology/Country> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Australia" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Australia> .
+
+<http://data.nobelprize.org/resource/country_British_Mandate_of_Palestine_%28now_Israel%29>
+    <http://dbpedia.org/ontology/successor> <http://dbpedia.org/resource/Israel> ;
+    a <http://dbpedia.org/ontology/Country> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "British Mandate of Palestine (now Israel)" .
+
+<http://data.nobelprize.org/resource/country_Canada>
+    a <http://dbpedia.org/ontology/Country> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Canada" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Canada> .
+
+<http://data.nobelprize.org/resource/country_France>
+    a <http://dbpedia.org/ontology/Country> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "France" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/France> .
+
+<http://data.nobelprize.org/resource/country_Israel>
+    a <http://dbpedia.org/ontology/Country> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Israel" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Israel> .
+
+<http://data.nobelprize.org/resource/country_Liberia>
+    a <http://dbpedia.org/ontology/Country> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Liberia" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Liberia> .
+
+<http://data.nobelprize.org/resource/country_Luxembourg>
+    a <http://dbpedia.org/ontology/Country> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Luxembourg" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Luxembourg> .
+
+<http://data.nobelprize.org/resource/country_Sweden>
+    a <http://dbpedia.org/ontology/Country> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Sweden" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Sweden> .
+
+<http://data.nobelprize.org/resource/country_USA>
+    a <http://dbpedia.org/ontology/Country> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "USA" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/USA> .
+
+<http://data.nobelprize.org/resource/country_Yemen>
+    a <http://dbpedia.org/ontology/Country> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Yemen" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Yemen> .
+
+<http://data.nobelprize.org/resource/filetype_Advanced_Information>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information" .
+
+<http://data.nobelprize.org/resource/filetype_Award_Ceremony_Speech>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech" .
+
+<http://data.nobelprize.org/resource/filetype_Award_Ceremony_Video>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video" .
+
+<http://data.nobelprize.org/resource/filetype_Banquet_Speech>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech" .
+
+<http://data.nobelprize.org/resource/filetype_Banquet_Video>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Video" .
+
+<http://data.nobelprize.org/resource/filetype_Bibliography>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bibliography" .
+
+<http://data.nobelprize.org/resource/filetype_Bio-bibliography>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bio-bibliography" .
+
+<http://data.nobelprize.org/resource/filetype_Biographical>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Biographical" .
+
+<http://data.nobelprize.org/resource/filetype_Greetings>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Greetings" .
+
+<http://data.nobelprize.org/resource/filetype_Interview>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Interview" .
+
+<http://data.nobelprize.org/resource/filetype_Nobel_Diploma>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma" .
+
+<http://data.nobelprize.org/resource/filetype_Nobel_Lecture>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture" .
+
+<http://data.nobelprize.org/resource/filetype_Other_Resources>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources" .
+
+<http://data.nobelprize.org/resource/filetype_Photo_Gallery>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery" .
+
+<http://data.nobelprize.org/resource/filetype_Poetry>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Poetry" .
+
+<http://data.nobelprize.org/resource/filetype_Popular_Information>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information" .
+
+<http://data.nobelprize.org/resource/filetype_Press_Release>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Press Release" .
+
+<http://data.nobelprize.org/resource/filetype_Prize_Announcement>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement" .
+
+<http://data.nobelprize.org/resource/filetype_Prize_Presentation>
+    a <http://data.nobelprize.org/terms/FileType> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation" .
+
+<http://data.nobelprize.org/resource/laureate_861>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_907> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Physiology_or_Medicine/2011> ;
+    <http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university_The_Scripps_Research_Institute>, <http://data.nobelprize.org/resource/university_University_of_Texas_Southwestern_Medical_Center_at_Dallas> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Chicago%2C_IL>, <http://data.nobelprize.org/resource/country_USA> ;
+    <http://dbpedia.org/property/dateOfBirth> "1957-12-29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bruce A. Beutler" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Bruce_Beutler>, <http://rdf.freebase.com/ns/m.03d3wbr>, <http://yago-knowledge.org/resource/Bruce_Beutler> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1957-12-29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Beutler" ;
+    <http://xmlns.com/foaf/0.1/gender> "male" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Bruce A." ;
+    <http://xmlns.com/foaf/0.1/name> "Bruce A. Beutler" .
+
+<http://data.nobelprize.org/resource/laureate_862>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_908> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Physiology_or_Medicine/2011> ;
+    <http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university_University_of_Strasbourg> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Echternach>, <http://data.nobelprize.org/resource/country_Luxembourg> ;
+    <http://dbpedia.org/property/dateOfBirth> "1941-08-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Jules A. Hoffmann" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Jules_A._Hoffmann> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1941-08-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Hoffmann" ;
+    <http://xmlns.com/foaf/0.1/gender> "male" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Jules A." ;
+    <http://xmlns.com/foaf/0.1/name> "Jules A. Hoffmann" .
+
+<http://data.nobelprize.org/resource/laureate_863>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_909> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Physiology_or_Medicine/2011> ;
+    <http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university_Rockefeller_University> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Montreal>, <http://data.nobelprize.org/resource/country_Canada> ;
+    <http://dbpedia.org/property/dateOfBirth> "1943-01-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://dbpedia.org/property/dateOfDeath> "2011-09-30"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ralph M. Steinman" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Ralph_M._Steinman> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1943-01-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Steinman" ;
+    <http://xmlns.com/foaf/0.1/gender> "male" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Ralph M." ;
+    <http://xmlns.com/foaf/0.1/name> "Ralph M. Steinman" .
+
+<http://data.nobelprize.org/resource/laureate_864>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_910> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Physics/2011> ;
+    <http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university_Lawrence_Berkeley_National_Laboratory>, <http://data.nobelprize.org/resource/university_University_of_California> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Champaign-Urbana%2C_IL>, <http://data.nobelprize.org/resource/country_USA> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Saul Perlmutter" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Saul_Perlmutter> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Perlmutter" ;
+    <http://xmlns.com/foaf/0.1/gender> "male" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Saul" ;
+    <http://xmlns.com/foaf/0.1/name> "Saul Perlmutter" .
+
+<http://data.nobelprize.org/resource/laureate_865>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_911> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Physics/2011> ;
+    <http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university_Australian_National_University> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Missoula%2C_MT>, <http://data.nobelprize.org/resource/country_USA> ;
+    <http://dbpedia.org/property/dateOfBirth> "1967-02-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Brian P. Schmidt" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Brian_Schmidt> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1967-02-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Schmidt" ;
+    <http://xmlns.com/foaf/0.1/gender> "male" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Brian P." ;
+    <http://xmlns.com/foaf/0.1/name> "Brian P. Schmidt" .
+
+<http://data.nobelprize.org/resource/laureate_866>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_912> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Physics/2011> ;
+    <http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university_Johns_Hopkins_University>, <http://data.nobelprize.org/resource/university_Space_Telescope_Science_Institute> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Washington%2C_DC>, <http://data.nobelprize.org/resource/country_USA> ;
+    <http://dbpedia.org/property/dateOfBirth> "1969-12-16"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Adam G. Riess" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Adam_Riess>, <http://rdf.freebase.com/ns/m.0fg6wp>, <http://yago-knowledge.org/resource/Adam_Riess> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1969-12-16"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Riess" ;
+    <http://xmlns.com/foaf/0.1/gender> "male" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Adam G." ;
+    <http://xmlns.com/foaf/0.1/name> "Adam G. Riess" .
+
+<http://data.nobelprize.org/resource/laureate_867>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_913> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Chemistry/2011> ;
+    <http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university_Technion_-_Israel_Institute_of_Technology> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Tel_Aviv>, <http://data.nobelprize.org/resource/country_British_Mandate_of_Palestine_%28now_Israel%29> ;
+    <http://dbpedia.org/property/dateOfBirth> "1941-01-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dan Shechtman" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Dan_Shechtman>, <http://rdf.freebase.com/ns/m.09trmw>, <http://yago-knowledge.org/resource/Dan_Shechtman> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1941-01-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Shechtman" ;
+    <http://xmlns.com/foaf/0.1/gender> "male" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Dan" ;
+    <http://xmlns.com/foaf/0.1/name> "Dan Shechtman" .
+
+<http://data.nobelprize.org/resource/laureate_868>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_914> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Literature/2011> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Stockholm>, <http://data.nobelprize.org/resource/country_Sweden> ;
+    <http://dbpedia.org/ontology/deathPlace> <http://data.nobelprize.org/resource/city_Stockholm>, <http://data.nobelprize.org/resource/country_Sweden> ;
+    <http://dbpedia.org/property/dateOfBirth> "1931-04-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://dbpedia.org/property/dateOfDeath> "2015-03-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Tomas Tranströmer" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Tomas_Tranströmer> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1931-04-15"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Tranströmer" ;
+    <http://xmlns.com/foaf/0.1/gender> "male" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Tomas" ;
+    <http://xmlns.com/foaf/0.1/name> "Tomas Tranströmer" .
+
+<http://data.nobelprize.org/resource/laureate_869>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_915> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Peace/2011> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Monrovia>, <http://data.nobelprize.org/resource/country_Liberia> ;
+    <http://dbpedia.org/property/dateOfBirth> "1938-10-29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Ellen Johnson Sirleaf" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Ellen_Johnson_Sirleaf> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1938-10-29"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Johnson Sirleaf" ;
+    <http://xmlns.com/foaf/0.1/gender> "female" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Ellen" ;
+    <http://xmlns.com/foaf/0.1/name> "Ellen Johnson Sirleaf" .
+
+<http://data.nobelprize.org/resource/laureate_870>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_916> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Peace/2011> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Monrovia>, <http://data.nobelprize.org/resource/country_Liberia> ;
+    <http://dbpedia.org/property/dateOfBirth> "1972-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Leymah Gbowee" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Leymah_Gbowee>, <http://rdf.freebase.com/ns/m.0czcxyw>, <http://yago-knowledge.org/resource/Leymah_Gbowee> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1972-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Gbowee" ;
+    <http://xmlns.com/foaf/0.1/gender> "female" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Leymah" ;
+    <http://xmlns.com/foaf/0.1/name> "Leymah Gbowee" .
+
+<http://data.nobelprize.org/resource/laureate_871>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_917> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Peace/2011> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Ta%27izz>, <http://data.nobelprize.org/resource/country_Yemen> ;
+    <http://dbpedia.org/property/dateOfBirth> "1979-02-07"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Tawakkol Karman" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Tawakkol_Karman> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1979-02-07"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Karman" ;
+    <http://xmlns.com/foaf/0.1/gender> "female" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Tawakkol" ;
+    <http://xmlns.com/foaf/0.1/name> "Tawakkol Karman" .
+
+<http://data.nobelprize.org/resource/laureate_872>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_918> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Economic_Sciences/2011> ;
+    <http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university_New_York_University> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Pasadena%2C_CA>, <http://data.nobelprize.org/resource/country_USA> ;
+    <http://dbpedia.org/property/dateOfBirth> "1943-07-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Thomas J. Sargent" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Thomas_J._Sargent>, <http://rdf.freebase.com/ns/m.05gb1t>, <http://yago-knowledge.org/resource/Thomas_J._Sargent> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1943-07-19"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Sargent" ;
+    <http://xmlns.com/foaf/0.1/gender> "male" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Thomas J." ;
+    <http://xmlns.com/foaf/0.1/name> "Thomas J. Sargent" .
+
+<http://data.nobelprize.org/resource/laureate_873>
+    <http://data.nobelprize.org/terms/laureateAward> <http://data.nobelprize.org/resource/laureateaward_919> ;
+    <http://data.nobelprize.org/terms/nobelPrize> <http://data.nobelprize.org/resource/nobelprize_Economic_Sciences/2011> ;
+    <http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university_Princeton_University> ;
+    <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city_Washington%2C_DC>, <http://data.nobelprize.org/resource/country_USA> ;
+    <http://dbpedia.org/property/dateOfBirth> "1942-10-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a <http://data.nobelprize.org/terms/Laureate>, <http://xmlns.com/foaf/0.1/Person> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Christopher A. Sims" ;
+    <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Christopher_A._Sims> ;
+    <http://xmlns.com/foaf/0.1/birthday> "1942-10-21"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://xmlns.com/foaf/0.1/familyName> "Sims" ;
+    <http://xmlns.com/foaf/0.1/gender> "male" ;
+    <http://xmlns.com/foaf/0.1/givenName> "Christopher A." ;
+    <http://xmlns.com/foaf/0.1/name> "Christopher A. Sims" .
+
+<http://data.nobelprize.org/resource/laureateaward_907>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4441>, <http://data.nobelprize.org/resource/awardfile_4445>, <http://data.nobelprize.org/resource/awardfile_4451>, <http://data.nobelprize.org/resource/awardfile_4460>, <http://data.nobelprize.org/resource/awardfile_4496>, <http://data.nobelprize.org/resource/awardfile_4516>, <http://data.nobelprize.org/resource/awardfile_4566> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/field> "immunity"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_861> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for their discoveries concerning the activation of innate immunity\""@en ;
+    <http://data.nobelprize.org/terms/share> "4" ;
+    <http://data.nobelprize.org/terms/university> <http://data.nobelprize.org/resource/university_The_Scripps_Research_Institute>, <http://data.nobelprize.org/resource/university_University_of_Texas_Southwestern_Medical_Center_at_Dallas> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Physiology_or_Medicine/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Physiology or Medicine 2011, Bruce A. Beutler" .
+
+<http://data.nobelprize.org/resource/laureateaward_908>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4442>, <http://data.nobelprize.org/resource/awardfile_4446>, <http://data.nobelprize.org/resource/awardfile_4448>, <http://data.nobelprize.org/resource/awardfile_4470>, <http://data.nobelprize.org/resource/awardfile_4497>, <http://data.nobelprize.org/resource/awardfile_4517>, <http://data.nobelprize.org/resource/awardfile_4524>, <http://data.nobelprize.org/resource/awardfile_4567> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/field> "immunity"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_862> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for their discoveries concerning the activation of innate immunity\""@en ;
+    <http://data.nobelprize.org/terms/share> "4" ;
+    <http://data.nobelprize.org/terms/university> <http://data.nobelprize.org/resource/university_University_of_Strasbourg> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Physiology_or_Medicine/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Physiology or Medicine 2011, Jules A. Hoffmann" .
+
+<http://data.nobelprize.org/resource/laureateaward_909>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4443>, <http://data.nobelprize.org/resource/awardfile_4444>, <http://data.nobelprize.org/resource/awardfile_4447>, <http://data.nobelprize.org/resource/awardfile_4498>, <http://data.nobelprize.org/resource/awardfile_4518>, <http://data.nobelprize.org/resource/awardfile_4574> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/field> "immunity"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_863> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for his discovery of the dendritic cell and its role in adaptive immunity\""@en, """”för hans upptäckt av dendritcellen och dess roll vid
+förvärvad immunitet”"""@sv ;
+    <http://data.nobelprize.org/terms/share> "2" ;
+    <http://data.nobelprize.org/terms/university> <http://data.nobelprize.org/resource/university_Rockefeller_University> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Physiology_or_Medicine/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Physiology or Medicine 2011, Ralph M. Steinman" .
+
+<http://data.nobelprize.org/resource/laureateaward_910>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4452>, <http://data.nobelprize.org/resource/awardfile_4455>, <http://data.nobelprize.org/resource/awardfile_4456>, <http://data.nobelprize.org/resource/awardfile_4461>, <http://data.nobelprize.org/resource/awardfile_4491>, <http://data.nobelprize.org/resource/awardfile_4512>, <http://data.nobelprize.org/resource/awardfile_4522>, <http://data.nobelprize.org/resource/awardfile_4562> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/field> "cosmology"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_864> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for the discovery of the accelerating expansion of the Universe through observations of distant supernovae\""@en, "”för upptäckten av universums accelererande expansion genom observationer av avlägsna supernovor”"@sv ;
+    <http://data.nobelprize.org/terms/share> "2" ;
+    <http://data.nobelprize.org/terms/university> <http://data.nobelprize.org/resource/university_Lawrence_Berkeley_National_Laboratory>, <http://data.nobelprize.org/resource/university_University_of_California> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Physics/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Physics 2011, Saul Perlmutter" .
+
+<http://data.nobelprize.org/resource/laureateaward_911>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4454>, <http://data.nobelprize.org/resource/awardfile_4458>, <http://data.nobelprize.org/resource/awardfile_4462>, <http://data.nobelprize.org/resource/awardfile_4493>, <http://data.nobelprize.org/resource/awardfile_4508>, <http://data.nobelprize.org/resource/awardfile_4514>, <http://data.nobelprize.org/resource/awardfile_4564> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/field> "cosmology"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_865> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for the discovery of the accelerating expansion of the Universe through observations of distant supernovae\""@en, "”för upptäckten av universums accelererande expansion genom observationer av avlägsna supernovor”"@sv ;
+    <http://data.nobelprize.org/terms/share> "4" ;
+    <http://data.nobelprize.org/terms/university> <http://data.nobelprize.org/resource/university_Australian_National_University> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Physics/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Physics 2011, Brian P. Schmidt" .
+
+<http://data.nobelprize.org/resource/laureateaward_912>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4453>, <http://data.nobelprize.org/resource/awardfile_4457>, <http://data.nobelprize.org/resource/awardfile_4459>, <http://data.nobelprize.org/resource/awardfile_4467>, <http://data.nobelprize.org/resource/awardfile_4492>, <http://data.nobelprize.org/resource/awardfile_4513>, <http://data.nobelprize.org/resource/awardfile_4563> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/field> "cosmology"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_866> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for the discovery of the accelerating expansion of the Universe through observations of distant supernovae\""@en, "”för upptäckten av universums accelererande expansion genom observationer av avlägsna supernovor”"@sv ;
+    <http://data.nobelprize.org/terms/share> "4" ;
+    <http://data.nobelprize.org/terms/university> <http://data.nobelprize.org/resource/university_Johns_Hopkins_University>, <http://data.nobelprize.org/resource/university_Space_Telescope_Science_Institute> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Physics/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Physics 2011, Adam G. Riess" .
+
+<http://data.nobelprize.org/resource/laureateaward_913>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4463>, <http://data.nobelprize.org/resource/awardfile_4464>, <http://data.nobelprize.org/resource/awardfile_4465>, <http://data.nobelprize.org/resource/awardfile_4466>, <http://data.nobelprize.org/resource/awardfile_4490>, <http://data.nobelprize.org/resource/awardfile_4515>, <http://data.nobelprize.org/resource/awardfile_4523>, <http://data.nobelprize.org/resource/awardfile_4565> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/field> "physical chemistry"@en, "structural chemistry"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_867> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for the discovery of quasicrystals\""@en, "”för upptäckten av kvasikristaller”"@sv ;
+    <http://data.nobelprize.org/terms/share> "1" ;
+    <http://data.nobelprize.org/terms/university> <http://data.nobelprize.org/resource/university_Technion_-_Israel_Institute_of_Technology> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Chemistry/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry 2011, Dan Shechtman" .
+
+<http://data.nobelprize.org/resource/laureateaward_914>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4468>, <http://data.nobelprize.org/resource/awardfile_4469>, <http://data.nobelprize.org/resource/awardfile_4471>, <http://data.nobelprize.org/resource/awardfile_4480>, <http://data.nobelprize.org/resource/awardfile_4499>, <http://data.nobelprize.org/resource/awardfile_4519>, <http://data.nobelprize.org/resource/awardfile_4525>, <http://data.nobelprize.org/resource/awardfile_4527>, <http://data.nobelprize.org/resource/awardfile_4568>, <http://data.nobelprize.org/resource/awardfile_4577> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/field> "poetry"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_868> ;
+    <http://data.nobelprize.org/terms/motivation> "\"because, through his condensed, translucent images, he gives us fresh access to reality\""@en, """”för att han i förtätade, genomlysta bilder ger oss ny
+tillgång till det verkliga”"""@sv ;
+    <http://data.nobelprize.org/terms/share> "1" ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Literature/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Literature 2011, Tomas Tranströmer" .
+
+<http://data.nobelprize.org/resource/laureateaward_915>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4473>, <http://data.nobelprize.org/resource/awardfile_4475>, <http://data.nobelprize.org/resource/awardfile_4477>, <http://data.nobelprize.org/resource/awardfile_4501>, <http://data.nobelprize.org/resource/awardfile_4510>, <http://data.nobelprize.org/resource/awardfile_4561>, <http://data.nobelprize.org/resource/awardfile_4572> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/field> "peace movement"@en, "women's rights"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_869> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for their non-violent struggle for the safety of women and for women&apos;s rights to full participation in peace-building work\""@en, """”for deres ikke-voldelige kamp for kvinners sikkerhet og
+deres rett til full deltakelse i fredsbyggende arbeid”"""@sv ;
+    <http://data.nobelprize.org/terms/share> "3" ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Peace/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Peace 2011, Ellen Johnson Sirleaf" .
+
+<http://data.nobelprize.org/resource/laureateaward_916>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4472>, <http://data.nobelprize.org/resource/awardfile_4478>, <http://data.nobelprize.org/resource/awardfile_4479>, <http://data.nobelprize.org/resource/awardfile_4500>, <http://data.nobelprize.org/resource/awardfile_4503>, <http://data.nobelprize.org/resource/awardfile_4509>, <http://data.nobelprize.org/resource/awardfile_4571> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/field> "peace movement"@en, "women's rights"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_870> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for their non-violent struggle for the safety of women and for women&apos;s rights to full participation in peace-building work\""@en, """”for deres ikke-voldelige kamp for kvinners sikkerhet og
+deres rett til full deltakelse i fredsbyggende arbeid”"""@sv ;
+    <http://data.nobelprize.org/terms/share> "3" ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Peace/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Peace 2011, Leymah Gbowee" .
+
+<http://data.nobelprize.org/resource/laureateaward_917>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4474>, <http://data.nobelprize.org/resource/awardfile_4476>, <http://data.nobelprize.org/resource/awardfile_4489>, <http://data.nobelprize.org/resource/awardfile_4502>, <http://data.nobelprize.org/resource/awardfile_4511>, <http://data.nobelprize.org/resource/awardfile_4541>, <http://data.nobelprize.org/resource/awardfile_4573> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/field> "peace movement"@en, "women's rights"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_871> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for their non-violent struggle for the safety of women and for women&apos;s rights to full participation in peace-building work\""@en, """”for deres ikke-voldelige kamp for kvinners sikkerhet og
+deres rett til full deltakelse i fredsbyggende arbeid”"""@sv ;
+    <http://data.nobelprize.org/terms/share> "3" ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Peace/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Peace 2011, Tawakkol Karman" .
+
+<http://data.nobelprize.org/resource/laureateaward_918>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4481>, <http://data.nobelprize.org/resource/awardfile_4484>, <http://data.nobelprize.org/resource/awardfile_4485>, <http://data.nobelprize.org/resource/awardfile_4487>, <http://data.nobelprize.org/resource/awardfile_4494>, <http://data.nobelprize.org/resource/awardfile_4520>, <http://data.nobelprize.org/resource/awardfile_4526>, <http://data.nobelprize.org/resource/awardfile_4569> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/field> "macroeconometrics"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_872> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for their empirical research on cause and effect in the macroeconomy\""@en, "”för deras empiriska forskning om orsak och verkan i makroekonomin”"@sv ;
+    <http://data.nobelprize.org/terms/share> "2" ;
+    <http://data.nobelprize.org/terms/university> <http://data.nobelprize.org/resource/university_New_York_University> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Economic_Sciences/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Economic Sciences 2011, Thomas J. Sargent" .
+
+<http://data.nobelprize.org/resource/laureateaward_919>
+    <http://data.nobelprize.org/terms/awardFile> <http://data.nobelprize.org/resource/awardfile_4482>, <http://data.nobelprize.org/resource/awardfile_4483>, <http://data.nobelprize.org/resource/awardfile_4486>, <http://data.nobelprize.org/resource/awardfile_4488>, <http://data.nobelprize.org/resource/awardfile_4495>, <http://data.nobelprize.org/resource/awardfile_4521>, <http://data.nobelprize.org/resource/awardfile_4570> ;
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/field> "macroeconometrics"@en ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_873> ;
+    <http://data.nobelprize.org/terms/motivation> "\"for their empirical research on cause and effect in the macroeconomy\""@en, "”för deras empiriska forskning om orsak och verkan i makroekonomin”"@sv ;
+    <http://data.nobelprize.org/terms/share> "2" ;
+    <http://data.nobelprize.org/terms/university> <http://data.nobelprize.org/resource/university_Princeton_University> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize_Economic_Sciences/2011> ;
+    a <http://data.nobelprize.org/terms/LaureateAward>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Economic Sciences 2011, Christopher A. Sims" .
+
+<http://data.nobelprize.org/resource/nobelprize_Chemistry/2011>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_867> ;
+    <http://data.nobelprize.org/terms/prizeFile> <http://data.nobelprize.org/resource/prizefile_1348>, <http://data.nobelprize.org/resource/prizefile_1358>, <http://data.nobelprize.org/resource/prizefile_1359>, <http://data.nobelprize.org/resource/prizefile_1360>, <http://data.nobelprize.org/resource/prizefile_1368>, <http://data.nobelprize.org/resource/prizefile_1377>, <http://data.nobelprize.org/resource/prizefile_1386>, <http://data.nobelprize.org/resource/prizefile_1446> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/hasPart> <http://data.nobelprize.org/resource/laureateaward_913> ;
+    a <http://data.nobelprize.org/terms/NobelPrize>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry 2011" .
+
+<http://data.nobelprize.org/resource/nobelprize_Economic_Sciences/2011>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_872>, <http://data.nobelprize.org/resource/laureate_873> ;
+    <http://data.nobelprize.org/terms/prizeFile> <http://data.nobelprize.org/resource/prizefile_1352>, <http://data.nobelprize.org/resource/prizefile_1364>, <http://data.nobelprize.org/resource/prizefile_1365>, <http://data.nobelprize.org/resource/prizefile_1366>, <http://data.nobelprize.org/resource/prizefile_1373>, <http://data.nobelprize.org/resource/prizefile_1380>, <http://data.nobelprize.org/resource/prizefile_1383>, <http://data.nobelprize.org/resource/prizefile_1449> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/hasPart> <http://data.nobelprize.org/resource/laureateaward_918>, <http://data.nobelprize.org/resource/laureateaward_919> ;
+    a <http://data.nobelprize.org/terms/NobelPrize>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Economic Sciences 2011" .
+
+<http://data.nobelprize.org/resource/nobelprize_Literature/2011>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_868> ;
+    <http://data.nobelprize.org/terms/prizeFile> <http://data.nobelprize.org/resource/prizefile_1350>, <http://data.nobelprize.org/resource/prizefile_1361>, <http://data.nobelprize.org/resource/prizefile_1362>, <http://data.nobelprize.org/resource/prizefile_1371>, <http://data.nobelprize.org/resource/prizefile_1379>, <http://data.nobelprize.org/resource/prizefile_1381>, <http://data.nobelprize.org/resource/prizefile_1448> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/hasPart> <http://data.nobelprize.org/resource/laureateaward_914> ;
+    a <http://data.nobelprize.org/terms/NobelPrize>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Literature 2011" .
+
+<http://data.nobelprize.org/resource/nobelprize_Peace/2011>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_869>, <http://data.nobelprize.org/resource/laureate_870>, <http://data.nobelprize.org/resource/laureate_871> ;
+    <http://data.nobelprize.org/terms/prizeFile> <http://data.nobelprize.org/resource/prizefile_1351>, <http://data.nobelprize.org/resource/prizefile_1363>, <http://data.nobelprize.org/resource/prizefile_1372>, <http://data.nobelprize.org/resource/prizefile_1375>, <http://data.nobelprize.org/resource/prizefile_1385> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/hasPart> <http://data.nobelprize.org/resource/laureateaward_915>, <http://data.nobelprize.org/resource/laureateaward_916>, <http://data.nobelprize.org/resource/laureateaward_917> ;
+    a <http://data.nobelprize.org/terms/NobelPrize>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Peace 2011" .
+
+<http://data.nobelprize.org/resource/nobelprize_Physics/2011>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_864>, <http://data.nobelprize.org/resource/laureate_865>, <http://data.nobelprize.org/resource/laureate_866> ;
+    <http://data.nobelprize.org/terms/prizeFile> <http://data.nobelprize.org/resource/prizefile_1347>, <http://data.nobelprize.org/resource/prizefile_1355>, <http://data.nobelprize.org/resource/prizefile_1356>, <http://data.nobelprize.org/resource/prizefile_1357>, <http://data.nobelprize.org/resource/prizefile_1369>, <http://data.nobelprize.org/resource/prizefile_1376>, <http://data.nobelprize.org/resource/prizefile_1384>, <http://data.nobelprize.org/resource/prizefile_1445> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/hasPart> <http://data.nobelprize.org/resource/laureateaward_910>, <http://data.nobelprize.org/resource/laureateaward_911>, <http://data.nobelprize.org/resource/laureateaward_912> ;
+    a <http://data.nobelprize.org/terms/NobelPrize>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Physics 2011" .
+
+<http://data.nobelprize.org/resource/nobelprize_Physiology_or_Medicine/2011>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/laureate> <http://data.nobelprize.org/resource/laureate_861>, <http://data.nobelprize.org/resource/laureate_862>, <http://data.nobelprize.org/resource/laureate_863> ;
+    <http://data.nobelprize.org/terms/prizeFile> <http://data.nobelprize.org/resource/prizefile_1349>, <http://data.nobelprize.org/resource/prizefile_1354>, <http://data.nobelprize.org/resource/prizefile_1367>, <http://data.nobelprize.org/resource/prizefile_1370>, <http://data.nobelprize.org/resource/prizefile_1378>, <http://data.nobelprize.org/resource/prizefile_1382>, <http://data.nobelprize.org/resource/prizefile_1387>, <http://data.nobelprize.org/resource/prizefile_1447> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    <http://purl.org/dc/terms/hasPart> <http://data.nobelprize.org/resource/laureateaward_907>, <http://data.nobelprize.org/resource/laureateaward_908>, <http://data.nobelprize.org/resource/laureateaward_909> ;
+    a <http://data.nobelprize.org/terms/NobelPrize>, <http://dbpedia.org/ontology/Award> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Physiology or Medicine 2011" .
+
+<http://data.nobelprize.org/resource/prizefile_1347>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Announcement> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Adam G. Riess", "Prize Announcement Brian P. Schmidt", "Prize Announcement Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/announcement.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1348>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Announcement> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/announcement.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1349>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Announcement> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Bruce A. Beutler", "Prize Announcement Jules A. Hoffmann", "Prize Announcement Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/announcement.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1350>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Announcement> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/announcement.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1351>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Announcement> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Ellen Johnson Sirleaf", "Prize Announcement Leymah Gbowee", "Prize Announcement Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/announcement.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1352>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Prize_Announcement> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Christopher A. Sims", "Prize Announcement Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/announcement.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1354>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Press_Release> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Bruce A. Beutler", "Press Release Jules A. Hoffmann", "Press Release Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/press.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1355>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Press_Release> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Adam G. Riess", "Press Release Brian P. Schmidt", "Press Release Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/press.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1356>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Popular_Information> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information Adam G. Riess", "Popular Information Brian P. Schmidt", "Popular Information Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/popular.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1357>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Advanced_Information> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information Adam G. Riess", "Advanced Information Brian P. Schmidt", "Advanced Information Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/advanced.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1358>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Press_Release> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/press.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1359>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Popular_Information> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/popular.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1360>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Advanced_Information> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/advanced.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1361>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Press_Release> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/press.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1362>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Bio-bibliography> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Bio-bibliography Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/bio-bibl.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1363>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Press_Release> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Ellen Johnson Sirleaf", "Press Release Leymah Gbowee", "Press Release Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/press.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1364>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Press_Release> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Christopher A. Sims", "Press Release Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/press.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1365>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Popular_Information> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information Christopher A. Sims", "Popular Information Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/popular.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1366>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Advanced_Information> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information Christopher A. Sims", "Advanced Information Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/advanced.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1367>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Advanced_Information> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information Bruce A. Beutler", "Advanced Information Jules A. Hoffmann", "Advanced Information Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/advanced.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1368>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Greetings> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Greetings Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/greetings.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1369>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Greetings> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Greetings Adam G. Riess", "Greetings Brian P. Schmidt", "Greetings Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/greetings.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1370>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Greetings> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Greetings Bruce A. Beutler", "Greetings Jules A. Hoffmann", "Greetings Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/greetings.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1371>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Greetings> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Greetings Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/greetings.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1372>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Greetings> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Greetings Ellen Johnson Sirleaf", "Greetings Leymah Gbowee", "Greetings Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/greetings.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1373>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Greetings> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Greetings Christopher A. Sims", "Greetings Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/greetings.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1375>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Speech> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Ellen Johnson Sirleaf", "Award Ceremony Speech Leymah Gbowee", "Award Ceremony Speech Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/presentation-speech.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1376>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Speech> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Adam G. Riess", "Award Ceremony Speech Brian P. Schmidt", "Award Ceremony Speech Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/presentation-speech.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1377>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Speech> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/presentation-speech.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1378>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Speech> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Bruce A. Beutler", "Award Ceremony Speech Jules A. Hoffmann", "Award Ceremony Speech Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/presentation-speech.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1379>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Speech> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/presentation-speech.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1380>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Speech> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Christopher A. Sims", "Award Ceremony Speech Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/presentation-speech.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1381>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Video> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/award-video.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1382>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Video> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Bruce A. Beutler", "Award Ceremony Video Jules A. Hoffmann", "Award Ceremony Video Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/award-video.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1383>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Video> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Christopher A. Sims", "Award Ceremony Video Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/award-video.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1384>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Video> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Adam G. Riess", "Award Ceremony Video Brian P. Schmidt", "Award Ceremony Video Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/award-video.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1385>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Peace> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Video> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Ellen Johnson Sirleaf", "Award Ceremony Video Leymah Gbowee", "Award Ceremony Video Tawakkol Karman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2011/award-video.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1386>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Award_Ceremony_Video> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/award-video.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1387>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Popular_Information> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information Bruce A. Beutler", "Popular Information Jules A. Hoffmann", "Popular Information Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/popular.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1445>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physics> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Banquet_Video> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Video Adam G. Riess", "Banquet Video Brian P. Schmidt", "Banquet Video Saul Perlmutter" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2011/banquet-video.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1446>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Chemistry> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Banquet_Video> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Video Dan Shechtman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2011/banquet-video.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1447>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Physiology_or_Medicine> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Banquet_Video> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Video Bruce A. Beutler", "Banquet Video Jules A. Hoffmann", "Banquet Video Ralph M. Steinman" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2011/banquet-video.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1448>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Literature> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Banquet_Video> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Video Tomas Tranströmer" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2011/banquet-video.html> .
+
+<http://data.nobelprize.org/resource/prizefile_1449>
+    <http://data.nobelprize.org/terms/category> <http://data.nobelprize.org/resource/category_Economic_Sciences> ;
+    <http://data.nobelprize.org/terms/fileType> <http://data.nobelprize.org/resource/filetype_Banquet_Video> ;
+    <http://data.nobelprize.org/terms/year> 2011 ;
+    a <http://data.nobelprize.org/terms/PrizeFile> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Video Christopher A. Sims", "Banquet Video Thomas J. Sargent" ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2011/banquet-video.html> .
+
+<http://data.nobelprize.org/resource/university_Australian_National_University>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_Canberra>, <http://data.nobelprize.org/resource/city_Weston_Creek> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_Australia> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Australian National University" .
+
+<http://data.nobelprize.org/resource/university_Johns_Hopkins_University>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_Baltimore%2C_MD> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_USA> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Johns Hopkins University" .
+
+<http://data.nobelprize.org/resource/university_Lawrence_Berkeley_National_Laboratory>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_Berkeley%2C_CA> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_USA> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Lawrence Berkeley National Laboratory" .
+
+<http://data.nobelprize.org/resource/university_New_York_University>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_New_York%2C_NY> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_USA> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "New York University" .
+
+<http://data.nobelprize.org/resource/university_Princeton_University>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_New_Jersey%2C_NJ>, <http://data.nobelprize.org/resource/city_Princeton%2C_NJ> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_USA> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Princeton University" .
+
+<http://data.nobelprize.org/resource/university_Rockefeller_University>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_New_York%2C_NY> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_USA> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Rockefeller University" .
+
+<http://data.nobelprize.org/resource/university_Space_Telescope_Science_Institute>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_Baltimore%2C_MD> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_USA> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Space Telescope Science Institute" .
+
+<http://data.nobelprize.org/resource/university_Technion_-_Israel_Institute_of_Technology>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_Haifa> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_Israel> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Technion - Israel Institute of Technology" .
+
+<http://data.nobelprize.org/resource/university_The_Scripps_Research_Institute>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_La_Jolla%2C_CA> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_USA> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "The Scripps Research Institute" .
+
+<http://data.nobelprize.org/resource/university_University_of_California>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_Berkeley%2C_CA>, <http://data.nobelprize.org/resource/city_Irvine%2C_CA>, <http://data.nobelprize.org/resource/city_La_Jolla%2C_CA>, <http://data.nobelprize.org/resource/city_Los_Angeles%2C_CA>, <http://data.nobelprize.org/resource/city_San_Diego%2C_CA>, <http://data.nobelprize.org/resource/city_San_Francisco%2C_CA>, <http://data.nobelprize.org/resource/city_Santa_Barbara%2C_CA> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_USA> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "University of California" .
+
+<http://data.nobelprize.org/resource/university_University_of_Strasbourg>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_Strasbourg> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_France> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "University of Strasbourg" .
+
+<http://data.nobelprize.org/resource/university_University_of_Texas_Southwestern_Medical_Center_at_Dallas>
+    <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city_Dallas%2C_TX> ;
+    <http://dbpedia.org/ontology/country> <http://data.nobelprize.org/resource/country_USA> ;
+    a <http://dbpedia.org/ontology/University> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "University of Texas Southwestern Medical Center at Dallas" .
+
+<http://data.nobelprize.org/terms/AwardFile>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "AwardFile" .
+
+<http://data.nobelprize.org/terms/Category>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Category" .
+
+<http://data.nobelprize.org/terms/FileType>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Filetype" .
+
+<http://data.nobelprize.org/terms/Laureate>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Laureate" .
+
+<http://data.nobelprize.org/terms/LaureateAward>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "LaureateAward" .
+
+<http://data.nobelprize.org/terms/NobelPrize>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "NobelPrize" .
+
+<http://data.nobelprize.org/terms/PrizeFile>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Prize file" .
+
+<http://dbpedia.org/ontology/Award>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "LaureateAward", "NobelPrize" .
+
+<http://dbpedia.org/ontology/City>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "City" .
+
+<http://dbpedia.org/ontology/Country>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Country" .
+
+<http://dbpedia.org/ontology/University>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "University" .

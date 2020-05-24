@@ -1,0 +1,9 @@
+PREFIX ex: <http://example/>
+PREFIX schema: <http://datadock.io/kal/data/id/definition/>
+
+CONSTRUCT {
+  ?s a ex:Line
+}
+WHERE {
+  ?s schema:line_name ?line_name .
+}

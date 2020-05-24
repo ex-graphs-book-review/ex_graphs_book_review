@@ -1,0 +1,3 @@
+v1 = graph.addVertex(label,'a', 'type', 'node')
+v2 = graph.addVertex(label,'b', 'type', 'node')
+v1.addEdge('edge', v2, 'labelE', 'EX')

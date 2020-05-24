@@ -1,0 +1,1345 @@
+_:awardfile_5504 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:awardfile_5504 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Other_Resources .
+_:awardfile_5504 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5504 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5504 <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Yoshinori Ohsumi" .
+_:awardfile_5504 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/ohsumi-or.html> .
+_:awardfile_5505 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:awardfile_5505 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Interview .
+_:awardfile_5505 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5505 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5505 <http://www.w3.org/2000/01/rdf-schema#label> "Interview Yoshinori Ohsumi" .
+_:awardfile_5505 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/ohsumi-interview.html> .
+_:awardfile_5506 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:awardfile_5506 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Photo_Gallery .
+_:awardfile_5506 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5506 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5506 <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Yoshinori Ohsumi" .
+_:awardfile_5506 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/ohsumi-photo.html> .
+_:awardfile_5507 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5507 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Other_Resources .
+_:awardfile_5507 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5507 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5507 <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources F. Duncan M. Haldane" .
+_:awardfile_5507 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/haldane-or.html> .
+_:awardfile_5508 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5508 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Other_Resources .
+_:awardfile_5508 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5508 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5508 <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources David J. Thouless" .
+_:awardfile_5508 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/thouless-or.html> .
+_:awardfile_5509 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5509 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Other_Resources .
+_:awardfile_5509 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5509 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5509 <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources J. Michael Kosterlitz" .
+_:awardfile_5509 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/kosterlitz-or.html> .
+_:awardfile_5510 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5510 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Interview .
+_:awardfile_5510 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5510 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5510 <http://www.w3.org/2000/01/rdf-schema#label> "Interview J. Michael Kosterlitz" .
+_:awardfile_5510 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/kosterlitz-interview.html> .
+_:awardfile_5511 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5511 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Photo_Gallery .
+_:awardfile_5511 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5511 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5511 <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery F. Duncan M. Haldane" .
+_:awardfile_5511 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/haldane-photo.html> .
+_:awardfile_5512 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5512 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Photo_Gallery .
+_:awardfile_5512 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5512 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5512 <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery J. Michael Kosterlitz" .
+_:awardfile_5512 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/kosterlitz-photo.html> .
+_:awardfile_5513 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5513 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Interview .
+_:awardfile_5513 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5513 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5513 <http://www.w3.org/2000/01/rdf-schema#label> "Interview F. Duncan M. Haldane" .
+_:awardfile_5513 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/haldane-interview.html> .
+_:awardfile_5514 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5514 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Other_Resources .
+_:awardfile_5514 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5514 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5514 <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Jean-Pierre Sauvage" .
+_:awardfile_5514 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/sauvage-or.html> .
+_:awardfile_5515 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5515 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Other_Resources .
+_:awardfile_5515 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5515 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5515 <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Sir J. Fraser Stoddart" .
+_:awardfile_5515 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/stoddart-or.html> .
+_:awardfile_5516 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5516 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Other_Resources .
+_:awardfile_5516 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5516 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5516 <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Bernard L. Feringa" .
+_:awardfile_5516 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/feringa-or.html> .
+_:awardfile_5517 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5517 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Photo_Gallery .
+_:awardfile_5517 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5517 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5517 <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Bernard L. Feringa" .
+_:awardfile_5517 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/feringa-photo.html> .
+_:awardfile_5518 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5518 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Photo_Gallery .
+_:awardfile_5518 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5518 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5518 <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Sir J. Fraser Stoddart" .
+_:awardfile_5518 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/stoddart-photo.html> .
+_:awardfile_5519 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5519 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Interview .
+_:awardfile_5519 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5519 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5519 <http://www.w3.org/2000/01/rdf-schema#label> "Interview Sir J. Fraser Stoddart" .
+_:awardfile_5519 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/stoddart-interview.html> .
+_:awardfile_5520 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5520 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Photo_Gallery .
+_:awardfile_5520 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5520 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5520 <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Jean-Pierre Sauvage" .
+_:awardfile_5520 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/sauvage-photo.html> .
+_:awardfile_5521 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5521 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Interview .
+_:awardfile_5521 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5521 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5521 <http://www.w3.org/2000/01/rdf-schema#label> "Interview Bernard L. Feringa" .
+_:awardfile_5521 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/feringa-interview.html> .
+_:awardfile_5522 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:awardfile_5522 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Other_Resources .
+_:awardfile_5522 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5522 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5522 <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Juan Manuel Santos" .
+_:awardfile_5522 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2016/santos-or.html> .
+_:awardfile_5523 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:awardfile_5523 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Interview .
+_:awardfile_5523 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5523 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5523 <http://www.w3.org/2000/01/rdf-schema#label> "Interview Juan Manuel Santos" .
+_:awardfile_5523 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2016/santos-interview.html> .
+_:awardfile_5524 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:awardfile_5524 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Photo_Gallery .
+_:awardfile_5524 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5524 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5524 <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Juan Manuel Santos" .
+_:awardfile_5524 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2016/santos-photo.html> .
+_:awardfile_5525 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5525 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Other_Resources .
+_:awardfile_5525 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5525 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5525 <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Oliver Hart" .
+_:awardfile_5525 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/hart-or.html> .
+_:awardfile_5526 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5526 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Other_Resources .
+_:awardfile_5526 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5526 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5526 <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Bengt Holmstr\u00F6m" .
+_:awardfile_5526 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/holmstrom-or.html> .
+_:awardfile_5527 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5527 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Interview .
+_:awardfile_5527 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5527 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5527 <http://www.w3.org/2000/01/rdf-schema#label> "Interview Oliver Hart" .
+_:awardfile_5527 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/hart-interview.html> .
+_:awardfile_5528 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5528 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Interview .
+_:awardfile_5528 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5528 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5528 <http://www.w3.org/2000/01/rdf-schema#label> "Interview Bengt Holmstr\u00F6m" .
+_:awardfile_5528 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/holmstrom-interview.html> .
+_:awardfile_5529 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5529 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Photo_Gallery .
+_:awardfile_5529 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5529 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5529 <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Bengt Holmstr\u00F6m" .
+_:awardfile_5529 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/holmstrom-photo.html> .
+_:awardfile_5530 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5530 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Photo_Gallery .
+_:awardfile_5530 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5530 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5530 <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Oliver Hart" .
+_:awardfile_5530 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/hart-photo.html> .
+_:awardfile_5531 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:awardfile_5531 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Other_Resources .
+_:awardfile_5531 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5531 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5531 <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources Bob Dylan" .
+_:awardfile_5531 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2016/dylan-or.html> .
+_:awardfile_5532 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:awardfile_5532 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Photo_Gallery .
+_:awardfile_5532 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5532 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5532 <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery Bob Dylan" .
+_:awardfile_5532 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2016/dylan-photo.html> .
+_:awardfile_5533 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5533 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Lecture .
+_:awardfile_5533 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5533 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5533 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Bernard L. Feringa" .
+_:awardfile_5533 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/feringa-lecture.html> .
+_:awardfile_5534 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5534 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Lecture .
+_:awardfile_5534 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5534 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5534 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Jean-Pierre Sauvage" .
+_:awardfile_5534 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/sauvage-lecture.html> .
+_:awardfile_5535 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5535 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Lecture .
+_:awardfile_5535 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5535 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5535 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Sir J. Fraser Stoddart" .
+_:awardfile_5535 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/stoddart-lecture.html> .
+_:awardfile_5536 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5536 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Lecture .
+_:awardfile_5536 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5536 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5536 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture F. Duncan M. Haldane" .
+_:awardfile_5536 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/haldane-lecture.html> .
+_:awardfile_5537 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5537 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Lecture .
+_:awardfile_5537 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5537 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5537 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture J. Michael Kosterlitz" .
+_:awardfile_5537 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/kosterlitz-lecture.html> .
+_:awardfile_5539 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5539 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Lecture .
+_:awardfile_5539 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5539 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5539 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Oliver Hart" .
+_:awardfile_5539 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/hart-lecture.html> .
+_:awardfile_5540 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5540 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Lecture .
+_:awardfile_5540 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5540 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5540 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Bengt Holmstr\u00F6m" .
+_:awardfile_5540 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/holmstrom-lecture.html> .
+_:awardfile_5541 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:awardfile_5541 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Lecture .
+_:awardfile_5541 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5541 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5541 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Juan Manuel Santos" .
+_:awardfile_5541 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2016/santos-lecture.html> .
+_:awardfile_5542 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:awardfile_5542 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Lecture .
+_:awardfile_5542 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5542 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5542 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Yoshinori Ohsumi" .
+_:awardfile_5542 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/ohsumi-lecture.html> .
+_:awardfile_5554 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5554 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Photo_Gallery .
+_:awardfile_5554 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5554 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5554 <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery David J. Thouless" .
+_:awardfile_5554 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/thouless-photo.html> .
+_:awardfile_5555 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:awardfile_5555 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Diploma .
+_:awardfile_5555 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5555 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5555 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Juan Manuel Santos" .
+_:awardfile_5555 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2016/santos-diploma.html> .
+_:awardfile_5556 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5556 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Diploma .
+_:awardfile_5556 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5556 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5556 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma F. Duncan M. Haldane" .
+_:awardfile_5556 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/haldane-diploma.html> .
+_:awardfile_5557 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5557 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Diploma .
+_:awardfile_5557 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5557 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5557 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma J. Michael Kosterlitz" .
+_:awardfile_5557 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/kosterlitz-diploma.html> .
+_:awardfile_5558 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5558 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Diploma .
+_:awardfile_5558 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5558 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5558 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma David J. Thouless" .
+_:awardfile_5558 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/thouless-diploma.html> .
+_:awardfile_5559 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5559 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Diploma .
+_:awardfile_5559 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5559 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5559 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Bernard L. Feringa" .
+_:awardfile_5559 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/feringa-diploma.html> .
+_:awardfile_5560 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5560 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Diploma .
+_:awardfile_5560 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5560 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5560 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Jean-Pierre Sauvage" .
+_:awardfile_5560 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/sauvage-diploma.html> .
+_:awardfile_5561 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5561 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Diploma .
+_:awardfile_5561 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5561 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5561 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Sir J. Fraser Stoddart" .
+_:awardfile_5561 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/stoddart-diploma.html> .
+_:awardfile_5562 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:awardfile_5562 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Diploma .
+_:awardfile_5562 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5562 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5562 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Yoshinori Ohsumi" .
+_:awardfile_5562 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/ohsumi-diploma.html> .
+_:awardfile_5563 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5563 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Diploma .
+_:awardfile_5563 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5563 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5563 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Oliver Hart" .
+_:awardfile_5563 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/hart-diploma.html> .
+_:awardfile_5564 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5564 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Diploma .
+_:awardfile_5564 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5564 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5564 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Bengt Holmstr\u00F6m" .
+_:awardfile_5564 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/holmstrom-diploma.html> .
+_:awardfile_5565 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:awardfile_5565 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Diploma .
+_:awardfile_5565 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5565 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5565 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma Bob Dylan" .
+_:awardfile_5565 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2016/dylan-diploma.html> .
+_:awardfile_5566 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5566 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Banquet_Speech .
+_:awardfile_5566 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5566 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5566 <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech F. Duncan M. Haldane" .
+_:awardfile_5566 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/haldane-speech.html> .
+_:awardfile_5567 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5567 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Banquet_Speech .
+_:awardfile_5567 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5567 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5567 <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech Sir J. Fraser Stoddart" .
+_:awardfile_5567 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/stoddart-speech.html> .
+_:awardfile_5568 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:awardfile_5568 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Banquet_Speech .
+_:awardfile_5568 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5568 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5568 <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech Yoshinori Ohsumi" .
+_:awardfile_5568 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/ohsumi-speech.html> .
+_:awardfile_5569 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:awardfile_5569 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Banquet_Speech .
+_:awardfile_5569 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5569 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5569 <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech Bob Dylan" .
+_:awardfile_5569 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2016/dylan-speech.html> .
+_:awardfile_5570 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5570 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Banquet_Speech .
+_:awardfile_5570 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5570 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5570 <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech Oliver Hart" .
+_:awardfile_5570 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/hart-speech.html> .
+_:awardfile_5578 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:awardfile_5578 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Presentation .
+_:awardfile_5578 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5578 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5578 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Yoshinori Ohsumi" .
+_:awardfile_5578 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/ohsumi-prize-present.html> .
+_:awardfile_5579 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5579 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Presentation .
+_:awardfile_5579 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5579 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5579 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation F. Duncan M. Haldane" .
+_:awardfile_5579 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/haldane-prize-present.html> .
+_:awardfile_5580 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5580 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Presentation .
+_:awardfile_5580 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5580 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5580 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation J. Michael Kosterlitz" .
+_:awardfile_5580 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/kosterlitz-prize-present.html> .
+_:awardfile_5581 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5581 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Presentation .
+_:awardfile_5581 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5581 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5581 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation David J. Thouless" .
+_:awardfile_5581 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/thouless-prize-present.html> .
+_:awardfile_5582 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5582 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Presentation .
+_:awardfile_5582 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5582 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5582 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Bernard L. Feringa" .
+_:awardfile_5582 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/feringa-prize-present.html> .
+_:awardfile_5583 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5583 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Presentation .
+_:awardfile_5583 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5583 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5583 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Sir J. Fraser Stoddart" .
+_:awardfile_5583 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/stoddart-prize-present.html> .
+_:awardfile_5584 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5584 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Presentation .
+_:awardfile_5584 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5584 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5584 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Jean-Pierre Sauvage" .
+_:awardfile_5584 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/sauvage-prize-present.html> .
+_:awardfile_5585 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5585 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Presentation .
+_:awardfile_5585 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5585 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5585 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Oliver Hart" .
+_:awardfile_5585 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/hart-prize-present.html> .
+_:awardfile_5586 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5586 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Presentation .
+_:awardfile_5586 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5586 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5586 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Bengt Holmstr\u00F6m" .
+_:awardfile_5586 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/holmstrom-prize-present.html> .
+_:awardfile_5587 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:awardfile_5587 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Presentation .
+_:awardfile_5587 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5587 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5587 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation Juan Manuel Santos" .
+_:awardfile_5587 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2016/santos-prize-present.html> .
+_:awardfile_5588 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5588 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Lecture .
+_:awardfile_5588 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5588 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5588 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture David J. Thouless" .
+_:awardfile_5588 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/thouless-lecture.html> .
+_:awardfile_5596 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5596 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Interview .
+_:awardfile_5596 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5596 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5596 <http://www.w3.org/2000/01/rdf-schema#label> "Interview Jean-Pierre Sauvage" .
+_:awardfile_5596 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/sauvage-interview.html> .
+_:awardfile_5611 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:awardfile_5611 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Nobel_Lecture .
+_:awardfile_5611 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5611 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5611 <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture Bob Dylan" .
+_:awardfile_5611 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2016/dylan-lecture.html> .
+_:awardfile_5700 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5700 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Biographical .
+_:awardfile_5700 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5700 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5700 <http://www.w3.org/2000/01/rdf-schema#label> "Biographical David J. Thouless" .
+_:awardfile_5700 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/thouless-bio.html> .
+_:awardfile_5701 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5701 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Biographical .
+_:awardfile_5701 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5701 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5701 <http://www.w3.org/2000/01/rdf-schema#label> "Biographical F. Duncan M. Haldane" .
+_:awardfile_5701 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/haldane-bio.html> .
+_:awardfile_5702 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:awardfile_5702 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Biographical .
+_:awardfile_5702 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5702 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5702 <http://www.w3.org/2000/01/rdf-schema#label> "Biographical J. Michael Kosterlitz" .
+_:awardfile_5702 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/kosterlitz-bio.html> .
+_:awardfile_5703 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5703 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Biographical .
+_:awardfile_5703 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5703 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5703 <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Oliver Hart" .
+_:awardfile_5703 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/hart-bio.html> .
+_:awardfile_5704 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:awardfile_5704 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Biographical .
+_:awardfile_5704 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5704 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5704 <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Bengt Holmstr\u00F6m" .
+_:awardfile_5704 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/holmstrom-bio.html> .
+_:awardfile_5705 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5705 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Biographical .
+_:awardfile_5705 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5705 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5705 <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Bernard L. Feringa" .
+_:awardfile_5705 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/feringa-bio.html> .
+_:awardfile_5706 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5706 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Biographical .
+_:awardfile_5706 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5706 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5706 <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Jean-Pierre Sauvage" .
+_:awardfile_5706 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/sauvage-bio.html> .
+_:awardfile_5707 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:awardfile_5707 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Biographical .
+_:awardfile_5707 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5707 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5707 <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Sir J. Fraser Stoddart" .
+_:awardfile_5707 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/stoddart-bio.html> .
+_:awardfile_5708 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:awardfile_5708 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Biographical .
+_:awardfile_5708 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5708 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5708 <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Yoshinori Ohsumi" .
+_:awardfile_5708 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/ohsumi-bio.html> .
+_:awardfile_5709 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:awardfile_5709 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Biographical .
+_:awardfile_5709 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5709 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5709 <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Juan Manuel Santos" .
+_:awardfile_5709 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2016/santos-bio.html> .
+_:awardfile_5710 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:awardfile_5710 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Biographical .
+_:awardfile_5710 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:awardfile_5710 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> .
+_:awardfile_5710 <http://www.w3.org/2000/01/rdf-schema#label> "Biographical Bob Dylan" .
+_:awardfile_5710 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2016/dylan-bio.html> .
+_:category_Chemistry <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Category> .
+_:category_Chemistry <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry" .
+_:category_Chemistry <http://www.w3.org/2000/01/rdf-schema#value> "chemistry" .
+_:category_Chemistry <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPrizeForChemistry> .
+_:category_Chemistry <http://www.w3.org/2004/02/skos/core#altLabel> "The Nobel Prize in Chemistry"@en .
+_:category_Chemistry <http://www.w3.org/2004/02/skos/core#prefLabel> "Chemistry"@en .
+_:category_Economic_Sciences <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Category> .
+_:category_Economic_Sciences <http://www.w3.org/2000/01/rdf-schema#label> "Economic Sciences" .
+_:category_Economic_Sciences <http://www.w3.org/2000/01/rdf-schema#value> "economics" .
+_:category_Economic_Sciences <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPrizeForEconomics> .
+_:category_Economic_Sciences <http://www.w3.org/2004/02/skos/core#altLabel> "The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel"@en .
+_:category_Economic_Sciences <http://www.w3.org/2004/02/skos/core#hiddenLabel> "The Prize in Economic Sciences"@en .
+_:category_Economic_Sciences <http://www.w3.org/2004/02/skos/core#prefLabel> "Economic Sciences"@en .
+_:category_Literature <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Category> .
+_:category_Literature <http://www.w3.org/2000/01/rdf-schema#label> "Literature" .
+_:category_Literature <http://www.w3.org/2000/01/rdf-schema#value> "literature" .
+_:category_Literature <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPrizeForLiterature> .
+_:category_Literature <http://www.w3.org/2004/02/skos/core#altLabel> "The Nobel Prize in  Literature"@en .
+_:category_Literature <http://www.w3.org/2004/02/skos/core#prefLabel> "Literature"@en .
+_:category_Peace <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Category> .
+_:category_Peace <http://www.w3.org/2000/01/rdf-schema#label> "Peace" .
+_:category_Peace <http://www.w3.org/2000/01/rdf-schema#value> "peace" .
+_:category_Peace <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPeacePrize> .
+_:category_Peace <http://www.w3.org/2004/02/skos/core#altLabel> "The Nobel Peace Prize"@en .
+_:category_Peace <http://www.w3.org/2004/02/skos/core#prefLabel> "Peace"@en .
+_:category_Physics <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Category> .
+_:category_Physics <http://www.w3.org/2000/01/rdf-schema#label> "Physics" .
+_:category_Physics <http://www.w3.org/2000/01/rdf-schema#value> "physics" .
+_:category_Physics <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPrizeForPhysics> .
+_:category_Physics <http://www.w3.org/2004/02/skos/core#altLabel> "The Nobel Prize in Physics"@en .
+_:category_Physics <http://www.w3.org/2004/02/skos/core#prefLabel> "Physics"@en .
+_:category_Physiology_or_Medicine <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Category> .
+_:category_Physiology_or_Medicine <http://www.w3.org/2000/01/rdf-schema#label> "Physiology or Medicine" .
+_:category_Physiology_or_Medicine <http://www.w3.org/2000/01/rdf-schema#value> "medicine" .
+_:category_Physiology_or_Medicine <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/NobelPrizeForMedicine> .
+_:category_Physiology_or_Medicine <http://www.w3.org/2004/02/skos/core#altLabel> "The Nobel Prize in Physiology or Medicine"@en .
+_:category_Physiology_or_Medicine <http://www.w3.org/2004/02/skos/core#prefLabel> "Physiology or Medicine"@en .
+_:city_Aberdeen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+_:city_Aberdeen <http://www.w3.org/2000/01/rdf-schema#label> "Aberdeen" .
+_:city_Aberdeen <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Aberdeen> .
+<http://data.nobelprize.org/resource/city/Barger-Compascuum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://data.nobelprize.org/resource/city/Barger-Compascuum> <http://www.w3.org/2000/01/rdf-schema#label> "Barger-Compascuum" .
+<http://data.nobelprize.org/resource/city/Barger-Compascuum> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Barger-Compascuum> .
+_:city_Bearsden <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+_:city_Bearsden <http://www.w3.org/2000/01/rdf-schema#label> "Bearsden" .
+_:city_Bearsden <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Bearsden> .
+<http://data.nobelprize.org/resource/city/Bogot%C3%A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://data.nobelprize.org/resource/city/Bogot%C3%A1> <http://www.w3.org/2000/01/rdf-schema#label> "Bogot\u00E1" .
+<http://data.nobelprize.org/resource/city/Bogot%C3%A1> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Bogot%C3%A1> .
+<http://data.nobelprize.org/resource/city/Boston%2C_MA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://data.nobelprize.org/resource/city/Boston%2C_MA> <http://www.w3.org/2000/01/rdf-schema#label> "Boston, MA" .
+<http://data.nobelprize.org/resource/city/Boston%2C_MA> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Boston%2C_MA> .
+<http://data.nobelprize.org/resource/city/Cambridge%2C_MA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://data.nobelprize.org/resource/city/Cambridge%2C_MA> <http://www.w3.org/2000/01/rdf-schema#label> "Cambridge, MA" .
+<http://data.nobelprize.org/resource/city/Cambridge%2C_MA> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Cambridge%2C_MA> .
+<http://data.nobelprize.org/resource/city/Duluth%2C_MN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://data.nobelprize.org/resource/city/Duluth%2C_MN> <http://www.w3.org/2000/01/rdf-schema#label> "Duluth, MN" .
+<http://data.nobelprize.org/resource/city/Duluth%2C_MN> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Duluth%2C_MN> .
+_:city_Edinburgh <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+_:city_Edinburgh <http://www.w3.org/2000/01/rdf-schema#label> "Edinburgh" .
+_:city_Edinburgh <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Edinburgh> .
+<http://data.nobelprize.org/resource/city/Evanston%2C_IL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://data.nobelprize.org/resource/city/Evanston%2C_IL> <http://www.w3.org/2000/01/rdf-schema#label> "Evanston, IL" .
+<http://data.nobelprize.org/resource/city/Evanston%2C_IL> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Evanston%2C_IL> .
+_:city_Fukuoka <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+_:city_Fukuoka <http://www.w3.org/2000/01/rdf-schema#label> "Fukuoka" .
+_:city_Fukuoka <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Fukuoka> .
+_:city_Groningen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+_:city_Groningen <http://www.w3.org/2000/01/rdf-schema#label> "Groningen" .
+_:city_Groningen <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Groningen> .
+_:city_Helsinki <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+_:city_Helsinki <http://www.w3.org/2000/01/rdf-schema#label> "Helsinki" .
+_:city_Helsinki <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Helsinki> .
+_:city_London <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+_:city_London <http://www.w3.org/2000/01/rdf-schema#label> "London" .
+_:city_London <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/London> .
+<http://data.nobelprize.org/resource/city/New_Jersey%2C_NJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://data.nobelprize.org/resource/city/New_Jersey%2C_NJ> <http://www.w3.org/2000/01/rdf-schema#label> "New Jersey, NJ" .
+<http://data.nobelprize.org/resource/city/New_Jersey%2C_NJ> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/New_Jersey%2C_NJ> .
+_:city_Paris <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+_:city_Paris <http://www.w3.org/2000/01/rdf-schema#label> "Paris" .
+_:city_Paris <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Paris> .
+<http://data.nobelprize.org/resource/city/Princeton%2C_NJ> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://data.nobelprize.org/resource/city/Princeton%2C_NJ> <http://www.w3.org/2000/01/rdf-schema#label> "Princeton, NJ" .
+<http://data.nobelprize.org/resource/city/Princeton%2C_NJ> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Princeton%2C_NJ> .
+<http://data.nobelprize.org/resource/city/Providence%2C_RI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://data.nobelprize.org/resource/city/Providence%2C_RI> <http://www.w3.org/2000/01/rdf-schema#label> "Providence, RI" .
+<http://data.nobelprize.org/resource/city/Providence%2C_RI> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Providence%2C_RI> .
+<http://data.nobelprize.org/resource/city/Seattle%2C_WA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+<http://data.nobelprize.org/resource/city/Seattle%2C_WA> <http://www.w3.org/2000/01/rdf-schema#label> "Seattle, WA" .
+<http://data.nobelprize.org/resource/city/Seattle%2C_WA> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Seattle%2C_WA> .
+_:city_Strasbourg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+_:city_Strasbourg <http://www.w3.org/2000/01/rdf-schema#label> "Strasbourg" .
+_:city_Strasbourg <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Strasbourg> .
+_:city_Tokyo <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City> .
+_:city_Tokyo <http://www.w3.org/2000/01/rdf-schema#label> "Tokyo" .
+_:city_Tokyo <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Tokyo> .
+_:country_Colombia <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> .
+_:country_Colombia <http://www.w3.org/2000/01/rdf-schema#label> "Colombia" .
+_:country_Colombia <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Colombia> .
+_:country_Finland <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> .
+_:country_Finland <http://www.w3.org/2000/01/rdf-schema#label> "Finland" .
+_:country_Finland <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Finland> .
+_:country_France <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> .
+_:country_France <http://www.w3.org/2000/01/rdf-schema#label> "France" .
+_:country_France <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/France> .
+_:country_Japan <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> .
+_:country_Japan <http://www.w3.org/2000/01/rdf-schema#label> "Japan" .
+_:country_Japan <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Japan> .
+_:country_USA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> .
+_:country_USA <http://www.w3.org/2000/01/rdf-schema#label> "USA" .
+_:country_USA <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/USA> .
+_:country_United_Kingdom <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> .
+_:country_United_Kingdom <http://www.w3.org/2000/01/rdf-schema#label> "United Kingdom" .
+_:country_United_Kingdom <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/United_Kingdom> .
+_:country_the_Netherlands <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> .
+_:country_the_Netherlands <http://www.w3.org/2000/01/rdf-schema#label> "the Netherlands" .
+_:country_the_Netherlands <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/the_Netherlands> .
+_:filetype_Advanced_Information <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Advanced_Information <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information" .
+_:filetype_Award_Ceremony_Speech <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Award_Ceremony_Speech <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech" .
+_:filetype_Award_Ceremony_Video <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Award_Ceremony_Video <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video" .
+_:filetype_Banquet_Speech <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Banquet_Speech <http://www.w3.org/2000/01/rdf-schema#label> "Banquet Speech" .
+<http://data.nobelprize.org/resource/filetype/Bio-bibliography> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+<http://data.nobelprize.org/resource/filetype/Bio-bibliography> <http://www.w3.org/2000/01/rdf-schema#label> "Bio-bibliography" .
+_:filetype_Biographical <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Biographical <http://www.w3.org/2000/01/rdf-schema#label> "Biographical" .
+_:filetype_Interview <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Interview <http://www.w3.org/2000/01/rdf-schema#label> "Interview" .
+_:filetype_Nobel_Diploma <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Nobel_Diploma <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Diploma" .
+_:filetype_Nobel_Lecture <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Nobel_Lecture <http://www.w3.org/2000/01/rdf-schema#label> "Nobel Lecture" .
+_:filetype_Other_Resources <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Other_Resources <http://www.w3.org/2000/01/rdf-schema#label> "Other Resources" .
+_:filetype_Photo_Gallery <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Photo_Gallery <http://www.w3.org/2000/01/rdf-schema#label> "Photo Gallery" .
+_:filetype_Popular_Information <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Popular_Information <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information" .
+_:filetype_Press_Release <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Press_Release <http://www.w3.org/2000/01/rdf-schema#label> "Press Release" .
+_:filetype_Prize_Announcement <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Prize_Announcement <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement" .
+_:filetype_Prize_Presentation <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> .
+_:filetype_Prize_Presentation <http://www.w3.org/2000/01/rdf-schema#label> "Prize Presentation" .
+_:laureate_927 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureateAward> _:laureateaward_999 .
+_:laureate_927 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> .
+_:laureate_927 <http://dbpedia.org/ontology/affiliation> _:university_Tokyo_Institute_of_Technology .
+_:laureate_927 <http://dbpedia.org/ontology/birthPlace> _:city_Fukuoka .
+_:laureate_927 <http://dbpedia.org/ontology/birthPlace> _:country_Japan .
+_:laureate_927 <http://dbpedia.org/property/dateOfBirth> "1945-02-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_927 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> .
+_:laureate_927 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:laureate_927 <http://www.w3.org/2000/01/rdf-schema#label> "Yoshinori Ohsumi" .
+_:laureate_927 <http://xmlns.com/foaf/0.1/birthday> "1945-02-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_927 <http://xmlns.com/foaf/0.1/familyName> "Ohsumi" .
+_:laureate_927 <http://xmlns.com/foaf/0.1/gender> "male" .
+_:laureate_927 <http://xmlns.com/foaf/0.1/givenName> "Yoshinori" .
+_:laureate_927 <http://xmlns.com/foaf/0.1/name> "Yoshinori Ohsumi" .
+_:laureate_928 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureateAward> _:laureateaward_1000 .
+_:laureate_928 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Physics/2016> .
+_:laureate_928 <http://dbpedia.org/ontology/affiliation> _:university_University_of_Washington .
+_:laureate_928 <http://dbpedia.org/ontology/birthPlace> _:city_Bearsden .
+_:laureate_928 <http://dbpedia.org/ontology/birthPlace> _:country_United_Kingdom .
+_:laureate_928 <http://dbpedia.org/property/dateOfBirth> "1934-09-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> .
+_:laureate_928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:laureate_928 <http://www.w3.org/2000/01/rdf-schema#label> "David J. Thouless" .
+_:laureate_928 <http://xmlns.com/foaf/0.1/birthday> "1934-09-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_928 <http://xmlns.com/foaf/0.1/familyName> "Thouless" .
+_:laureate_928 <http://xmlns.com/foaf/0.1/gender> "male" .
+_:laureate_928 <http://xmlns.com/foaf/0.1/givenName> "David J." .
+_:laureate_928 <http://xmlns.com/foaf/0.1/name> "David J. Thouless" .
+_:laureate_929 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureateAward> _:laureateaward_1001 .
+_:laureate_929 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Physics/2016> .
+_:laureate_929 <http://dbpedia.org/ontology/affiliation> _:university_Princeton_University .
+_:laureate_929 <http://dbpedia.org/ontology/birthPlace> _:city_London .
+_:laureate_929 <http://dbpedia.org/ontology/birthPlace> _:country_United_Kingdom .
+_:laureate_929 <http://dbpedia.org/property/dateOfBirth> "1951-09-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> .
+_:laureate_929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:laureate_929 <http://www.w3.org/2000/01/rdf-schema#label> "F. Duncan M. Haldane" .
+_:laureate_929 <http://xmlns.com/foaf/0.1/birthday> "1951-09-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_929 <http://xmlns.com/foaf/0.1/familyName> "Haldane" .
+_:laureate_929 <http://xmlns.com/foaf/0.1/gender> "male" .
+_:laureate_929 <http://xmlns.com/foaf/0.1/givenName> "F. Duncan M." .
+_:laureate_929 <http://xmlns.com/foaf/0.1/name> "F. Duncan M. Haldane" .
+_:laureate_930 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureateAward> _:laureateaward_1002 .
+_:laureate_930 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Physics/2016> .
+_:laureate_930 <http://dbpedia.org/ontology/affiliation> _:university_Brown_University .
+_:laureate_930 <http://dbpedia.org/ontology/birthPlace> _:city_Aberdeen .
+_:laureate_930 <http://dbpedia.org/ontology/birthPlace> _:country_United_Kingdom .
+_:laureate_930 <http://dbpedia.org/property/dateOfBirth> "1943-06-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> .
+_:laureate_930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:laureate_930 <http://www.w3.org/2000/01/rdf-schema#label> "J. Michael Kosterlitz" .
+_:laureate_930 <http://xmlns.com/foaf/0.1/birthday> "1943-06-22"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_930 <http://xmlns.com/foaf/0.1/familyName> "Kosterlitz" .
+_:laureate_930 <http://xmlns.com/foaf/0.1/gender> "male" .
+_:laureate_930 <http://xmlns.com/foaf/0.1/givenName> "J. Michael" .
+_:laureate_930 <http://xmlns.com/foaf/0.1/name> "J. Michael Kosterlitz" .
+_:laureate_931 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureateAward> _:laureateaward_1003 .
+_:laureate_931 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> .
+_:laureate_931 <http://dbpedia.org/ontology/affiliation> _:university_University_of_Strasbourg .
+_:laureate_931 <http://dbpedia.org/ontology/birthPlace> _:city_Paris .
+_:laureate_931 <http://dbpedia.org/ontology/birthPlace> _:country_France .
+_:laureate_931 <http://dbpedia.org/property/dateOfBirth> "1944-10-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_931 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> .
+_:laureate_931 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:laureate_931 <http://www.w3.org/2000/01/rdf-schema#label> "Jean-Pierre Sauvage" .
+_:laureate_931 <http://xmlns.com/foaf/0.1/birthday> "1944-10-21"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_931 <http://xmlns.com/foaf/0.1/familyName> "Sauvage" .
+_:laureate_931 <http://xmlns.com/foaf/0.1/gender> "male" .
+_:laureate_931 <http://xmlns.com/foaf/0.1/givenName> "Jean-Pierre" .
+_:laureate_931 <http://xmlns.com/foaf/0.1/name> "Jean-Pierre Sauvage" .
+_:laureate_932 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureateAward> _:laureateaward_1004 .
+_:laureate_932 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> .
+_:laureate_932 <http://dbpedia.org/ontology/affiliation> _:university_Northwestern_University .
+_:laureate_932 <http://dbpedia.org/ontology/birthPlace> _:city_Edinburgh .
+_:laureate_932 <http://dbpedia.org/ontology/birthPlace> _:country_United_Kingdom .
+_:laureate_932 <http://dbpedia.org/property/dateOfBirth> "1942-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> .
+_:laureate_932 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:laureate_932 <http://www.w3.org/2000/01/rdf-schema#label> "Sir J. Fraser Stoddart" .
+_:laureate_932 <http://xmlns.com/foaf/0.1/birthday> "1942-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_932 <http://xmlns.com/foaf/0.1/familyName> "Stoddart" .
+_:laureate_932 <http://xmlns.com/foaf/0.1/gender> "male" .
+_:laureate_932 <http://xmlns.com/foaf/0.1/givenName> "Sir J. Fraser" .
+_:laureate_932 <http://xmlns.com/foaf/0.1/name> "Sir J. Fraser Stoddart" .
+_:laureate_933 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureateAward> _:laureateaward_1005 .
+_:laureate_933 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> .
+_:laureate_933 <http://dbpedia.org/ontology/affiliation> _:university_University_of_Groningen .
+_:laureate_933 <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city/Barger-Compascuum> .
+_:laureate_933 <http://dbpedia.org/ontology/birthPlace> _:country_the_Netherlands .
+_:laureate_933 <http://dbpedia.org/property/dateOfBirth> "1951-05-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> .
+_:laureate_933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:laureate_933 <http://www.w3.org/2000/01/rdf-schema#label> "Bernard L. Feringa" .
+_:laureate_933 <http://xmlns.com/foaf/0.1/birthday> "1951-05-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_933 <http://xmlns.com/foaf/0.1/familyName> "Feringa" .
+_:laureate_933 <http://xmlns.com/foaf/0.1/gender> "male" .
+_:laureate_933 <http://xmlns.com/foaf/0.1/givenName> "Bernard L." .
+_:laureate_933 <http://xmlns.com/foaf/0.1/name> "Bernard L. Feringa" .
+_:laureate_934 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureateAward> _:laureateaward_1006 .
+_:laureate_934 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Peace/2016> .
+_:laureate_934 <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city/Bogot%C3%A1> .
+_:laureate_934 <http://dbpedia.org/ontology/birthPlace> _:country_Colombia .
+_:laureate_934 <http://dbpedia.org/property/dateOfBirth> "1951-08-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> .
+_:laureate_934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:laureate_934 <http://www.w3.org/2000/01/rdf-schema#label> "Juan Manuel Santos" .
+_:laureate_934 <http://xmlns.com/foaf/0.1/birthday> "1951-08-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_934 <http://xmlns.com/foaf/0.1/familyName> "Santos" .
+_:laureate_934 <http://xmlns.com/foaf/0.1/gender> "male" .
+_:laureate_934 <http://xmlns.com/foaf/0.1/givenName> "Juan Manuel" .
+_:laureate_934 <http://xmlns.com/foaf/0.1/name> "Juan Manuel Santos" .
+_:laureate_935 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureateAward> _:laureateaward_1007 .
+_:laureate_935 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> .
+_:laureate_935 <http://dbpedia.org/ontology/affiliation> _:university_Harvard_University .
+_:laureate_935 <http://dbpedia.org/ontology/birthPlace> _:city_London .
+_:laureate_935 <http://dbpedia.org/ontology/birthPlace> _:country_United_Kingdom .
+_:laureate_935 <http://dbpedia.org/property/dateOfBirth> "1948-10-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_935 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> .
+_:laureate_935 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:laureate_935 <http://www.w3.org/2000/01/rdf-schema#label> "Oliver Hart" .
+_:laureate_935 <http://xmlns.com/foaf/0.1/birthday> "1948-10-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_935 <http://xmlns.com/foaf/0.1/familyName> "Hart" .
+_:laureate_935 <http://xmlns.com/foaf/0.1/gender> "male" .
+_:laureate_935 <http://xmlns.com/foaf/0.1/givenName> "Oliver" .
+_:laureate_935 <http://xmlns.com/foaf/0.1/name> "Oliver Hart" .
+_:laureate_936 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureateAward> _:laureateaward_1008 .
+_:laureate_936 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> .
+_:laureate_936 <http://dbpedia.org/ontology/affiliation> <http://data.nobelprize.org/resource/university/Massachusetts_Institute_of_Technology_%28MIT%29> .
+_:laureate_936 <http://dbpedia.org/ontology/birthPlace> _:city_Helsinki .
+_:laureate_936 <http://dbpedia.org/ontology/birthPlace> _:country_Finland .
+_:laureate_936 <http://dbpedia.org/property/dateOfBirth> "1949-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> .
+_:laureate_936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:laureate_936 <http://www.w3.org/2000/01/rdf-schema#label> "Bengt Holmstr\u00F6m" .
+_:laureate_936 <http://xmlns.com/foaf/0.1/birthday> "1949-04-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_936 <http://xmlns.com/foaf/0.1/familyName> "Holmstr\u00F6m" .
+_:laureate_936 <http://xmlns.com/foaf/0.1/gender> "male" .
+_:laureate_936 <http://xmlns.com/foaf/0.1/givenName> "Bengt" .
+_:laureate_936 <http://xmlns.com/foaf/0.1/name> "Bengt Holmstr\u00F6m" .
+_:laureate_937 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureateAward> _:laureateaward_1009 .
+_:laureate_937 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/nobelPrize> <http://data.nobelprize.org/resource/nobelprize/Literature/2016> .
+_:laureate_937 <http://dbpedia.org/ontology/birthPlace> <http://data.nobelprize.org/resource/city/Duluth%2C_MN> .
+_:laureate_937 <http://dbpedia.org/ontology/birthPlace> _:country_USA .
+_:laureate_937 <http://dbpedia.org/property/dateOfBirth> "1941-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> .
+_:laureate_937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:laureate_937 <http://www.w3.org/2000/01/rdf-schema#label> "Bob Dylan" .
+_:laureate_937 <http://xmlns.com/foaf/0.1/birthday> "1941-05-24"^^<http://www.w3.org/2001/XMLSchema#date> .
+_:laureate_937 <http://xmlns.com/foaf/0.1/familyName> "Dylan" .
+_:laureate_937 <http://xmlns.com/foaf/0.1/gender> "male" .
+_:laureate_937 <http://xmlns.com/foaf/0.1/givenName> "Bob" .
+_:laureate_937 <http://xmlns.com/foaf/0.1/name> "Bob Dylan" .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5508 .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5554 .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5558 .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5581 .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5588 .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5700 .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_928 .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for theoretical discoveries of topological phase transitions and topological phases of matter\""@en .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"f\u00F6r teoretiska uppt\u00E4ckter av topologiska fas\u00F6verg\u00E5ngar och topologiska materiefaser\""@sv .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/share> "2" .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/university> _:university_University_of_Washington .
+_:laureateaward_1000 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:laureateaward_1000 <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize/Physics/2016> .
+_:laureateaward_1000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> .
+_:laureateaward_1000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+_:laureateaward_1000 <http://www.w3.org/2000/01/rdf-schema#label> "Physics 2016, David J. Thouless" .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5507 .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5511 .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5513 .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5536 .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5556 .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5566 .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5579 .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5701 .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_929 .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for theoretical discoveries of topological phase transitions and topological phases of matter\""@en .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"f\u00F6r teoretiska uppt\u00E4ckter av topologiska fas\u00F6verg\u00E5ngar och topologiska materiefaser\""@sv .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/share> "4" .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/university> _:university_Princeton_University .
+_:laureateaward_1001 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:laureateaward_1001 <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize/Physics/2016> .
+_:laureateaward_1001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> .
+_:laureateaward_1001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+_:laureateaward_1001 <http://www.w3.org/2000/01/rdf-schema#label> "Physics 2016, F. Duncan M. Haldane" .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5509 .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5510 .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5512 .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5537 .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5557 .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5580 .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5702 .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_930 .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for theoretical discoveries of topological phase transitions and topological phases of matter\""@en .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"f\u00F6r teoretiska uppt\u00E4ckter av topologiska fas\u00F6verg\u00E5ngar och topologiska materiefaser\""@sv .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/share> "4" .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/university> _:university_Brown_University .
+_:laureateaward_1002 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:laureateaward_1002 <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize/Physics/2016> .
+_:laureateaward_1002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> .
+_:laureateaward_1002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+_:laureateaward_1002 <http://www.w3.org/2000/01/rdf-schema#label> "Physics 2016, J. Michael Kosterlitz" .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5514 .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5520 .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5534 .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5560 .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5584 .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5596 .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5706 .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_931 .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for the design and synthesis of molecular machines\""@en .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"f\u00F6r design och syntes av molekyl\u00E4ra maskiner\""@sv .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/share> "3" .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/university> _:university_University_of_Strasbourg .
+_:laureateaward_1003 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:laureateaward_1003 <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> .
+_:laureateaward_1003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> .
+_:laureateaward_1003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+_:laureateaward_1003 <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry 2016, Jean-Pierre Sauvage" .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5515 .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5518 .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5519 .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5535 .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5561 .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5567 .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5583 .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5707 .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_932 .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for the design and synthesis of molecular machines\""@en .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"f\u00F6r design och syntes av molekyl\u00E4ra maskiner\""@sv .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/share> "3" .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/university> _:university_Northwestern_University .
+_:laureateaward_1004 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:laureateaward_1004 <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> .
+_:laureateaward_1004 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> .
+_:laureateaward_1004 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+_:laureateaward_1004 <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry 2016, Sir J. Fraser Stoddart" .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5516 .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5517 .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5521 .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5533 .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5559 .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5582 .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5705 .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_933 .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for the design and synthesis of molecular machines\""@en .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"f\u00F6r design och syntes av molekyl\u00E4ra maskiner\""@sv .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/share> "3" .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/university> _:university_University_of_Groningen .
+_:laureateaward_1005 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:laureateaward_1005 <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> .
+_:laureateaward_1005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> .
+_:laureateaward_1005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+_:laureateaward_1005 <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry 2016, Bernard L. Feringa" .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5522 .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5523 .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5524 .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5541 .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5555 .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5587 .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5709 .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_934 .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for hans iherdige innsats for \u00E5 bringe den mer enn 50 \u00E5r lange borgerkrigen i landet til opph\u00F8r\""@sv .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for his resolute efforts to bring the country's more than 50-year-long civil war to an end\""@en .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/share> "1" .
+_:laureateaward_1006 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:laureateaward_1006 <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize/Peace/2016> .
+_:laureateaward_1006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> .
+_:laureateaward_1006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+_:laureateaward_1006 <http://www.w3.org/2000/01/rdf-schema#label> "Peace 2016, Juan Manuel Santos" .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5525 .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5527 .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5530 .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5539 .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5563 .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5570 .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5585 .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5703 .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_935 .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for their contributions to contract theory\""@en .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"f\u00F6r deras bidrag till kontraktsteorin\""@sv .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/share> "2" .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/university> _:university_Harvard_University .
+_:laureateaward_1007 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:laureateaward_1007 <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> .
+_:laureateaward_1007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> .
+_:laureateaward_1007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+_:laureateaward_1007 <http://www.w3.org/2000/01/rdf-schema#label> "Economic Sciences 2016, Oliver Hart" .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5526 .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5528 .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5529 .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5540 .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5564 .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5586 .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5704 .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_936 .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for their contributions to contract theory\""@en .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"f\u00F6r deras bidrag till kontraktsteorin\""@sv .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/share> "2" .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/university> <http://data.nobelprize.org/resource/university/Massachusetts_Institute_of_Technology_%28MIT%29> .
+_:laureateaward_1008 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:laureateaward_1008 <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> .
+_:laureateaward_1008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> .
+_:laureateaward_1008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+_:laureateaward_1008 <http://www.w3.org/2000/01/rdf-schema#label> "Economic Sciences 2016, Bengt Holmstr\u00F6m" .
+_:laureateaward_1009 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5531 .
+_:laureateaward_1009 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5532 .
+_:laureateaward_1009 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5565 .
+_:laureateaward_1009 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5569 .
+_:laureateaward_1009 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5611 .
+_:laureateaward_1009 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5710 .
+_:laureateaward_1009 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:laureateaward_1009 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_937 .
+_:laureateaward_1009 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for having created new poetic expressions within the great American song tradition\""@en .
+_:laureateaward_1009 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/share> "1" .
+_:laureateaward_1009 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:laureateaward_1009 <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize/Literature/2016> .
+_:laureateaward_1009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> .
+_:laureateaward_1009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+_:laureateaward_1009 <http://www.w3.org/2000/01/rdf-schema#label> "Literature 2016, Bob Dylan" .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5504 .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5505 .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5506 .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5542 .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5562 .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5568 .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5578 .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/awardFile> _:awardfile_5708 .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_927 .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"for his discoveries of mechanisms for autophagy\""@en .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/motivation> "\"f\u00F6r hans uppt\u00E4ckter av mekanismer f\u00F6r autofagi\""@sv .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/share> "1" .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/university> _:university_Tokyo_Institute_of_Technology .
+_:laureateaward_999 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:laureateaward_999 <http://purl.org/dc/terms/isPartOf> <http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> .
+_:laureateaward_999 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> .
+_:laureateaward_999 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+_:laureateaward_999 <http://www.w3.org/2000/01/rdf-schema#label> "Physiology or Medicine 2016, Yoshinori Ohsumi" .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_931 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_932 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_933 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1584 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1591 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1592 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1593 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1602 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1608 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <http://purl.org/dc/terms/hasPart> _:laureateaward_1003 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <http://purl.org/dc/terms/hasPart> _:laureateaward_1004 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <http://purl.org/dc/terms/hasPart> _:laureateaward_1005 .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/NobelPrize> .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+<http://data.nobelprize.org/resource/nobelprize/Chemistry/2016> <http://www.w3.org/2000/01/rdf-schema#label> "Chemistry 2016" .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_935 .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_936 .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1580 .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1595 .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1596 .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1597 .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1605 .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1609 .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <http://purl.org/dc/terms/hasPart> _:laureateaward_1007 .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <http://purl.org/dc/terms/hasPart> _:laureateaward_1008 .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/NobelPrize> .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+<http://data.nobelprize.org/resource/nobelprize/Economic_Sciences/2016> <http://www.w3.org/2000/01/rdf-schema#label> "Economic Sciences 2016" .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_937 .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1582 .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1598 .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1599 .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1604 .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1610 .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <http://purl.org/dc/terms/hasPart> _:laureateaward_1009 .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/NobelPrize> .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+<http://data.nobelprize.org/resource/nobelprize/Literature/2016> <http://www.w3.org/2000/01/rdf-schema#label> "Literature 2016" .
+<http://data.nobelprize.org/resource/nobelprize/Peace/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+<http://data.nobelprize.org/resource/nobelprize/Peace/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_934 .
+<http://data.nobelprize.org/resource/nobelprize/Peace/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1581 .
+<http://data.nobelprize.org/resource/nobelprize/Peace/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1594 .
+<http://data.nobelprize.org/resource/nobelprize/Peace/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1600 .
+<http://data.nobelprize.org/resource/nobelprize/Peace/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1611 .
+<http://data.nobelprize.org/resource/nobelprize/Peace/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.nobelprize.org/resource/nobelprize/Peace/2016> <http://purl.org/dc/terms/hasPart> _:laureateaward_1006 .
+<http://data.nobelprize.org/resource/nobelprize/Peace/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/NobelPrize> .
+<http://data.nobelprize.org/resource/nobelprize/Peace/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+<http://data.nobelprize.org/resource/nobelprize/Peace/2016> <http://www.w3.org/2000/01/rdf-schema#label> "Peace 2016" .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_928 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_929 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_930 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1585 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1588 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1589 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1590 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1601 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1606 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <http://purl.org/dc/terms/hasPart> _:laureateaward_1000 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <http://purl.org/dc/terms/hasPart> _:laureateaward_1001 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <http://purl.org/dc/terms/hasPart> _:laureateaward_1002 .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/NobelPrize> .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+<http://data.nobelprize.org/resource/nobelprize/Physics/2016> <http://www.w3.org/2000/01/rdf-schema#label> "Physics 2016" .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/laureate> _:laureate_927 .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1583 .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1586 .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1587 .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1603 .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1607 .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/prizeFile> _:prizefile_1612 .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <http://purl.org/dc/terms/hasPart> _:laureateaward_999 .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/NobelPrize> .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award> .
+<http://data.nobelprize.org/resource/nobelprize/Physiology_or_Medicine/2016> <http://www.w3.org/2000/01/rdf-schema#label> "Physiology or Medicine 2016" .
+_:prizefile_1580 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:prizefile_1580 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Announcement .
+_:prizefile_1580 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1580 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1580 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Bengt Holmstr\u00F6m" .
+_:prizefile_1580 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Oliver Hart" .
+_:prizefile_1580 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/announcement.html> .
+_:prizefile_1581 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:prizefile_1581 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Announcement .
+_:prizefile_1581 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1581 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1581 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Juan Manuel Santos" .
+_:prizefile_1581 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2016/announcement.html> .
+_:prizefile_1582 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:prizefile_1582 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Announcement .
+_:prizefile_1582 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1582 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1582 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Bob Dylan" .
+_:prizefile_1582 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2016/announcement.html> .
+_:prizefile_1583 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:prizefile_1583 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Announcement .
+_:prizefile_1583 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1583 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1583 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Yoshinori Ohsumi" .
+_:prizefile_1583 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/announcement.html> .
+_:prizefile_1584 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:prizefile_1584 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Announcement .
+_:prizefile_1584 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1584 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1584 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Bernard L. Feringa" .
+_:prizefile_1584 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Jean-Pierre Sauvage" .
+_:prizefile_1584 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement Sir J. Fraser Stoddart" .
+_:prizefile_1584 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/announcement.html> .
+_:prizefile_1585 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:prizefile_1585 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Prize_Announcement .
+_:prizefile_1585 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1585 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1585 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement David J. Thouless" .
+_:prizefile_1585 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement F. Duncan M. Haldane" .
+_:prizefile_1585 <http://www.w3.org/2000/01/rdf-schema#label> "Prize Announcement J. Michael Kosterlitz" .
+_:prizefile_1585 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/announcement.html> .
+_:prizefile_1586 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:prizefile_1586 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Advanced_Information .
+_:prizefile_1586 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1586 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1586 <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information Yoshinori Ohsumi" .
+_:prizefile_1586 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/advanced.html> .
+_:prizefile_1587 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:prizefile_1587 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Press_Release .
+_:prizefile_1587 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1587 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1587 <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Yoshinori Ohsumi" .
+_:prizefile_1587 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/press.html> .
+_:prizefile_1588 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:prizefile_1588 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Press_Release .
+_:prizefile_1588 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1588 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1588 <http://www.w3.org/2000/01/rdf-schema#label> "Press Release David J. Thouless" .
+_:prizefile_1588 <http://www.w3.org/2000/01/rdf-schema#label> "Press Release F. Duncan M. Haldane" .
+_:prizefile_1588 <http://www.w3.org/2000/01/rdf-schema#label> "Press Release J. Michael Kosterlitz" .
+_:prizefile_1588 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/press.html> .
+_:prizefile_1589 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:prizefile_1589 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Advanced_Information .
+_:prizefile_1589 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1589 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1589 <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information David J. Thouless" .
+_:prizefile_1589 <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information F. Duncan M. Haldane" .
+_:prizefile_1589 <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information J. Michael Kosterlitz" .
+_:prizefile_1589 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/advanced.html> .
+_:prizefile_1590 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:prizefile_1590 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Popular_Information .
+_:prizefile_1590 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1590 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1590 <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information David J. Thouless" .
+_:prizefile_1590 <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information F. Duncan M. Haldane" .
+_:prizefile_1590 <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information J. Michael Kosterlitz" .
+_:prizefile_1590 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/popular.html> .
+_:prizefile_1591 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:prizefile_1591 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Advanced_Information .
+_:prizefile_1591 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1591 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1591 <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information Bernard L. Feringa" .
+_:prizefile_1591 <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information Jean-Pierre Sauvage" .
+_:prizefile_1591 <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information Sir J. Fraser Stoddart" .
+_:prizefile_1591 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/advanced.html> .
+_:prizefile_1592 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:prizefile_1592 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Popular_Information .
+_:prizefile_1592 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1592 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1592 <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information Bernard L. Feringa" .
+_:prizefile_1592 <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information Jean-Pierre Sauvage" .
+_:prizefile_1592 <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information Sir J. Fraser Stoddart" .
+_:prizefile_1592 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/popular.html> .
+_:prizefile_1593 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:prizefile_1593 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Press_Release .
+_:prizefile_1593 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1593 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1593 <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Bernard L. Feringa" .
+_:prizefile_1593 <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Jean-Pierre Sauvage" .
+_:prizefile_1593 <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Sir J. Fraser Stoddart" .
+_:prizefile_1593 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/press.html> .
+_:prizefile_1594 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:prizefile_1594 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Press_Release .
+_:prizefile_1594 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1594 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1594 <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Juan Manuel Santos" .
+_:prizefile_1594 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2016/press.html> .
+_:prizefile_1595 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:prizefile_1595 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Press_Release .
+_:prizefile_1595 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1595 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1595 <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Bengt Holmstr\u00F6m" .
+_:prizefile_1595 <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Oliver Hart" .
+_:prizefile_1595 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/press.html> .
+_:prizefile_1596 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:prizefile_1596 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Advanced_Information .
+_:prizefile_1596 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1596 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1596 <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information Bengt Holmstr\u00F6m" .
+_:prizefile_1596 <http://www.w3.org/2000/01/rdf-schema#label> "Advanced Information Oliver Hart" .
+_:prizefile_1596 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/advanced.html> .
+_:prizefile_1597 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:prizefile_1597 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Popular_Information .
+_:prizefile_1597 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1597 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1597 <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information Bengt Holmstr\u00F6m" .
+_:prizefile_1597 <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information Oliver Hart" .
+_:prizefile_1597 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/popular.html> .
+_:prizefile_1598 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:prizefile_1598 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Press_Release .
+_:prizefile_1598 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1598 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1598 <http://www.w3.org/2000/01/rdf-schema#label> "Press Release Bob Dylan" .
+_:prizefile_1598 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2016/press.html> .
+_:prizefile_1599 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:prizefile_1599 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> <http://data.nobelprize.org/resource/filetype/Bio-bibliography> .
+_:prizefile_1599 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1599 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1599 <http://www.w3.org/2000/01/rdf-schema#label> "Bio-bibliography Bob Dylan" .
+_:prizefile_1599 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2016/bio-bibl.html> .
+_:prizefile_1600 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:prizefile_1600 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Speech .
+_:prizefile_1600 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1600 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1600 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Juan Manuel Santos" .
+_:prizefile_1600 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2016/presentation-speech.html> .
+_:prizefile_1601 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:prizefile_1601 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Speech .
+_:prizefile_1601 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1601 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1601 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech David J. Thouless" .
+_:prizefile_1601 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech F. Duncan M. Haldane" .
+_:prizefile_1601 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech J. Michael Kosterlitz" .
+_:prizefile_1601 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/presentation-speech.html> .
+_:prizefile_1602 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:prizefile_1602 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Speech .
+_:prizefile_1602 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1602 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1602 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Bernard L. Feringa" .
+_:prizefile_1602 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Jean-Pierre Sauvage" .
+_:prizefile_1602 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Sir J. Fraser Stoddart" .
+_:prizefile_1602 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/presentation-speech.html> .
+_:prizefile_1603 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:prizefile_1603 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Speech .
+_:prizefile_1603 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1603 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1603 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Yoshinori Ohsumi" .
+_:prizefile_1603 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/presentation-speech.html> .
+_:prizefile_1604 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:prizefile_1604 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Speech .
+_:prizefile_1604 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1604 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1604 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Bob Dylan" .
+_:prizefile_1604 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2016/presentation-speech.html> .
+_:prizefile_1605 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:prizefile_1605 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Speech .
+_:prizefile_1605 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1605 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1605 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Bengt Holmstr\u00F6m" .
+_:prizefile_1605 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Speech Oliver Hart" .
+_:prizefile_1605 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/presentation-speech.html> .
+_:prizefile_1606 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physics .
+_:prizefile_1606 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Video .
+_:prizefile_1606 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1606 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1606 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video David J. Thouless" .
+_:prizefile_1606 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video F. Duncan M. Haldane" .
+_:prizefile_1606 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video J. Michael Kosterlitz" .
+_:prizefile_1606 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/physics/laureates/2016/award-video.html> .
+_:prizefile_1607 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:prizefile_1607 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Video .
+_:prizefile_1607 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1607 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1607 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Yoshinori Ohsumi" .
+_:prizefile_1607 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/award-video.html> .
+_:prizefile_1608 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Chemistry .
+_:prizefile_1608 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Video .
+_:prizefile_1608 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1608 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1608 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Bernard L. Feringa" .
+_:prizefile_1608 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Jean-Pierre Sauvage" .
+_:prizefile_1608 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Sir J. Fraser Stoddart" .
+_:prizefile_1608 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/chemistry/laureates/2016/award-video.html> .
+_:prizefile_1609 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Economic_Sciences .
+_:prizefile_1609 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Video .
+_:prizefile_1609 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1609 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1609 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Bengt Holmstr\u00F6m" .
+_:prizefile_1609 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Oliver Hart" .
+_:prizefile_1609 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/economic-sciences/laureates/2016/award-video.html> .
+_:prizefile_1610 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Literature .
+_:prizefile_1610 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Video .
+_:prizefile_1610 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1610 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1610 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Bob Dylan" .
+_:prizefile_1610 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/literature/laureates/2016/award-video.html> .
+_:prizefile_1611 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Peace .
+_:prizefile_1611 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Award_Ceremony_Video .
+_:prizefile_1611 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1611 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1611 <http://www.w3.org/2000/01/rdf-schema#label> "Award Ceremony Video Juan Manuel Santos" .
+_:prizefile_1611 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/peace/laureates/2016/award-video.html> .
+_:prizefile_1612 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/category> _:category_Physiology_or_Medicine .
+_:prizefile_1612 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/fileType> _:filetype_Popular_Information .
+_:prizefile_1612 <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:prizefile_1612 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> .
+_:prizefile_1612 <http://www.w3.org/2000/01/rdf-schema#label> "Popular Information Yoshinori Ohsumi" .
+_:prizefile_1612 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://nobelprize.org/nobel_prizes/medicine/laureates/2016/popular.html> .
+_:university_Brown_University <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/Providence%2C_RI> .
+_:university_Brown_University <http://dbpedia.org/ontology/country> _:country_USA .
+_:university_Brown_University <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University> .
+_:university_Brown_University <http://www.w3.org/2000/01/rdf-schema#label> "Brown University" .
+_:university_Harvard_University <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/Boston%2C_MA> .
+_:university_Harvard_University <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/Cambridge%2C_MA> .
+_:university_Harvard_University <http://dbpedia.org/ontology/country> _:country_USA .
+_:university_Harvard_University <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University> .
+_:university_Harvard_University <http://www.w3.org/2000/01/rdf-schema#label> "Harvard University" .
+<http://data.nobelprize.org/resource/university/Massachusetts_Institute_of_Technology_%28MIT%29> <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/Cambridge%2C_MA> .
+<http://data.nobelprize.org/resource/university/Massachusetts_Institute_of_Technology_%28MIT%29> <http://dbpedia.org/ontology/country> _:country_USA .
+<http://data.nobelprize.org/resource/university/Massachusetts_Institute_of_Technology_%28MIT%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University> .
+<http://data.nobelprize.org/resource/university/Massachusetts_Institute_of_Technology_%28MIT%29> <http://www.w3.org/2000/01/rdf-schema#label> "Massachusetts Institute of Technology (MIT)" .
+_:university_Northwestern_University <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/Evanston%2C_IL> .
+_:university_Northwestern_University <http://dbpedia.org/ontology/country> _:country_USA .
+_:university_Northwestern_University <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University> .
+_:university_Northwestern_University <http://www.w3.org/2000/01/rdf-schema#label> "Northwestern University" .
+_:university_Princeton_University <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/New_Jersey%2C_NJ> .
+_:university_Princeton_University <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/Princeton%2C_NJ> .
+_:university_Princeton_University <http://dbpedia.org/ontology/country> _:country_USA .
+_:university_Princeton_University <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University> .
+_:university_Princeton_University <http://www.w3.org/2000/01/rdf-schema#label> "Princeton University" .
+_:university_Tokyo_Institute_of_Technology <http://dbpedia.org/ontology/city> _:city_Tokyo .
+_:university_Tokyo_Institute_of_Technology <http://dbpedia.org/ontology/country> _:country_Japan .
+_:university_Tokyo_Institute_of_Technology <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University> .
+_:university_Tokyo_Institute_of_Technology <http://www.w3.org/2000/01/rdf-schema#label> "Tokyo Institute of Technology" .
+_:university_University_of_Groningen <http://dbpedia.org/ontology/city> _:city_Groningen .
+_:university_University_of_Groningen <http://dbpedia.org/ontology/country> _:country_the_Netherlands .
+_:university_University_of_Groningen <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University> .
+_:university_University_of_Groningen <http://www.w3.org/2000/01/rdf-schema#label> "University of Groningen" .
+_:university_University_of_Strasbourg <http://dbpedia.org/ontology/city> _:city_Strasbourg .
+_:university_University_of_Strasbourg <http://dbpedia.org/ontology/country> _:country_France .
+_:university_University_of_Strasbourg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University> .
+_:university_University_of_Strasbourg <http://www.w3.org/2000/01/rdf-schema#label> "University of Strasbourg" .
+_:university_University_of_Washington <http://dbpedia.org/ontology/city> <http://data.nobelprize.org/resource/city/Seattle%2C_WA> .
+_:university_University_of_Washington <http://dbpedia.org/ontology/country> _:country_USA .
+_:university_University_of_Washington <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University> .
+_:university_University_of_Washington <http://www.w3.org/2000/01/rdf-schema#label> "University of Washington" .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/AwardFile> <http://www.w3.org/2000/01/rdf-schema#label> "AwardFile" .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Category> <http://www.w3.org/2000/01/rdf-schema#label> "Category" .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/FileType> <http://www.w3.org/2000/01/rdf-schema#label> "Filetype" .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/Laureate> <http://www.w3.org/2000/01/rdf-schema#label> "Laureate" .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/LaureateAward> <http://www.w3.org/2000/01/rdf-schema#label> "LaureateAward" .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/NobelPrize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/NobelPrize> <http://www.w3.org/2000/01/rdf-schema#label> "NobelPrize" .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///Users/tony/Projects/github/tonyhammond/ex_graphs_book/apps/graph_commons/priv/storage/rdf/graphs/PrizeFile> <http://www.w3.org/2000/01/rdf-schema#label> "Prize file" .
+<http://dbpedia.org/ontology/Award> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://dbpedia.org/ontology/Award> <http://www.w3.org/2000/01/rdf-schema#label> "LaureateAward" .
+<http://dbpedia.org/ontology/Award> <http://www.w3.org/2000/01/rdf-schema#label> "NobelPrize" .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://dbpedia.org/ontology/City> <http://www.w3.org/2000/01/rdf-schema#label> "City" .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country" .
+<http://dbpedia.org/ontology/University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://dbpedia.org/ontology/University> <http://www.w3.org/2000/01/rdf-schema#label> "University" .

@@ -1,0 +1,3 @@
+@prefix ex: <https://example/> .
+
+ex:a ex:EX ex:b .

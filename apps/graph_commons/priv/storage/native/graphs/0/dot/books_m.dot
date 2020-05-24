@@ -1,0 +1,11 @@
+strict digraph {
+    "Book"
+    "[\"Author\", \"3\"]"
+    "[\"Author\", \"1\"]"
+    "[\"Author\", \"2\"]"
+    "Publisher"
+    "Book" -> "[\"Author\", \"3\"]" [label="AUTHORED_BY"; weight=1]
+    "Book" -> "[\"Author\", \"1\"]" [label="AUTHORED_BY"; weight=1]
+    "Book" -> "[\"Author\", \"2\"]" [label="AUTHORED_BY"; weight=1]
+    "Book" -> "Publisher" [label="PUBLISHED_BY"; weight=1]
+}

@@ -1,0 +1,37 @@
+strict graph {
+    "'Albizzi'"
+    "'Peruzzi'"
+    "'Medici'"
+    "'Tornabuoni'"
+    "'Ginori'"
+    "'Ridolfi'"
+    "'Guadagni'"
+    "'Bischeri'"
+    "'Pazzi'"
+    "'Barbadori'"
+    "'Strozzi'"
+    "'Lamberteschi'"
+    "'Salviati'"
+    "'Acciaiuoli'"
+    "'Castellani'"
+    "'Albizzi'" -- "'Medici'" [weight=1]
+    "'Albizzi'" -- "'Ginori'" [weight=1]
+    "'Albizzi'" -- "'Guadagni'" [weight=1]
+    "'Peruzzi'" -- "'Strozzi'" [weight=1]
+    "'Medici'" -- "'Tornabuoni'" [weight=1]
+    "'Medici'" -- "'Ridolfi'" [weight=1]
+    "'Medici'" -- "'Salviati'" [weight=1]
+    "'Ridolfi'" -- "'Tornabuoni'" [weight=1]
+    "'Ridolfi'" -- "'Strozzi'" [weight=1]
+    "'Guadagni'" -- "'Tornabuoni'" [weight=1]
+    "'Guadagni'" -- "'Lamberteschi'" [weight=1]
+    "'Bischeri'" -- "'Peruzzi'" [weight=1]
+    "'Bischeri'" -- "'Guadagni'" [weight=1]
+    "'Bischeri'" -- "'Strozzi'" [weight=1]
+    "'Pazzi'" -- "'Salviati'" [weight=1]
+    "'Barbadori'" -- "'Medici'" [weight=1]
+    "'Barbadori'" -- "'Castellani'" [weight=1]
+    "'Acciaiuoli'" -- "'Medici'" [weight=1]
+    "'Castellani'" -- "'Peruzzi'" [weight=1]
+    "'Castellani'" -- "'Strozzi'" [weight=1]
+}

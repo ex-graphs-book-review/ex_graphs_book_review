@@ -1,0 +1,11 @@
+{
+  q(func: has(iri)) {
+  AUTHORED_BY {
+    uid
+    expand(_all_)
+  },
+  PUBLISHED_BY {
+    uid
+    expand(_all_)
+  }
+}

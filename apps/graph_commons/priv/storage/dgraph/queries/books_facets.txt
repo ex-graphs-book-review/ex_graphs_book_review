@@ -1,0 +1,10 @@
+{
+  q(func: has(title)) {
+    uid
+    title
+    AUTHORED_BY @facets(eq(role, "second author")) {
+      uid
+      name
+    }
+  }
+}

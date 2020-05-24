@@ -1,0 +1,57 @@
+strict digraph {
+    1
+    5
+    9
+    10
+    3
+    7
+    11
+    4
+    8
+    2
+    12
+    0
+    6
+    1 -> 5 [label=""; weight=1]
+    1 -> 3 [label=""; weight=1]
+    1 -> 4 [label=""; weight=1]
+    1 -> 2 [label=""; weight=1]
+    1 -> 6 [label=""; weight=1]
+    5 -> 6 [label=""; weight=1]
+    9 -> 10 [label=""; weight=1]
+    9 -> 11 [label=""; weight=1]
+    9 -> 12 [label=""; weight=1]
+    10 -> 11 [label=""; weight=1]
+    10 -> 12 [label=""; weight=1]
+    3 -> 5 [label=""; weight=1]
+    3 -> 4 [label=""; weight=1]
+    3 -> 6 [label=""; weight=1]
+    7 -> 9 [label=""; weight=1]
+    7 -> 10 [label=""; weight=1]
+    7 -> 11 [label=""; weight=1]
+    7 -> 8 [label=""; weight=1]
+    7 -> 12 [label=""; weight=1]
+    11 -> 12 [label=""; weight=1]
+    4 -> 5 [label=""; weight=1]
+    4 -> 6 [label=""; weight=1]
+    8 -> 9 [label=""; weight=1]
+    8 -> 10 [label=""; weight=1]
+    8 -> 11 [label=""; weight=1]
+    8 -> 12 [label=""; weight=1]
+    2 -> 5 [label=""; weight=1]
+    2 -> 3 [label=""; weight=1]
+    2 -> 4 [label=""; weight=1]
+    2 -> 6 [label=""; weight=1]
+    0 -> 1 [label=""; weight=1]
+    0 -> 5 [label=""; weight=1]
+    0 -> 9 [label=""; weight=1]
+    0 -> 10 [label=""; weight=1]
+    0 -> 3 [label=""; weight=1]
+    0 -> 7 [label=""; weight=1]
+    0 -> 11 [label=""; weight=1]
+    0 -> 4 [label=""; weight=1]
+    0 -> 8 [label=""; weight=1]
+    0 -> 2 [label=""; weight=1]
+    0 -> 12 [label=""; weight=1]
+    0 -> 6 [label=""; weight=1]
+}

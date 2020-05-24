@@ -1,0 +1,10 @@
+{
+  starwars(func: anyofterms(name, "VI")) {
+    uid
+    name
+    release_date
+    starring {
+      name
+    }
+  }
+}

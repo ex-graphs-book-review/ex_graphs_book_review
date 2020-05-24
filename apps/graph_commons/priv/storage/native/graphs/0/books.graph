@@ -1,0 +1,21 @@
+v1 = %{
+  iri: "urn:isbn:978-1-68050-252-7",
+  date: "2018-03-14",
+  format: "Paper",
+  title: "Adopting Elixir"
+}
+v2 = %{ iri: "https://twitter.com/bgmarx", name: "Ben Marx" }
+v3 = %{ iri: "https://twitter.com/josevalim", name: "José Valim" }
+v4 = %{ iri: "https://twitter.com/redrapids", name: "Bruce Tate" }
+v5 = %{ iri: "https://pragprog.com/", name: "The Pragmatic Bookshelf" }
+
+Graph.new
+|> Graph.add_vertex(v1, "Book")
+|> Graph.add_vertex(v2, "Author")
+|> Graph.add_vertex(v3, "Author")
+|> Graph.add_vertex(v4, "Author")
+|> Graph.add_vertex(v5, "Publisher")
+|> Graph.add_edge(v1, v2, label: "AUTHORED_BY")
+|> Graph.add_edge(v1, v3, label: "AUTHORED_BY")
+|> Graph.add_edge(v1, v4, label: "AUTHORED_BY")
+|> Graph.add_edge(v1, v5, label: "PUBLISHED_BY")

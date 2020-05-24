@@ -1,0 +1,7 @@
+PREFIX schema: <http://datadock.io/kal/data/id/definition/>
+
+SELECT ?line_name ?line_name_english
+WHERE {
+  ?s schema:line_name ?line_name .
+  ?s schema:line_name_english ?line_name_english .
+}
