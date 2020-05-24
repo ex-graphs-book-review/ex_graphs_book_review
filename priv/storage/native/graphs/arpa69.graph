@@ -1,0 +1,95 @@
+####
+# ARPANET - Dec 1969 [1]
+#
+# [1] https://www.scientificamerican.com/gallery/early-sketch-of-arpanets-first-four-nodes/
+####
+
+
+use_id? = true; use_label? = false
+
+# function to select id/map based on use_id? setting
+val = fn map -> if use_id?, do: map.id, else: map end
+# function to select label/map based on use_type? setting
+lab = fn map -> if use_label?, do: map.label, else: map end
+
+####
+
+##
+## GRAPH
+
+g = Graph.new(type: :undirected)
+
+
+##
+## SEGMENT 1 - Outer Circuit (Clockwise from UCLA to SRI)
+
+
+# Site: UCLA
+
+ucla = %{ id: :ucla, label: "Node", type: "IMP", name: "UCLA" }
+
+ucla_h1 = %{ id: :ucla_h1, label: "Host", name: "SIGMA7" }
+
+g = g
+|> Graph.add_vertex(val.(ucla), lab.(ucla))
+|> Graph.add_vertex(val.(ucla_h1), lab.(ucla_h1))
+|> Graph.add_edge(val.(ucla_h1), val.(ucla))
+
+
+# Site: UCSB
+
+ucsb = %{ id: :ucsb, label: "Node", type: "IMP", name: "UCSB" }
+
+ucsb_h1 = %{ id: :ucsb_h1, label: "Host", name: "360" }
+
+g = g
+|> Graph.add_vertex(val.(ucsb), lab.(ucsb))
+|> Graph.add_vertex(val.(ucsb_h1), lab.(ucsb_h1))
+|> Graph.add_edge(val.(ucsb_h1), val.(ucsb))
+
+# Site: SRI
+
+sri = %{ id: :sri, label: "Node", type: "IMP", name: "SRI" }
+
+sri_h1 = %{ id: :sri_h1, label: "Host", name: "940" }
+
+g = g
+|> Graph.add_vertex(val.(sri), lab.(sri))
+|> Graph.add_vertex(val.(sri_h1), lab.(sri_h1))
+|> Graph.add_edge(val.(sri_h1), val.(sri))
+
+
+##
+## SEGMENT 2 - Inner Path (Right from SRI to UTAH)
+
+
+# Site: UTAH
+
+utah = %{ id: :utah, label: "Node", type: "IMP", name: "UTAH" }
+
+utah_h1 = %{ id: :utah_h1, label: "Host", name: "PDP-10" }
+
+g = g
+|> Graph.add_vertex(val.(utah), lab.(utah))
+|> Graph.add_vertex(val.(utah_h1), lab.(utah_h1))
+|> Graph.add_edge(val.(utah_h1), val.(utah))
+
+
+##
+## NETWORK (3+1=4)
+
+g = g
+##
+## SEGMENT 1 - Outer Circuit (Clockwise from UCLA to SRI)
+|> Graph.add_edge(val.(ucla), val.(ucsb))
+|> Graph.add_edge(val.(ucsb), val.(sri))
+|> Graph.add_edge(val.(sri), val.(ucla))
+##
+## SEGMENT 2 - Inner Path (Right from SRI to UTAH)
+|> Graph.add_edge(val.(sri), val.(utah))
+
+
+####
+
+# add reversed edges
+g = g |> Graph.edges |> Enum.reduce(g, fn %{v1: v1, v2: v2, label: label} = _e, g -> Graph.add_edge(g, v2, v1, label: label) end)

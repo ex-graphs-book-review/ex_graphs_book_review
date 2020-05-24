@@ -1,0 +1,7 @@
+PREFIX onto: <http://www.ontotext.com/>
+PREFIX sys: <http://www.ontotext.com/owlim/system#>
+
+SELECT * FROM sys:statistics WHERE {
+        ?s ?p ?o
+}
+

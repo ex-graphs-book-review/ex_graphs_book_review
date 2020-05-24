@@ -1,0 +1,9 @@
+
+CONSTRUCT
+{ ?s ?p ?o }
+WHERE {
+  BIND (<#{PAGE}> AS ?page)  
+  ?s <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> ?page .
+  ?s ?p ?o
+
+}

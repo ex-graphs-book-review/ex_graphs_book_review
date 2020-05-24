@@ -1,0 +1,350 @@
+####
+# ARPANET - Dec 1972 [1,2]
+#
+# [1] RFC-432, N. Neigus (BBN), https://tools.ietf.org/pdf/rfc432.pdf
+# [2] http://mercury.lcs.mit.edu/~jnc/tech/arpalog.html
+####
+
+@prefix ex: <https://example/> .
+
+
+##
+## SEGMENT 1 - Outer Circuit (Clockwise from UCLA to SDC)
+
+
+# Site: UCLA
+
+ex:ucla a ex:Node ; ex:type "IMP" ; ex:name "UCLA" .
+ex:ucla_h1 a ex:Host ; ex:name "360/91" .
+ex:ucla_h2 a ex:Host ; ex:name "SIGMA-7" .
+ex:ucla_h1 ex:H_LINK ex:ucla .
+ex:ucla_h2 ex:H_LINK ex:ucla .
+
+
+# Site: UCSB
+
+ex:ucsb a ex:Node ; ex:type "IMP" ; ex:name "UCSB" .
+ex:ucsb_h1 a ex:Host ; ex:name "360/75" .
+ex:ucsb_h1 ex:H_LINK ex:ucsb .
+
+
+# Site: FNWC
+
+ex:fnwc a ex:Node ; ex:type "TIP" ; ex:name "FNWC" .
+
+
+# Site: XEROX
+
+ex:xerox a ex:Node ; ex:type "316 IMP" ; ex:name "XEROX" .
+
+
+# Site: SRI
+
+ex:sri a ex:Node ; ex:type "IMP" ; ex:name "SRI" .
+ex:sri_h1 a ex:Host ; ex:name "PDP-10" .
+ex:sri_h2 a ex:Host ; ex:name "PDP-15" .
+# ex:sri_h3 a ex:Host ; ex:name "PDP-10" .
+ex:sri_h1 ex:H_LINK ex:sri .
+ex:sri_h2 ex:H_LINK ex:sri .
+# ex:sri_h3 ex:H_LINK ex:sri .
+
+
+# Site: UTAH
+
+ex:utah a ex:Node ; ex:type "IMP" ; ex:name "UTAH" .
+ex:utah_h1 a ex:Host ; ex:name "PDP-10" .
+ex:utah_h1 ex:H_LINK ex:utah .
+
+
+# Site: ILLINOIS
+
+ex:illinois a ex:Node ; ex:type "IMP" ; ex:name "ILLINOIS" .
+ex:illinois_h1 a ex:Host ; ex:name "PDP-11" .
+ex:illinois_h1 ex:H_LINK ex:illinois .
+
+
+# Site: MIT
+
+ex:mit a ex:Node ; ex:type "IMP" ; ex:name "MIT" .
+ex:mit_h1 a ex:Host ; ex:name "PDP-10" .
+ex:mit_h2 a ex:Host ; ex:name "PDP-10" .
+ex:mit_h3 a ex:Host ; ex:name "PDP-10" .
+ex:mit_h4 a ex:Host ; ex:name "H-645" .
+ex:mit_h1 ex:H_LINK ex:mit .
+ex:mit_h2 ex:H_LINK ex:mit .
+ex:mit_h3 ex:H_LINK ex:mit .
+ex:mit_h4 ex:H_LINK ex:mit .
+
+
+# Site: LINCOLN
+
+ex:lincoln a ex:Node ; ex:type "IMP" ; ex:name "LINCOLN" .
+ex:lincoln_h1 a ex:Host ; ex:name "360/67" .
+ex:lincoln_h2 a ex:Host ; ex:name "TX-2" .
+ex:lincoln_h3 a ex:Host ; ex:name "TSP" .
+ex:lincoln_h1 ex:H_LINK ex:lincoln .
+ex:lincoln_h2 ex:H_LINK ex:lincoln .
+ex:lincoln_h3 ex:H_LINK ex:lincoln .
+
+
+# Site: RADC
+
+ex:radc a ex:Node ; ex:type "TIP" ; ex:name "RADC" .
+
+
+# Site: CASE
+
+ex:case a ex:Node ; ex:type "IMP" ; ex:name "CASE" .
+ex:case_h1 a ex:Host ; ex:name "PDP-10" .
+ex:case_h1 ex:H_LINK ex:case .
+
+
+# Site: GWC
+
+ex:gwc a ex:Node ; ex:type "TIP" ; ex:name "GWC" .
+
+
+# Site: DOCB
+
+ex:docb a ex:Node ; ex:type "TIP" ; ex:name "DOCB" .
+
+
+# Site: USC
+
+ex:usc a ex:Node ; ex:type "TIP" ; ex:name "USC" .
+ex:usc_h1 a ex:Host ; ex:name "360/44" .
+ex:usc_h1 ex:H_LINK ex:usc .
+
+
+# Site: SDC
+
+ex:sdc a ex:Node ; ex:type "IMP" ; ex:name "SDC" .
+ex:sdc_h1 a ex:Host ; ex:name "DDP-516" .
+# ex:sdc_h2 a ex:Host ; ex:name "370/145" .
+ex:sdc_h1 ex:H_LINK ex:sdc .
+# ex:sdc_h2 ex:H_LINK ex:sdc .
+
+
+##
+## SEGMENT 2 - Inner Path (Up from UCLA to SRI)
+
+
+# Site: UCSD
+
+ex:ucsd a ex:Node ; ex:type "316 IMP" ; ex:name "UCSD" .
+ex:ucsd_h1 a ex:Host ; ex:name "MICRO 810" .
+# ex:ucsd_h2 a ex:Host ; ex:name "B6700" .
+ex:ucsd_h1 ex:H_LINK ex:ucsd .
+# ex:ucsd_h2 ex:H_LINK ex:ucsd .
+
+
+# Site: RAND
+
+ex:rand a ex:Node ; ex:type "316 IMP" ; ex:name "RAND" .
+ex:rand_h1 a ex:Host ; ex:name "IBM 1800" .
+# ex:rand_h2 a ex:Host ; ex:name "360/65" .
+ex:rand_h1 ex:H_LINK ex:rand .
+# ex:rand_h2 ex:H_LINK ex:rand .
+
+
+# Site: USC-ISI
+
+ex:usc_isi a ex:Node ; ex:type "IMP" ; ex:name "USC-ISI" .
+ex:usc_isi_h1 a ex:Host ; ex:name "PDP-10" .
+ex:usc_isi_h1 ex:H_LINK ex:usc_isi .
+
+
+# Site: STANFORD
+
+ex:stanford a ex:Node ; ex:type "IMP" ; ex:name "STANFORD" .
+ex:stanford_h1 a ex:Host ; ex:name "PDP-10" .
+ex:stanford_h1 ex:H_LINK ex:stanford .
+
+
+# Site: AMES
+
+ex:ames a ex:Node ; ex:type "IMP" ; ex:name "AMES" .
+ex:ames_h1 a ex:Host ; ex:name "PDP-10" .
+ex:ames_h2 a ex:Host ; ex:name "PDP-11" .
+ex:ames_h1 ex:H_LINK ex:ames .
+ex:ames_h2 ex:H_LINK ex:ames .
+
+
+# Site: AMES1
+
+ex:ames1 a ex:Node ; ex:type "TIP" ; ex:name "AMES1" .
+ex:ames1_h1 a ex:Host ; ex:name "360-67" .
+ex:ames1_h1 ex:H_LINK ex:ames1 .
+
+
+##
+## SEGMENT 3 - Inner Path (Up from CASE to MIT)
+
+
+# Site: CARNEGIE
+
+ex:carnegie a ex:Node ; ex:type "IMP" ; ex:name "CARNEGIE" .
+ex:carnegie_h1 a ex:Host ; ex:name "PDP-10" .
+ex:carnegie_h2 a ex:Host ; ex:name "PDP-10" .
+ex:carnegie_h1 ex:H_LINK ex:carnegie .
+ex:carnegie_h2 ex:H_LINK ex:carnegie .
+
+
+# Site: BELVOIR
+
+ex:belvoir a ex:Node ; ex:type "316 IMP" ; ex:name "BELVOIR" .
+
+
+# Site: SAAC
+
+ex:saac a ex:Node ; ex:type "TIP" ; ex:name "SAAC" .
+
+
+# Site: MITRE
+
+ex:mitre a ex:Node ; ex:type "TIP" ; ex:name "MITRE" .
+
+
+# Site: ARPA
+
+ex:arpa a ex:Node ; ex:type "TIP" ; ex:name "ARPA" .
+ex:arpa_h1 a ex:Host ; ex:name "PDP-15" .
+ex:arpa_h1 ex:H_LINK ex:arpa .
+
+
+# Site: ETAC
+
+ex:etac a ex:Node ; ex:type "TIP" ; ex:name "ETAC" .
+
+
+# Site: NBS
+
+ex:nbs a ex:Node ; ex:type "TIP" ; ex:name "NBS" .
+ex:nbs_h1 a ex:Host ; ex:name "PDP-11" .
+ex:nbs_h1 ex:H_LINK ex:nbs .
+
+
+# Site: ABERDEEN
+
+ex:aberdeen a ex:Node ; ex:type "316 IMP" ; ex:name "ABERDEEN" .
+
+
+# Site: HARVARD
+
+ex:harvard a ex:Node ; ex:type "IMP" ; ex:name "HARVARD" .
+ex:harvard_h1 a ex:Host ; ex:name "PDP-1" .
+ex:harvard_h2 a ex:Host ; ex:name "PDP-10" .
+ex:harvard_h3 a ex:Host ; ex:name "PDP-11" .
+ex:harvard_h1 ex:H_LINK ex:harvard .
+ex:harvard_h2 ex:H_LINK ex:harvard .
+ex:harvard_h3 ex:H_LINK ex:harvard .
+
+
+# Site: BBN
+
+ex:bbn a ex:Node ; ex:type "IMP" ; ex:name "BBN" .
+ex:bbn_h1 a ex:Host ; ex:name "PDP-1" .
+ex:bbn_h2 a ex:Host ; ex:name "PDP-10" .
+ex:bbn_h3 a ex:Host ; ex:name "PDP-10" .
+ex:bbn_h4 a ex:Host ; ex:name "H-316" .
+ex:bbn_h1 ex:H_LINK ex:bbn .
+ex:bbn_h2 ex:H_LINK ex:bbn .
+ex:bbn_h3 ex:H_LINK ex:bbn .
+ex:bbn_h4 ex:H_LINK ex:bbn .
+
+
+# Site: BBN1
+
+ex:bbn1 a ex:Node ; ex:type "TIP" ; ex:name "BBN1" .
+
+
+##
+## SEGMENT 4 - Inner Path (Right from HAWAII to AMES)
+
+
+# Site: HAWAII
+
+ex:hawaii a ex:Node ; ex:type "TIP" ; ex:name "HAWAII" .
+
+
+##
+## SEGMENT 5 - Inner Path (Right from USC-ISI to ETAC)
+
+
+# Site: TINKER
+
+ex:tinker a ex:Node ; ex:type "316 IMP" ; ex:name "TINKER" .
+ex:tinker_h1 a ex:Host ; ex:name "UNIVAC 418 III" .
+ex:tinker_h1 ex:H_LINK ex:tinker .
+
+
+##
+## SEGMENT 6 - Inner Path (Right from ABERDEEN to BELVOIR)
+
+
+##
+## SEGMENT 7 - Inner Path (Right from CCA to BBN)
+
+
+# Site: CCA
+
+ex:cca a ex:Node ; ex:type "TIP" ; ex:name "CCA" .
+ex:cca_h1 a ex:Host ; ex:name "PDP-10" .
+ex:cca_h1 ex:H_LINK ex:cca .
+
+
+## NETWORK (15+7+12+1+2+1+1=39)
+
+##
+## SEGMENT 1 - Outer Circuit (Clockwise from UCLA to SDC)
+ex:ucla ex:N_LINK ex:ucsb .
+ex:ucsb ex:N_LINK ex:fnwc .
+ex:fnwc ex:N_LINK ex:xerox .
+ex:xerox ex:N_LINK ex:sri .
+ex:sri ex:N_LINK ex:utah .
+ex:utah ex:N_LINK ex:illinois .
+ex:illinois ex:N_LINK ex:mit .
+ex:mit ex:N_LINK ex:lincoln .
+ex:lincoln ex:N_LINK ex:radc .
+ex:radc ex:N_LINK ex:case .
+ex:case ex:N_LINK ex:gwc .
+ex:gwc ex:N_LINK ex:docb .
+ex:docb ex:N_LINK ex:usc .
+ex:usc ex:N_LINK ex:sdc .
+ex:sdc ex:N_LINK ex:ucla .
+##
+## SEGMENT 2 - Inner Path (Up from UCLA to SRI)
+ex:ucla ex:N_LINK ex:ucsd .
+ex:ucsd ex:N_LINK ex:rand .
+ex:rand ex:N_LINK ex:usc_isi .
+ex:usc_isi ex:N_LINK ex:stanford .
+ex:stanford ex:N_LINK ex:ames .
+ex:ames ex:N_LINK ex:ames1 .
+ex:ames1 ex:N_LINK ex:sri .
+##
+## SEGMENT 3 - Inner Path (Up from CASE to MIT)
+ex:case ex:N_LINK ex:carnegie .
+ex:carnegie ex:N_LINK ex:belvoir .
+ex:belvoir ex:N_LINK ex:saac .
+ex:saac ex:N_LINK ex:mitre .
+ex:mitre ex:N_LINK ex:arpa .
+ex:arpa ex:N_LINK ex:etac .
+ex:etac ex:N_LINK ex:nbs .
+ex:nbs ex:N_LINK ex:aberdeen .
+ex:aberdeen ex:N_LINK ex:harvard .
+ex:harvard ex:N_LINK ex:bbn .
+ex:bbn ex:N_LINK ex:bbn1 .
+ex:bbn1 ex:N_LINK ex:mit .
+##
+## SEGMENT 4 - Inner Path (Right from HAWAII to AMES)
+
+##
+## SEGMENT 5 - Inner Path (Right from USC-ISI to ETAC)
+ex:usc_isi ex:N_LINK ex:tinker .
+ex:tinker ex:N_LINK ex:etac .
+##
+## SEGMENT 6 - Inner Path (Right from ABERDEEN to BELVOIR)
+ex:aberdeen ex:N_LINK ex:belvoir .
+##
+## SEGMENT 7 - Inner Path (Right from CCA to BBN)
+ex:cca ex:N_LINK ex:bbn .

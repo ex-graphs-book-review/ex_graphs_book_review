@@ -1,0 +1,10 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+CONSTRUCT
+{
+  ?s ?p ?o
+}
+WHERE {
+  BIND (<http://dbpedia.org/resource/London> AS ?s)
+  ?s ?p ?o .
+  FILTER ( !(!isiri(?o) && datatype(?o) = rdf:langString && langMatches( lang(?o), "" )) )
+}

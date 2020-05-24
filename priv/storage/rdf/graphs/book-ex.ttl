@@ -1,0 +1,36 @@
+@prefix : <https://example/> .
+
+<https://pragprog.com/>
+    :id "pragmatic" ;
+    :iri "https://pragprog.com/" ;
+    :name "The Pragmatic Bookshelf" ;
+    :BOOK <urn:isbn:978-1-68050-252-7> ;
+    a :Publisher .
+
+<https://twitter.com/bgmarx>
+    :id "ben_marx" ;
+    :iri "https://twitter.com/bgmarx" ;
+    :name "Ben Marx" ;
+    a :Author .
+
+<https://twitter.com/josevalim>
+    :id "jose_valim" ;
+    :iri "https://twitter.com/josevalim" ;
+    :name "José Valim" ;
+    a :Author .
+
+<https://twitter.com/redrapids>
+    :id "bruce_tate" ;
+    :iri "https://twitter.com/redrapids" ;
+    :name "Bruce Tate" ;
+    a :Author .
+
+<urn:isbn:978-1-68050-252-7>
+    :id "ben_marx" ;
+    :iri "urn:isbn:978-1-68050-252-7" ;
+    :date "2018-03-14" ;
+    :format "Paper" ;
+    :name "Adopting Elixir" ;
+    :AUTHOR <https://twitter.com/bgmarx>, <https://twitter.com/josevalim>, <https://twitter.com/redrapids> ;
+    :PUBLISHER <https://pragprog.com/> ;
+    a :Book .

@@ -11,7 +11,7 @@
 # /doc/
 
 # The common priv directory symlink.
-/priv/
+# /priv/
 
 # The local garbage area.
 /0/

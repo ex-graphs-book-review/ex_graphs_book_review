@@ -1,0 +1,55 @@
+####
+# ARPANET - Dec 1969 [1]
+#
+# [1] https://www.scientificamerican.com/gallery/early-sketch-of-arpanets-first-four-nodes/
+####
+
+@prefix ex: <https://example/> .
+
+
+##
+## SEGMENT 1 - Outer Circuit (Clockwise from UCLA to SRI)
+
+
+## Site: UCLA
+
+ex:ucla a ex:Node ; ex:type "IMP" ; ex:name "UCLA" .
+ex:ucla_h1 a ex:Host ; ex:name "SIGMA7" .
+ex:ucla_h1 ex:H_LINK ex:ucla .
+
+
+## Site: UCSB
+
+ex:ucsb a ex:Node ; ex:type "IMP" ; ex:name "UCSB" .
+ex:ucsb_h1 a ex:Host ; ex:name "360" .
+ex:ucsb_h1 ex:H_LINK ex:ucsb .
+
+
+## Site: SRI
+
+ex:sri a ex:Node ; ex:type "IMP" ; ex:name "SRI" .
+ex:sri_h1 a ex:Host ; ex:name "940" .
+ex:sri_h1 ex:H_LINK ex:sri .
+
+
+##
+## SEGMENT 2 - Outer Path (Right from SRI to UTAH)
+
+
+## Site: UTAH
+
+ex:utah a ex:Node ; ex:type "IMP" ; ex:name "UTAH" .
+ex:utah_h1 a ex:Host ; ex:name "PDP-10" .
+ex:utah_h1 ex:H_LINK ex:utah .
+
+
+## NETWORK (3+1=4)
+
+##
+## SEGMENT 1 - Outer Circuit (Clockwise from UCLA to SRI)
+ex:ucla ex:N_LINK ex:ucsb .
+ex:ucsb ex:N_LINK ex:sri .
+ex:sri ex:N_LINK ex:ucla .
+##
+## SEGMENT 2 - Outer Path (Right from SRI to UTAH)
+ex:sri ex:N_LINK ex:utah .

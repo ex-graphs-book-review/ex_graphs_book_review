@@ -1,0 +1,8 @@
+PREFIX dbr: <http://dbpedia.org/resource/>
+
+CONSTRUCT { ?s ?p ?o }
+WHERE {
+  BIND (dbr:Hello_World AS ?s)
+  ?s ?p ?o
+  FILTER (isLiteral(?o) && langMatches(lang(?o), "en"))
+}

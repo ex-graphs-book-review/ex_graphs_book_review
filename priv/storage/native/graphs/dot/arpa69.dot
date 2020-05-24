@@ -1,0 +1,18 @@
+strict graph {
+    "sri" [label="Node"]
+    "ucla" [label="Node"]
+    "ucsb" [label="Node"]
+    "utah" [label="Node"]
+    "sri_h1" [label="Host"]
+    "ucla_h1" [label="Host"]
+    "ucsb_h1" [label="Host"]
+    "utah_h1" [label="Host"]
+    "sri" -- "ucla" [weight=1]
+    "sri" -- "ucsb" [weight=1]
+    "sri" -- "utah" [weight=1]
+    "sri" -- "sri_h1" [weight=1]
+    "ucla" -- "ucsb" [weight=1]
+    "ucla" -- "ucla_h1" [weight=1]
+    "ucsb" -- "ucsb_h1" [weight=1]
+    "utah" -- "utah_h1" [weight=1]
+}

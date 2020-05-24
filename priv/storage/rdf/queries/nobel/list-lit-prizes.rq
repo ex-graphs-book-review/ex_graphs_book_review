@@ -1,0 +1,16 @@
+PREFIX nobel: <http://data.nobelprize.org/terms/>
+PREFIX category: <http://data.nobelprize.org/resource/category/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/name>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?name (str(?year_) AS ?year)
+WHERE {
+  # ?s rdfs:label "Bob Dylan" .
+  ?s rdfs:label ?name .
+  ?s ?p ?o .
+  ?s nobel:nobelPrize ?prize .
+  ?prize nobel:category category:Literature .
+  ?prize nobel:year ?year_ .
+  filter ( ?year_ >= 2001 )
+}
+ORDER BY ?name
