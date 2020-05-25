@@ -1,1 +1,0 @@
-Graph.new(type: :undirected) |> Graph.add_edge(:a, :b, label: :EX)

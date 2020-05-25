@@ -1,8 +1,0 @@
-@prefix ex: <https://example/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-ex:o ex: ex:h1 .
-ex:o ex: ex:h2 .
-ex:o rdfs:label "O" .
-ex:h1 rdfs:label "H" .
-ex:h2 rdfs:label "H" .

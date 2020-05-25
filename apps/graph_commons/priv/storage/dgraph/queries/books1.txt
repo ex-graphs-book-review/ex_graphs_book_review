@@ -1,6 +1,0 @@
-{
-  q(func: uid(0x3a))
-  {
-    uid
-    _predicate_
-}

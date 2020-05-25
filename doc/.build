@@ -1,4 +1,4 @@
-dist/search_items-adcc02fb52.js
+dist/search_items-6f4f03088d.js
 dist/app-5c0c23dfec2d63ae33a2.js
 dist/elixir-e589b8fad3dab6230c65.css
 dist/erlang-9792543de8efae7446f0.css
@@ -6,7 +6,7 @@ dist/html/fonts/icomoon.eot
 dist/html/fonts/icomoon.svg
 dist/html/fonts/icomoon.ttf
 dist/html/fonts/icomoon.woff
-dist/sidebar_items-8a0dc2c1ad.js
+dist/sidebar_items-2f942c0ce8.js
 api-reference.html
 readme.html
 search.html
@@ -20,14 +20,9 @@ GraphCommons.Utils.html
 NativeGraph.html
 NativeGraph.Builder.html
 NativeGraph.Format.html
-NativeGraph.Serializer.html
-NativeGraph.Serializers.CSV.html
-NativeGraph.Serializers.DOT.html
-NativeGraph.Serializers.Edgelist.html
 NativeGraph.Service.html
 PropertyGraph.html
 PropertyGraph.Service.html
-PropertyGraph.Utils.html
 RDFGraph.html
 RDFGraph.Demo.html
 RDFGraph.Service.html

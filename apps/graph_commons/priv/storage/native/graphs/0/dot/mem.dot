@@ -1,5 +1,0 @@
-strict graph {
-    "a"
-    "b"
-    "a" -- "b" [label="EX"; weight=1]
-}

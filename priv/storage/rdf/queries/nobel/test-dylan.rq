@@ -1,4 +1,0 @@
-ASK
-WHERE {
-  ?s ?p "Bob Dylan" .
-}

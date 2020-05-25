@@ -1,5 +1,0 @@
-{
-  q(func: has(iri)) {
-    uid expand(_all_)
-  }
-}

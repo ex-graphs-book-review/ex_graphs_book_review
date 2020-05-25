@@ -1,1 +1,0 @@
-MATCH ()-[r]-() RETURN r LIMIT 1

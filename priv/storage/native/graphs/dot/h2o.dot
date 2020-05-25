@@ -1,7 +1,0 @@
-strict graph {
-    "O"
-    "H"
-    "H"
-    "H" -- "O" [weight=1]
-    "H" -- "O" [weight=1]
-}

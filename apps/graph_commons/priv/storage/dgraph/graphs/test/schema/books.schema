@@ -1,4 +1,0 @@
-iri: string @index(exact).
-  name: string @index(exact, term) @count .
-  type: string @index(exact, term) @count .
-  date: dateTime .

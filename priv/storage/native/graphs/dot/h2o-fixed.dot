@@ -1,7 +1,0 @@
-strict graph {
-    "o" [label="O"]
-    "h1" [label="H"]
-    "h2" [label="H"]
-    "h1" -- "o" [weight=1]
-    "h2" -- "o" [weight=1]
-}

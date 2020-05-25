@@ -1,9 +1,0 @@
-bna = graph.addVertex(label,'airport',
-  'id', '3',
-  'code', 'BNA',)
-
-  ygz = graph.addVertex(label,'airport',
-    'id', '4',
-    'code', 'YGZ',)
-
-bna.addEdge('route', ygz)

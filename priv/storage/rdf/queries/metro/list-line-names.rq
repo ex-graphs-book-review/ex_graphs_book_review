@@ -1,6 +1,0 @@
-PREFIX schema: <http://datadock.io/kal/data/id/definition/>
-
-SELECT ?line_name
-WHERE {
-  ?s schema:line_name ?line_name .
-}
