@@ -20,7 +20,7 @@ defmodule NativeGraph.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {NativeGraph.Application, []}
+      # mod: {NativeGraph.Application, []}
     ]
   end
 

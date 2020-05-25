@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="ExDoc v0.22.0">
+    <meta name="project" content=" vdev">
+    <title>GraphCommons.Query —  vdev</title>
+    <link rel="stylesheet" href="dist/elixir-e589b8fad3dab6230c65.css" />
+    <script src="dist/sidebar_items-8a0dc2c1ad.js"></script>
+      <script src="docs_config.js"></script>
+    <script async src="dist/app-5c0c23dfec2d63ae33a2.js"></script>
+  </head>
+  <body data-type="modules">
+    <script>try { if(localStorage.getItem('night-mode') === 'true') document.body.className += ' night-mode'; } catch (e) { }</script>
+<div class="main">
+
+<button class="sidebar-button sidebar-toggle">
+  <span class="icon-menu" title="Collapse/expand sidebar"></span>
+</button>
+
+<section class="sidebar">
+  <form class="sidebar-search" action="search.html">
+    <button type="submit" class="search-button">
+      <span class="icon-search" aria-hidden="true"></span>
+    </button>
+    <button type="button" tabindex="-1" class="search-close-button">
+      <span class="icon-cross" title="Cancel search"></span>
+    </button>
+    <label class="search-label">
+      <input name="q" type="text" id="search-list" class="search-input" placeholder="Search..." aria-label="Search" autocomplete="off" />
+    </label>
+  </form>
+
+  <div class="autocomplete">
+    <div class="autocomplete-results">
+    </div>
+  </div>
+
+  <div class="sidebar-header">
+    <div class="sidebar-projectDetails">
+      <a href="readme.html" class="sidebar-projectName">
+      </a>
+      <h2 class="sidebar-projectVersion">
+        vdev
+      </h2>
+    </div>
+  </div>
+
+  <ul class="sidebar-listNav">
+    <li><a id="extras-list" href="#full-list">Pages</a></li>
+
+      <li><a id="modules-list" href="#full-list">Modules</a></li>
+
+  </ul>
+  <div class="gradient"></div>
+  <ul id="full-list" class="sidebar-fullList"></ul>
+</section>
+
+<section class="content">
+  <div class="content-outer">
+    <div id="content" class="content-inner">
+
+      <h1>
+        <small class="app-vsn"> vdev</small>
+GraphCommons.Query      </h1>
+
+
+        <section id="moduledoc">
+<p>Module providing a struct for queries.</p><p>The <code class="inline">%GraphCommons.Query{}</code> struct is used to bundle related data
+access fields for query serializations together.</p><p>One of the fields <code class="inline">:type</code> tracks <code class="inline">query_type</code>:</p><ul><li><code class="inline">:native</code> – native query</li><li><code class="inline">:property</code> – property query</li><li><code class="inline">:rdf</code> – RDF query</li><li><code class="inline">:tinker</code> – TinkerPop query</li></ul><p>The other fields are straightforward data access fields:</p><ul><li><code class="inline">:data</code> – <code class="inline">query_data</code></li><li><code class="inline">:file</code> – name of <code class="inline">query_file</code> (within the <code class="inline">queries_dir</code>)</li><li><code class="inline">:path</code> – absolute path of <code class="inline">query_file</code></li><li><code class="inline">:uri</code> – absolute URI of <code class="inline">query_file</code></li></ul>        </section>
+
+        <section id="summary" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#summary">
+              <span class="icon-link" aria-hidden="true"></span>
+              <span class="sr-only">Link to this section</span>
+            </a>
+            Summary
+          </h1>
+  <div class="summary-types summary">
+    <h2>
+      <a href="#types">Types</a>
+    </h2>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#t:file_test/0">file_test()</a>
+  </div>
+    <div class="summary-synopsis"><p>Type for testing file types.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#t:query_data/0">query_data()</a>
+  </div>
+    <div class="summary-synopsis"><p>Type for query data string in query storage.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#t:query_file/0">query_file()</a>
+  </div>
+    <div class="summary-synopsis"><p>Type for file name of query storage.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#t:query_path/0">query_path()</a>
+  </div>
+    <div class="summary-synopsis"><p>Type for file path of query storage.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#t:query_type/0">query_type()</a>
+  </div>
+    <div class="summary-synopsis"><p>Type for type of query in query storage.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#t:query_uri/0">query_uri()</a>
+  </div>
+    <div class="summary-synopsis"><p>Type for (file:) URI of query storage.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#t:t/0">t()</a>
+  </div>
+    <div class="summary-synopsis"><p>Type for <code class="inline">%GraphCommons.Query{}</code> struct.</p></div>
+</div>
+  </div>
+  <div class="summary-functions summary">
+    <h2>
+      <a href="#functions">Functions</a>
+    </h2>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#is_type/1">is_type(query_type)</a>
+  </div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#list_queries/2">list_queries(query_type, file_test \\ :exists?)</a>
+  </div>
+    <div class="summary-synopsis"><p>Returns a listing of the <code class="inline">queries</code> directory, optionally filtered by <code class="inline">file_test</code>.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#list_queries_dir/3">list_queries_dir(query_file, query_type, file_test \\ :exists?)</a>
+  </div>
+    <div class="summary-synopsis"><p>Returns a listing of a named file in the <code class="inline">queries</code> directory, optionally filtered by <code class="inline">file_test</code>.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#new/3">new(query_data, query_file, query_type)</a>
+  </div>
+    <div class="summary-synopsis"><p>Creates a <code class="inline">%GraphCommons.Query{}</code> struct.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#read_query/2">read_query(query_file, query_type)</a>
+  </div>
+    <div class="summary-synopsis"><p>Returns a new query with <code class="inline">query_data</code> after reading storage for <code class="inline">query_file</code> and <code class="inline">query_type</code>.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#write_query/3">write_query(query_data, query_file, query_type)</a>
+  </div>
+    <div class="summary-synopsis"><p>Returns a new query with <code class="inline">query_data</code> after writing storage for <code class="inline">query_data</code>, <code class="inline">query_file</code> and <code class="inline">query_type</code>.</p></div>
+</div>
+  </div>
+        </section>
+
+        <section id="types" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#types">
+              <span class="icon-link" aria-hidden="true"></span>
+              <span class="sr-only">Link to this section</span>
+            </a>
+Types          </h1>
+          <div class="types-list">
+<section class="detail" id="t:file_test/0">
+  <div class="detail-header">
+    <a href="#t:file_test/0" class="detail-link" title="Link to this type">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this type</span>
+    </a>
+    <h1 class="signature">file_test()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>file_test() :: <a href="https://hexdocs.pm/graph_commons/GraphCommons.html#t:file_test/0">GraphCommons.file_test</a>()</pre>
+      </div>
+
+<p>Type for testing file types.</p>  </section>
+</section>
+<section class="detail" id="t:query_data/0">
+  <div class="detail-header">
+    <a href="#t:query_data/0" class="detail-link" title="Link to this type">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this type</span>
+    </a>
+    <h1 class="signature">query_data()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>query_data() :: <a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()</pre>
+      </div>
+
+<p>Type for query data string in query storage.</p>  </section>
+</section>
+<section class="detail" id="t:query_file/0">
+  <div class="detail-header">
+    <a href="#t:query_file/0" class="detail-link" title="Link to this type">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this type</span>
+    </a>
+    <h1 class="signature">query_file()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>query_file() :: <a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()</pre>
+      </div>
+
+<p>Type for file name of query storage.</p>  </section>
+</section>
+<section class="detail" id="t:query_path/0">
+  <div class="detail-header">
+    <a href="#t:query_path/0" class="detail-link" title="Link to this type">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this type</span>
+    </a>
+    <h1 class="signature">query_path()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>query_path() :: <a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()</pre>
+      </div>
+
+<p>Type for file path of query storage.</p>  </section>
+</section>
+<section class="detail" id="t:query_type/0">
+  <div class="detail-header">
+    <a href="#t:query_type/0" class="detail-link" title="Link to this type">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this type</span>
+    </a>
+    <h1 class="signature">query_type()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>query_type() :: <a href="https://hexdocs.pm/graph_commons/GraphCommons.html#t:query_type/0">GraphCommons.query_type</a>()</pre>
+      </div>
+
+<p>Type for type of query in query storage.</p>  </section>
+</section>
+<section class="detail" id="t:query_uri/0">
+  <div class="detail-header">
+    <a href="#t:query_uri/0" class="detail-link" title="Link to this type">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this type</span>
+    </a>
+    <h1 class="signature">query_uri()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>query_uri() :: <a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()</pre>
+      </div>
+
+<p>Type for (file:) URI of query storage.</p>  </section>
+</section>
+<section class="detail" id="t:t/0">
+  <div class="detail-header">
+    <a href="#t:t/0" class="detail-link" title="Link to this type">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this type</span>
+    </a>
+    <h1 class="signature">t()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>t() :: %GraphCommons.Query{
+  data: <a href="#t:query_data/0">query_data</a>(),
+  file: <a href="#t:query_file/0">query_file</a>(),
+  path: <a href="#t:query_path/0">query_path</a>(),
+  type: <a href="#t:query_type/0">query_type</a>(),
+  uri: <a href="#t:query_uri/0">query_uri</a>()
+}</pre>
+      </div>
+
+<p>Type for <code class="inline">%GraphCommons.Query{}</code> struct.</p>  </section>
+</section>
+          </div>
+        </section>
+        <section id="functions" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#functions">
+              <span class="icon-link" aria-hidden="true"></span>
+              <span class="sr-only">Link to this section</span>
+            </a>
+Functions          </h1>
+          <div class="functions-list">
+<section class="detail" id="is_type/1">
+  <div class="detail-header">
+    <a href="#is_type/1" class="detail-link" title="Link to this macro">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this macro</span>
+    </a>
+    <h1 class="signature">is_type(query_type)</h1>
+      <span class="note">(macro)</span>
+  </div>
+
+  <section class="docstring">
+
+  </section>
+</section>
+<section class="detail" id="list_queries/2">
+    <span id="list_queries/1"></span>
+  <div class="detail-header">
+    <a href="#list_queries/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">list_queries(query_type, file_test \\ :exists?)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>list_queries(<a href="#t:query_type/0">query_type</a>(), <a href="#t:file_test/0">file_test</a>()) :: [<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()]</pre>
+      </div>
+
+<p>Returns a listing of the <code class="inline">queries</code> directory, optionally filtered by <code class="inline">file_test</code>.</p>  </section>
+</section>
+<section class="detail" id="list_queries_dir/3">
+    <span id="list_queries_dir/2"></span>
+  <div class="detail-header">
+    <a href="#list_queries_dir/3" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">list_queries_dir(query_file, query_type, file_test \\ :exists?)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>list_queries_dir(<a href="#t:query_file/0">query_file</a>(), <a href="#t:query_type/0">query_type</a>(), <a href="#t:file_test/0">file_test</a>()) :: [<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()]</pre>
+      </div>
+
+<p>Returns a listing of a named file in the <code class="inline">queries</code> directory, optionally filtered by <code class="inline">file_test</code>.</p>  </section>
+</section>
+<section class="detail" id="new/3">
+  <div class="detail-header">
+    <a href="#new/3" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">new(query_data, query_file, query_type)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>new(<a href="#t:query_data/0">query_data</a>(), <a href="#t:query_file/0">query_file</a>(), <a href="#t:query_type/0">query_type</a>()) :: <a href="#t:t/0">t</a>()</pre>
+      </div>
+
+<p>Creates a <code class="inline">%GraphCommons.Query{}</code> struct.</p><h2 id="new/3-examples" class="section-heading">
+  <a href="#new/3-examples" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  Examples
+</h2>
+<pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">query</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nc">RDFGraph</span><span class="o">.</span><span class="n">read_query</span><span class="w">
+</span><span class="p" data-group-id="0333091590-1">#</span><span class="nc" data-group-id="0333091590-1">GraphCommons.Query</span><span class="p" data-group-id="0333091590-1">&lt;</span><span class="ss">type</span><span class="p">:</span><span class="w"> </span><span class="n">rdf</span><span class="p">,</span><span class="w"> </span><span class="ss">file</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;default.rq&quot;</span><span class="p">,</span><span class="w"> </span><span class="ss">data</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;construct</span><span class="se">\n</span><span class="s">{ ?s ?p ?o }</span><span class="se">\.</span><span class="s">..&quot;</span><span class="p" data-group-id="0333091590-1">&gt;</span><span class="w">
+
+</span><span class="gp unselectable">iex&gt; </span><span class="n">query</span><span class="o">.</span><span class="n">data</span><span class="w"> </span><span class="o">|&gt;</span><span class="w"> </span><span class="nc">GraphCommons.Query</span><span class="o">.</span><span class="n">new</span><span class="p" data-group-id="0333091590-2">(</span><span class="s">&quot;test.rq&quot;</span><span class="p">,</span><span class="w"> </span><span class="ss">:rdf</span><span class="p" data-group-id="0333091590-2">)</span><span class="w">
+</span><span class="p" data-group-id="0333091590-3">#</span><span class="nc" data-group-id="0333091590-3">GraphCommons.Query</span><span class="p" data-group-id="0333091590-3">&lt;</span><span class="ss">type</span><span class="p">:</span><span class="w"> </span><span class="n">rdf</span><span class="p">,</span><span class="w"> </span><span class="ss">file</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;test.rq&quot;</span><span class="p">,</span><span class="w"> </span><span class="ss">data</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;construct</span><span class="se">\n</span><span class="s">{ ?s ?p ?o }</span><span class="se">\.</span><span class="s">..&quot;</span><span class="p" data-group-id="0333091590-3">&gt;</span></code></pre>  </section>
+</section>
+<section class="detail" id="read_query/2">
+  <div class="detail-header">
+    <a href="#read_query/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">read_query(query_file, query_type)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>read_query(<a href="#t:query_file/0">query_file</a>(), <a href="#t:query_type/0">query_type</a>()) :: <a href="#t:t/0">t</a>()</pre>
+      </div>
+
+<p>Returns a new query with <code class="inline">query_data</code> after reading storage for <code class="inline">query_file</code> and <code class="inline">query_type</code>.</p>  </section>
+</section>
+<section class="detail" id="write_query/3">
+  <div class="detail-header">
+    <a href="#write_query/3" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">write_query(query_data, query_file, query_type)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>write_query(<a href="#t:query_data/0">query_data</a>(), <a href="#t:query_file/0">query_file</a>(), <a href="#t:query_type/0">query_type</a>()) :: <a href="#t:t/0">t</a>()</pre>
+      </div>
+
+<p>Returns a new query with <code class="inline">query_data</code> after writing storage for <code class="inline">query_data</code>, <code class="inline">query_file</code> and <code class="inline">query_type</code>.</p>  </section>
+</section>
+          </div>
+        </section>
+      <footer class="footer">
+        <p>
+          <span class="line">
+            Built using
+            <a href="https://github.com/elixir-lang/ex_doc" title="ExDoc" target="_blank" rel="help noopener">ExDoc</a> (v0.22.0),
+          </span>
+          <span class="line">
+            designed by
+            <a href="https://twitter.com/dignifiedquire" target="_blank" rel="noopener" title="@dignifiedquire">Friedel Ziegelmayer</a>.
+          </span>
+        </p>
+        <p>
+          <button class="line footer-button display-shortcuts-help">
+            Display keyboard shortcuts
+          </button>
+          <button class="line footer-button night-mode-toggle">
+            Toggle night mode
+          </button>
+          <button class="line footer-button display-quick-switch">
+            Go to a HexDocs package
+          </button>
+          <button class="line footer-button tooltips-toggle">
+            <span class="tooltips-option-disable">Disable tooltips</span>
+            <span class="tooltips-option-enable">Enable tooltips</span>
+          </button>
+        </p>
+      </footer>
+    </div>
+  </div>
+</section>
+</div>
+  </body>
+</html>

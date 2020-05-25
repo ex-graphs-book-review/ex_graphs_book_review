@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="ExDoc v0.22.0">
+    <meta name="project" content=" vdev">
+    <title>ExGraphsBook (Review) —  vdev</title>
+    <link rel="stylesheet" href="dist/elixir-e589b8fad3dab6230c65.css" />
+    <script src="dist/sidebar_items-8a0dc2c1ad.js"></script>
+      <script src="docs_config.js"></script>
+    <script async src="dist/app-5c0c23dfec2d63ae33a2.js"></script>
+  </head>
+  <body data-type="extras">
+    <script>try { if(localStorage.getItem('night-mode') === 'true') document.body.className += ' night-mode'; } catch (e) { }</script>
+<div class="main">
+
+<button class="sidebar-button sidebar-toggle">
+  <span class="icon-menu" title="Collapse/expand sidebar"></span>
+</button>
+
+<section class="sidebar">
+  <form class="sidebar-search" action="search.html">
+    <button type="submit" class="search-button">
+      <span class="icon-search" aria-hidden="true"></span>
+    </button>
+    <button type="button" tabindex="-1" class="search-close-button">
+      <span class="icon-cross" title="Cancel search"></span>
+    </button>
+    <label class="search-label">
+      <input name="q" type="text" id="search-list" class="search-input" placeholder="Search..." aria-label="Search" autocomplete="off" />
+    </label>
+  </form>
+
+  <div class="autocomplete">
+    <div class="autocomplete-results">
+    </div>
+  </div>
+
+  <div class="sidebar-header">
+    <div class="sidebar-projectDetails">
+      <a href="readme.html" class="sidebar-projectName">
+      </a>
+      <h2 class="sidebar-projectVersion">
+        vdev
+      </h2>
+    </div>
+  </div>
+
+  <ul class="sidebar-listNav">
+    <li><a id="extras-list" href="#full-list">Pages</a></li>
+
+      <li><a id="modules-list" href="#full-list">Modules</a></li>
+
+  </ul>
+  <div class="gradient"></div>
+  <ul id="full-list" class="sidebar-fullList"></ul>
+</section>
+
+<section class="content">
+  <div class="content-outer">
+    <div id="content" class="content-inner">
+
+<h1>ExGraphsBook (Review)</h1><p><code class="inline">ExGraphsBook</code> is an Elixir umbrella project to accompany the <a href="">ExGraphsBook</a>.</p><h2 id="graph-services" class="section-heading">
+  <a href="#graph-services" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  Graph Services
+</h2>
+<p>Before accessing a graph service you will need to start one. You can check which service is currently running with the <code class="inline">graph_info/0</code> function:</p><pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">graph_info</span><span class="w">
+</span><span class="gt">** (CompileError) iex:3: undefined function graph_info/0</span></code></pre><p>This returns an <code class="inline">undefined</code> error because no graph module was started.</p><p>We'll need to set the graph module with the <code class="inline">graph_service/1</code> function. Also for the <a href="https://hexdocs.pm/native_graph/NativeGraph.html"><code class="inline">NativeGraph</code></a> and <a href="https://hexdocs.pm/property_graph/PropertyGraph.html"><code class="inline">PropertyGraph</code></a> modules we will need to explicitly start an Elixir application to manage the graph service. (In the case of <a href="https://hexdocs.pm/rdf_graph/RDFGraph.html"><code class="inline">RDFGraph</code></a> we will use HTTP to connect to remote or local services.)</p><h3 id="1-nativegraph" class="section-heading">
+  <a href="#1-nativegraph" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  1. NativeGraph
+</h3>
+<p>Steps to get started:</p><ol><li>Use the <code class="inline">graph_service/1</code> function to set the <a href="https://hexdocs.pm/native_graph/NativeGraph.html"><code class="inline">NativeGraph</code></a> module</li><li>Start the <a href="https://hexdocs.pm/native_graph/NativeGraph.html"><code class="inline">NativeGraph</code></a> application</li></ol><h4>1.1 Set the NativeGraph module</h4><pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">graph_service</span><span class="w"> </span><span class="nc">NativeGraph</span><span class="w">
+</span><span class="nc">NativeGraph</span><span class="w">
+</span><span class="gp unselectable">iex&gt; </span><span class="n">graph_info</span><span class="w">               
+</span><span class="o">*</span><span class="o">*</span><span class="w"> </span><span class="p" data-group-id="0137122257-1">(</span><span class="n">exit</span><span class="p" data-group-id="0137122257-1">)</span><span class="w"> </span><span class="n">exited</span><span class="w"> </span><span class="ss">in</span><span class="p">:</span><span class="w"> </span><span class="nc">GenServer</span><span class="o">.</span><span class="n">call</span><span class="p" data-group-id="0137122257-2">(</span><span class="nc">NativeGraph.Service</span><span class="p">,</span><span class="w"> </span><span class="p" data-group-id="0137122257-3">{</span><span class="ss">:get</span><span class="p">,</span><span class="w"> </span><span class="p" data-group-id="0137122257-4">#</span><span class="nc" data-group-id="0137122257-4">Function</span><span class="p" data-group-id="0137122257-4">&lt;</span><span class="mf">1.131560594</span><span class="o">/</span><span class="mi">1</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="nc">NativeGraph.Service</span><span class="o">.</span><span class="n">graph_info</span><span class="o">/</span><span class="mi">0</span><span class="p" data-group-id="0137122257-4">&gt;</span><span class="p" data-group-id="0137122257-3">}</span><span class="p">,</span><span class="w"> </span><span class="mi">5000</span><span class="p" data-group-id="0137122257-2">)</span><span class="w">
+    </span><span class="gt">** (EXIT) no process: the process is not alive or there&#39;s no process currently associated with the given name, possibly because its application isn&#39;t started
+    (elixir 1.10.3) lib/gen_server.ex:1013: GenServer.call/3
+    (native_graph 0.1.0) lib/native_graph/service.ex:70: NativeGraph.Service.graph_info/0</span><span class="w">
+</span><span class="gp unselectable">iex&gt; </span><span class="nc">NativeGraph.Aplication</span><span class="o">.</span><span class="n">start</span><span class="w">
+</span><span class="gt">** (UndefinedFunctionError) function NativeGraph.Aplication.start/0 is undefined (module NativeGraph.Aplication is not available)
+    NativeGraph.Aplication.start()</span></code></pre><h4>1.2 Start the NativeGraph application</h4><pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="nc">NativeGraph.Application</span><span class="o">.</span><span class="n">start</span><span class="w">
+</span><span class="ss">dets</span><span class="p">:</span><span class="w"> </span><span class="n">file</span><span class="w"> </span><span class="s">&quot;priv/service/native/ex_graphs_book.dets&quot;</span><span class="w"> </span><span class="ow">not</span><span class="w"> </span><span class="n">properly</span><span class="w"> </span><span class="n">closed</span><span class="p">,</span><span class="w"> </span><span class="n">repairing</span><span class="w"> </span><span class="n">...</span><span class="w">
+</span><span class="p" data-group-id="8718959323-1">{</span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="p" data-group-id="8718959323-2">#</span><span class="nc" data-group-id="8718959323-2">PID</span><span class="p" data-group-id="8718959323-2">&lt;</span><span class="mi">0</span><span class="o">.</span><span class="mi">362</span><span class="o">.</span><span class="mi">0</span><span class="p" data-group-id="8718959323-2">&gt;</span><span class="p" data-group-id="8718959323-1">}</span><span class="w">
+</span><span class="gp unselectable">iex&gt; </span><span class="n">graph_info</span><span class="w">                   
+</span><span class="p" data-group-id="8718959323-3">%</span><span class="nc" data-group-id="8718959323-3">GraphCommons.Service.GraphInfo</span><span class="p" data-group-id="8718959323-3">{</span><span class="w">
+  </span><span class="ss">file</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;book.graph&quot;</span><span class="p">,</span><span class="w">
+  </span><span class="ss">labels</span><span class="p">:</span><span class="w"> </span><span class="p" data-group-id="8718959323-4">[</span><span class="s">&quot;Author&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Book&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Publisher&quot;</span><span class="p" data-group-id="8718959323-4">]</span><span class="p">,</span><span class="w">
+  </span><span class="ss">num_edges</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+  </span><span class="ss">num_nodes</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+  </span><span class="ss">type</span><span class="p">:</span><span class="w"> </span><span class="ss">:native</span><span class="w">
+</span><span class="p" data-group-id="8718959323-3">}</span></code></pre><h3 id="2-propertygraph" class="section-heading">
+  <a href="#2-propertygraph" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  2. PropertyGraph
+</h3>
+<p>Steps to get started:</p><ol><li>Install a local Neo4j instance</li><li>Start the Neo4j server</li><li>Use the <code class="inline">graph_service/1</code> function to set the <a href="https://hexdocs.pm/property_graph/PropertyGraph.html"><code class="inline">PropertyGraph</code></a> module</li><li>Start the <a href="https://hexdocs.pm/property_graph/PropertyGraph.html"><code class="inline">PropertyGraph</code></a> application</li></ol><h4>2.1 Install a local Neo4j instance</h4><p>In the book we have used a <a href="https://neo4j.com/download-center/#community">Neo4j Community Server</a> edition - requires registration.</p><h4>2.2 Start the Neo4j server</h4><p>TBD</p><h4>2.3 Set the PropertyGraph module</h4><pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">graph_service</span><span class="w"> </span><span class="nc">PropertyGraph</span><span class="w">         
+</span><span class="nc">PropertyGraph</span><span class="w">
+</span><span class="gp unselectable">iex&gt; </span><span class="n">graph_info</span><span class="w">                          
+</span><span class="o">*</span><span class="o">*</span><span class="w"> </span><span class="p" data-group-id="2810211776-1">(</span><span class="n">exit</span><span class="p" data-group-id="2810211776-1">)</span><span class="w"> </span><span class="n">exited</span><span class="w"> </span><span class="ss">in</span><span class="p">:</span><span class="w"> </span><span class="nc">GenServer</span><span class="o">.</span><span class="n">call</span><span class="p" data-group-id="2810211776-2">(</span><span class="nc">Bolt.Sips.Router</span><span class="p">,</span><span class="w"> </span><span class="p" data-group-id="2810211776-3">{</span><span class="ss">:get_connection</span><span class="p">,</span><span class="w"> </span><span class="ss">:direct</span><span class="p">,</span><span class="w"> </span><span class="ss">:default</span><span class="p" data-group-id="2810211776-3">}</span><span class="p">,</span><span class="w"> </span><span class="mi">5000</span><span class="p" data-group-id="2810211776-2">)</span><span class="w">
+    </span><span class="gt">** (EXIT) no process: the process is not alive or there&#39;s no process currently associated with the given name, possibly because its application isn&#39;t started
+    ...</span></code></pre><h4>2.4 Start the PropertyGraph application</h4><pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="nc">PropertyGraph.Application</span><span class="o">.</span><span class="n">start</span><span class="w">
+</span><span class="p" data-group-id="0577935658-1">{</span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="p" data-group-id="0577935658-2">#</span><span class="nc" data-group-id="0577935658-2">PID</span><span class="p" data-group-id="0577935658-2">&lt;</span><span class="mi">0</span><span class="o">.</span><span class="mi">458</span><span class="o">.</span><span class="mi">0</span><span class="p" data-group-id="0577935658-2">&gt;</span><span class="p" data-group-id="0577935658-1">}</span><span class="w">
+</span><span class="gp unselectable">iex&gt; </span><span class="n">graph_info</span><span class="w">                     
+</span><span class="p" data-group-id="0577935658-3">%</span><span class="nc" data-group-id="0577935658-3">GraphCommons.Service.GraphInfo</span><span class="p" data-group-id="0577935658-3">{</span><span class="w">
+  </span><span class="ss">file</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&quot;</span><span class="p">,</span><span class="w">
+  </span><span class="ss">labels</span><span class="p">:</span><span class="w"> </span><span class="p" data-group-id="0577935658-4">[</span><span class="s">&quot;Author&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Book&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;Publisher&quot;</span><span class="p" data-group-id="0577935658-4">]</span><span class="p">,</span><span class="w">
+  </span><span class="ss">num_edges</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+  </span><span class="ss">num_nodes</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+  </span><span class="ss">type</span><span class="p">:</span><span class="w"> </span><span class="ss">:property</span><span class="w">
+</span><span class="p" data-group-id="0577935658-3">}</span></code></pre><h3 id="3-rdfgraph" class="section-heading">
+  <a href="#3-rdfgraph" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  3. RDFGraph
+</h3>
+<p>Steps to get started:</p><ol><li>Install a local RDF instance (optional)</li><li>Use the <code class="inline">rdf_store/1</code> function to set the RDF store - see <code class="inline">config/config.exs</code></li><li>Use the <code class="inline">graph_service/1</code> function to set the <a href="https://hexdocs.pm/rdf_graph/RDFGraph.html"><code class="inline">RDFGraph</code></a> module</li><li>(No Elixir application needs to be started as RDF stores are reachable via HTTP)</li></ol><h4>3.1 Install a local RDF instance</h4><p>In the book we have used a <a href="https://www.ontotext.com/products/graphdb/graphdb-free/">GraphDB Free</a> edition - requires registration.</p><p>We then created a repo <code class="inline">ex_graphs_book</code> which can be accessed via an API call to <code class="inline">localhost</code> on the default port <code class="inline">7200</code>.</p><h4>3.2 Set the RDF store</h4><pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">rdf_store</span><span class="w">        
+</span><span class="no">nil</span><span class="w">
+</span><span class="gp unselectable">iex&gt; </span><span class="n">rdf_store</span><span class="w"> </span><span class="ss">:local</span><span class="w">
+</span><span class="ss">:ok</span><span class="w">
+</span><span class="gp unselectable">iex&gt; </span><span class="n">rdf_store</span><span class="w">        
+</span><span class="ss">:local</span><span class="w">
+</span><span class="gp unselectable">iex&gt; </span><span class="n">rdf_store_query</span><span class="w">                                
+</span><span class="s">&quot;http://localhost:7200/repositories/ex-graphs-book&quot;</span></code></pre><p>Note - see <code class="inline">config/config.exs</code> for setting up the SPARQL endpoints.</p><h4>3.3 Set the RDFGraph module</h4><pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">graph_service</span><span class="w"> </span><span class="nc">RDFGraph</span><span class="w">
+</span><span class="nc">RDFGraph</span><span class="w">
+</span><span class="gp unselectable">iex&gt; </span><span class="n">graph_info</span><span class="w">            
+</span><span class="p" data-group-id="8305783161-1">{</span><span class="ss">:ok</span><span class="p">,</span><span class="w"> </span><span class="no">nil</span><span class="p" data-group-id="8305783161-1">}</span></code></pre><h4>3.4 Query the RDF graph service</h4><pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="s">&quot;select * where {?s ?p ?o}&quot;</span><span class="w"> </span><span class="o">|&gt;</span><span class="w"> </span><span class="n">sparql!</span><span class="w">                 
+</span><span class="p" data-group-id="3822066392-1">%</span><span class="nc" data-group-id="3822066392-1">SPARQL.Query.Result</span><span class="p" data-group-id="3822066392-1">{</span><span class="w">
+  </span><span class="ss">results</span><span class="p">:</span><span class="w"> </span><span class="p" data-group-id="3822066392-2">[</span><span class="w">
+    </span><span class="p" data-group-id="3822066392-3">%{</span><span class="w">
+      </span><span class="s">&quot;o&quot;</span><span class="w"> </span><span class="o">=</span><span class="o">&gt;</span><span class="w"> </span><span class="err">~</span><span class="nc">I</span><span class="o">&lt;</span><span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">purl</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">ontology</span><span class="o">/</span><span class="n">bibo</span><span class="o">/</span><span class="nc">Book</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+      </span><span class="s">&quot;p&quot;</span><span class="w"> </span><span class="o">=</span><span class="o">&gt;</span><span class="w"> </span><span class="err">~</span><span class="nc">I</span><span class="o">&lt;</span><span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">www</span><span class="o">.</span><span class="n">w3</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mi">1999</span><span class="o">/</span><span class="mi">02</span><span class="o">/</span><span class="mi">22</span><span class="o">-</span><span class="n">rdf</span><span class="o">-</span><span class="n">syntax</span><span class="o">-</span><span class="n">ns</span><span class="c1">#type&gt;,</span><span class="w">
+      </span><span class="s">&quot;s&quot;</span><span class="w"> </span><span class="o">=</span><span class="o">&gt;</span><span class="w"> </span><span class="sx">~L&quot;urn:isbn:978-1-68050-252-7&quot;</span><span class="w">
+    </span><span class="p" data-group-id="3822066392-3">}</span><span class="p">,</span><span class="w">
+    </span><span class="n">...</span><span class="w">
+  </span><span class="p" data-group-id="3822066392-2">]</span><span class="p">,</span><span class="w">
+  </span><span class="ss">variables</span><span class="p">:</span><span class="w"> </span><span class="p" data-group-id="3822066392-4">[</span><span class="s">&quot;s&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;p&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;o&quot;</span><span class="p" data-group-id="3822066392-4">]</span><span class="w">
+</span><span class="p" data-group-id="3822066392-1">}</span></code></pre>      <footer class="footer">
+        <p>
+          <span class="line">
+            Built using
+            <a href="https://github.com/elixir-lang/ex_doc" title="ExDoc" target="_blank" rel="help noopener">ExDoc</a> (v0.22.0),
+          </span>
+          <span class="line">
+            designed by
+            <a href="https://twitter.com/dignifiedquire" target="_blank" rel="noopener" title="@dignifiedquire">Friedel Ziegelmayer</a>.
+          </span>
+        </p>
+        <p>
+          <button class="line footer-button display-shortcuts-help">
+            Display keyboard shortcuts
+          </button>
+          <button class="line footer-button night-mode-toggle">
+            Toggle night mode
+          </button>
+          <button class="line footer-button display-quick-switch">
+            Go to a HexDocs package
+          </button>
+          <button class="line footer-button tooltips-toggle">
+            <span class="tooltips-option-disable">Disable tooltips</span>
+            <span class="tooltips-option-enable">Enable tooltips</span>
+          </button>
+        </p>
+      </footer>
+    </div>
+  </div>
+</section>
+</div>
+  </body>
+</html>

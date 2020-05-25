@@ -28,9 +28,9 @@ defmodule ExGraphsBook.MixProject do
   # Run "mix help deps" for examples and options.
   defp deps do
     [
-      # {:inch_ex, github: "rrrene/inch_ex", only: [:dev, :test]},
-      # {:credo, "~> 1.0.0", only: [:dev, :test], runtime: false},
-      # {:dialyxir, "~> 0.5", only: [:dev], runtime: false}
+      {:inch_ex, github: "rrrene/inch_ex", only: [:dev, :test]},
+      {:credo, "~> 1.0.0", only: [:dev, :test], runtime: false},
+      {:dialyxir, "~> 0.5", only: [:dev], runtime: false}
     ]
   end
 

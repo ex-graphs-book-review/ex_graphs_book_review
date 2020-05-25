@@ -17,11 +17,13 @@ defmodule NativeGraph.Service do
     :dets.member(:ex_graphs_book, :graph)
     |> case do
       true ->
-        [graph: g] = :dets.lookup(:ex_graphs_book, :graph)
-        Agent.start_link(fn -> g end, name: __MODULE__)
+        [graph: graph] = :dets.lookup(:ex_graphs_book, :graph)
+        Agent.start_link(fn -> graph end, name: __MODULE__)
 
       false ->
-        Agent.start_link(fn -> %Graph{} end, name: __MODULE__)
+        # Agent.start_link(fn -> %Graph{} end, name: __MODULE__)
+        Agent.start_link(fn -> NativeGraph.new_graph("Graph.new") end, name: __MODULE__)
+
     end
   end
 

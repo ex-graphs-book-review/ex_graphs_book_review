@@ -1,0 +1,2773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="ExDoc v0.22.0">
+    <meta name="project" content=" vdev">
+    <title>RDFGraph.Vocab.BIBO —  vdev</title>
+    <link rel="stylesheet" href="dist/elixir-e589b8fad3dab6230c65.css" />
+    <script src="dist/sidebar_items-8a0dc2c1ad.js"></script>
+      <script src="docs_config.js"></script>
+    <script async src="dist/app-5c0c23dfec2d63ae33a2.js"></script>
+  </head>
+  <body data-type="modules">
+    <script>try { if(localStorage.getItem('night-mode') === 'true') document.body.className += ' night-mode'; } catch (e) { }</script>
+<div class="main">
+
+<button class="sidebar-button sidebar-toggle">
+  <span class="icon-menu" title="Collapse/expand sidebar"></span>
+</button>
+
+<section class="sidebar">
+  <form class="sidebar-search" action="search.html">
+    <button type="submit" class="search-button">
+      <span class="icon-search" aria-hidden="true"></span>
+    </button>
+    <button type="button" tabindex="-1" class="search-close-button">
+      <span class="icon-cross" title="Cancel search"></span>
+    </button>
+    <label class="search-label">
+      <input name="q" type="text" id="search-list" class="search-input" placeholder="Search..." aria-label="Search" autocomplete="off" />
+    </label>
+  </form>
+
+  <div class="autocomplete">
+    <div class="autocomplete-results">
+    </div>
+  </div>
+
+  <div class="sidebar-header">
+    <div class="sidebar-projectDetails">
+      <a href="readme.html" class="sidebar-projectName">
+      </a>
+      <h2 class="sidebar-projectVersion">
+        vdev
+      </h2>
+    </div>
+  </div>
+
+  <ul class="sidebar-listNav">
+    <li><a id="extras-list" href="#full-list">Pages</a></li>
+
+      <li><a id="modules-list" href="#full-list">Modules</a></li>
+
+  </ul>
+  <div class="gradient"></div>
+  <ul id="full-list" class="sidebar-fullList"></ul>
+</section>
+
+<section class="content">
+  <div class="content-outer">
+    <div id="content" class="content-inner">
+
+      <h1>
+        <small class="app-vsn"> vdev</small>
+RDFGraph.Vocab.BIBO      </h1>
+
+
+
+        <section id="summary" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#summary">
+              <span class="icon-link" aria-hidden="true"></span>
+              <span class="sr-only">Link to this section</span>
+            </a>
+            Summary
+          </h1>
+  <div class="summary-functions summary">
+    <h2>
+      <a href="#functions">Functions</a>
+    </h2>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#__iris__/0">__iris__()</a>
+  </div>
+    <div class="summary-synopsis"><p>Returns all known IRIs of the vocabulary.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#abstract/0">abstract()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/abstract">http://purl.org/ontology/bibo/abstract</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#abstract/2">abstract(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#abstract/0"><code class="inline">abstract/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#affirmedBy/0">affirmedBy()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/affirmedBy">http://purl.org/ontology/bibo/affirmedBy</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#affirmedBy/2">affirmedBy(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#affirmedBy/0"><code class="inline">affirmedBy/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#annotates/0">annotates()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/annotates">http://purl.org/ontology/bibo/annotates</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#annotates/2">annotates(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#annotates/0"><code class="inline">annotates/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#argued/0">argued()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/argued">http://purl.org/ontology/bibo/argued</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#argued/2">argued(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#argued/0"><code class="inline">argued/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#asin/0">asin()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/asin">http://purl.org/ontology/bibo/asin</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#asin/2">asin(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#asin/0"><code class="inline">asin/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#authorList/0">authorList()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/authorList">http://purl.org/ontology/bibo/authorList</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#authorList/2">authorList(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#authorList/0"><code class="inline">authorList/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#bdarcus/0">bdarcus()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/bdarcus">http://purl.org/ontology/bibo/bdarcus</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#bdarcus/2">bdarcus(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#bdarcus/0"><code class="inline">bdarcus/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#chapter/0">chapter()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/chapter">http://purl.org/ontology/bibo/chapter</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#chapter/2">chapter(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#chapter/0"><code class="inline">chapter/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#citedBy/0">citedBy()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/citedBy">http://purl.org/ontology/bibo/citedBy</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#citedBy/2">citedBy(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#citedBy/0"><code class="inline">citedBy/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#cites/0">cites()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/cites">http://purl.org/ontology/bibo/cites</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#cites/2">cites(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#cites/0"><code class="inline">cites/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#coden/0">coden()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/coden">http://purl.org/ontology/bibo/coden</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#coden/2">coden(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#coden/0"><code class="inline">coden/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#content/0">content()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/content">http://purl.org/ontology/bibo/content</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#content/2">content(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#content/0"><code class="inline">content/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#contributorList/0">contributorList()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/contributorList">http://purl.org/ontology/bibo/contributorList</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#contributorList/2">contributorList(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#contributorList/0"><code class="inline">contributorList/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#court/0">court()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/court">http://purl.org/ontology/bibo/court</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#court/2">court(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#court/0"><code class="inline">court/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#degree/0">degree()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/degree">http://purl.org/ontology/bibo/degree</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#degree/2">degree(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#degree/0"><code class="inline">degree/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#director/0">director()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/director">http://purl.org/ontology/bibo/director</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#director/2">director(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#director/0"><code class="inline">director/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#distributor/0">distributor()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/distributor">http://purl.org/ontology/bibo/distributor</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#distributor/2">distributor(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#distributor/0"><code class="inline">distributor/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#doi/0">doi()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/doi">http://purl.org/ontology/bibo/doi</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#doi/2">doi(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#doi/0"><code class="inline">doi/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#eanucc13/0">eanucc13()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/eanucc13">http://purl.org/ontology/bibo/eanucc13</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#eanucc13/2">eanucc13(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#eanucc13/0"><code class="inline">eanucc13/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#edition/0">edition()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/edition">http://purl.org/ontology/bibo/edition</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#edition/2">edition(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#edition/0"><code class="inline">edition/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#editor/0">editor()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/editor">http://purl.org/ontology/bibo/editor</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#editor/2">editor(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#editor/0"><code class="inline">editor/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#editorList/0">editorList()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/editorList">http://purl.org/ontology/bibo/editorList</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#editorList/2">editorList(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#editorList/0"><code class="inline">editorList/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#eissn/0">eissn()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/eissn">http://purl.org/ontology/bibo/eissn</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#eissn/2">eissn(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#eissn/0"><code class="inline">eissn/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#fgiasson/0">fgiasson()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/fgiasson">http://purl.org/ontology/bibo/fgiasson</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#fgiasson/2">fgiasson(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#fgiasson/0"><code class="inline">fgiasson/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#gtin14/0">gtin14()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/gtin14">http://purl.org/ontology/bibo/gtin14</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#gtin14/2">gtin14(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#gtin14/0"><code class="inline">gtin14/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#handle/0">handle()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/handle">http://purl.org/ontology/bibo/handle</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#handle/2">handle(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#handle/0"><code class="inline">handle/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#identifier/0">identifier()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/identifier">http://purl.org/ontology/bibo/identifier</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#identifier/2">identifier(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#identifier/0"><code class="inline">identifier/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#interviewee/0">interviewee()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/interviewee">http://purl.org/ontology/bibo/interviewee</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#interviewee/2">interviewee(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#interviewee/0"><code class="inline">interviewee/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#interviewer/0">interviewer()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/interviewer">http://purl.org/ontology/bibo/interviewer</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#interviewer/2">interviewer(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#interviewer/0"><code class="inline">interviewer/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#isbn/0">isbn()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/isbn">http://purl.org/ontology/bibo/isbn</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#isbn/2">isbn(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#isbn/0"><code class="inline">isbn/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#isbn10/0">isbn10()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/isbn10">http://purl.org/ontology/bibo/isbn10</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#isbn10/2">isbn10(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#isbn10/0"><code class="inline">isbn10/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#isbn13/0">isbn13()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/isbn13">http://purl.org/ontology/bibo/isbn13</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#isbn13/2">isbn13(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#isbn13/0"><code class="inline">isbn13/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#issn/0">issn()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/issn">http://purl.org/ontology/bibo/issn</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#issn/2">issn(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#issn/0"><code class="inline">issn/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#issue/0">issue()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/issue">http://purl.org/ontology/bibo/issue</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#issue/2">issue(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#issue/0"><code class="inline">issue/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#issuer/0">issuer()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/issuer">http://purl.org/ontology/bibo/issuer</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#issuer/2">issuer(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#issuer/0"><code class="inline">issuer/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#lccn/0">lccn()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/lccn">http://purl.org/ontology/bibo/lccn</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#lccn/2">lccn(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#lccn/0"><code class="inline">lccn/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#locator/0">locator()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/locator">http://purl.org/ontology/bibo/locator</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#locator/2">locator(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#locator/0"><code class="inline">locator/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#numPages/0">numPages()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/numPages">http://purl.org/ontology/bibo/numPages</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#numPages/2">numPages(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#numPages/0"><code class="inline">numPages/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#numVolumes/0">numVolumes()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/numVolumes">http://purl.org/ontology/bibo/numVolumes</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#numVolumes/2">numVolumes(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#numVolumes/0"><code class="inline">numVolumes/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#number/0">number()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/number">http://purl.org/ontology/bibo/number</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#number/2">number(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#number/0"><code class="inline">number/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#oclcnum/0">oclcnum()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/oclcnum">http://purl.org/ontology/bibo/oclcnum</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#oclcnum/2">oclcnum(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#oclcnum/0"><code class="inline">oclcnum/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#organizer/0">organizer()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/organizer">http://purl.org/ontology/bibo/organizer</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#organizer/2">organizer(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#organizer/0"><code class="inline">organizer/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#owner/0">owner()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/owner">http://purl.org/ontology/bibo/owner</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#owner/2">owner(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#owner/0"><code class="inline">owner/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#pageEnd/0">pageEnd()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/pageEnd">http://purl.org/ontology/bibo/pageEnd</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#pageEnd/2">pageEnd(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#pageEnd/0"><code class="inline">pageEnd/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#pageStart/0">pageStart()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/pageStart">http://purl.org/ontology/bibo/pageStart</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#pageStart/2">pageStart(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#pageStart/0"><code class="inline">pageStart/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#pages/0">pages()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/pages">http://purl.org/ontology/bibo/pages</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#pages/2">pages(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#pages/0"><code class="inline">pages/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#performer/0">performer()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/performer">http://purl.org/ontology/bibo/performer</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#performer/2">performer(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#performer/0"><code class="inline">performer/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#pmid/0">pmid()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/pmid">http://purl.org/ontology/bibo/pmid</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#pmid/2">pmid(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#pmid/0"><code class="inline">pmid/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#prefixName/0">prefixName()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/prefixName">http://purl.org/ontology/bibo/prefixName</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#prefixName/2">prefixName(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#prefixName/0"><code class="inline">prefixName/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#presentedAt/0">presentedAt()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/presentedAt">http://purl.org/ontology/bibo/presentedAt</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#presentedAt/2">presentedAt(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#presentedAt/0"><code class="inline">presentedAt/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#presents/0">presents()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/presents">http://purl.org/ontology/bibo/presents</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#presents/2">presents(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#presents/0"><code class="inline">presents/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#producer/0">producer()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/producer">http://purl.org/ontology/bibo/producer</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#producer/2">producer(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#producer/0"><code class="inline">producer/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#recipient/0">recipient()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/recipient">http://purl.org/ontology/bibo/recipient</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#recipient/2">recipient(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#recipient/0"><code class="inline">recipient/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#reproducedIn/0">reproducedIn()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/reproducedIn">http://purl.org/ontology/bibo/reproducedIn</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#reproducedIn/2">reproducedIn(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#reproducedIn/0"><code class="inline">reproducedIn/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#reversedBy/0">reversedBy()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/reversedBy">http://purl.org/ontology/bibo/reversedBy</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#reversedBy/2">reversedBy(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#reversedBy/0"><code class="inline">reversedBy/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#reviewOf/0">reviewOf()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/reviewOf">http://purl.org/ontology/bibo/reviewOf</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#reviewOf/2">reviewOf(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#reviewOf/0"><code class="inline">reviewOf/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#section/0">section()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/section">http://purl.org/ontology/bibo/section</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#section/2">section(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#section/0"><code class="inline">section/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#shortDescription/0">shortDescription()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/shortDescription">http://purl.org/ontology/bibo/shortDescription</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#shortDescription/2">shortDescription(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#shortDescription/0"><code class="inline">shortDescription/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#shortTitle/0">shortTitle()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/shortTitle">http://purl.org/ontology/bibo/shortTitle</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#shortTitle/2">shortTitle(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#shortTitle/0"><code class="inline">shortTitle/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#sici/0">sici()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/sici">http://purl.org/ontology/bibo/sici</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#sici/2">sici(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#sici/0"><code class="inline">sici/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#status/0">status()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/status">http://purl.org/ontology/bibo/status</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#status/2">status(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#status/0"><code class="inline">status/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#subsequentLegalDecision/0">subsequentLegalDecision()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/subsequentLegalDecision">http://purl.org/ontology/bibo/subsequentLegalDecision</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#subsequentLegalDecision/2">subsequentLegalDecision(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#subsequentLegalDecision/0"><code class="inline">subsequentLegalDecision/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#suffixName/0">suffixName()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/suffixName">http://purl.org/ontology/bibo/suffixName</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#suffixName/2">suffixName(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#suffixName/0"><code class="inline">suffixName/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#transcriptOf/0">transcriptOf()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/transcriptOf">http://purl.org/ontology/bibo/transcriptOf</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#transcriptOf/2">transcriptOf(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#transcriptOf/0"><code class="inline">transcriptOf/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#translationOf/0">translationOf()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/translationOf">http://purl.org/ontology/bibo/translationOf</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#translationOf/2">translationOf(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#translationOf/0"><code class="inline">translationOf/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#translator/0">translator()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/translator">http://purl.org/ontology/bibo/translator</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#translator/2">translator(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#translator/0"><code class="inline">translator/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#upc/0">upc()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/upc">http://purl.org/ontology/bibo/upc</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#upc/2">upc(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#upc/0"><code class="inline">upc/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#uri/0">uri()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/uri">http://purl.org/ontology/bibo/uri</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#uri/2">uri(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#uri/0"><code class="inline">uri/0</code></a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#volume/0">volume()</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="http://purl.org/ontology/bibo/volume">http://purl.org/ontology/bibo/volume</a></p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#volume/2">volume(subject, object)</a>
+  </div>
+    <div class="summary-synopsis"><p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#volume/0"><code class="inline">volume/0</code></a></p></div>
+</div>
+  </div>
+        </section>
+
+        <section id="functions" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#functions">
+              <span class="icon-link" aria-hidden="true"></span>
+              <span class="sr-only">Link to this section</span>
+            </a>
+Functions          </h1>
+          <div class="functions-list">
+<section class="detail" id="__iris__/0">
+  <div class="detail-header">
+    <a href="#__iris__/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">__iris__()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>__iris__() :: [<a href="https://hexdocs.pm/rdf/RDF.IRI.html#t:t/0">RDF.IRI.t</a>()]</pre>
+      </div>
+
+<p>Returns all known IRIs of the vocabulary.</p>  </section>
+</section>
+<section class="detail" id="abstract/0">
+  <div class="detail-header">
+    <a href="#abstract/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">abstract()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/abstract">http://purl.org/ontology/bibo/abstract</a></p>  </section>
+</section>
+<section class="detail" id="abstract/2">
+  <div class="detail-header">
+    <a href="#abstract/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">abstract(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#abstract/0"><code class="inline">abstract/0</code></a></p>  </section>
+</section>
+<section class="detail" id="affirmedBy/0">
+  <div class="detail-header">
+    <a href="#affirmedBy/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">affirmedBy()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/affirmedBy">http://purl.org/ontology/bibo/affirmedBy</a></p>  </section>
+</section>
+<section class="detail" id="affirmedBy/2">
+  <div class="detail-header">
+    <a href="#affirmedBy/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">affirmedBy(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#affirmedBy/0"><code class="inline">affirmedBy/0</code></a></p>  </section>
+</section>
+<section class="detail" id="annotates/0">
+  <div class="detail-header">
+    <a href="#annotates/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">annotates()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/annotates">http://purl.org/ontology/bibo/annotates</a></p>  </section>
+</section>
+<section class="detail" id="annotates/2">
+  <div class="detail-header">
+    <a href="#annotates/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">annotates(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#annotates/0"><code class="inline">annotates/0</code></a></p>  </section>
+</section>
+<section class="detail" id="argued/0">
+  <div class="detail-header">
+    <a href="#argued/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">argued()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/argued">http://purl.org/ontology/bibo/argued</a></p>  </section>
+</section>
+<section class="detail" id="argued/2">
+  <div class="detail-header">
+    <a href="#argued/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">argued(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#argued/0"><code class="inline">argued/0</code></a></p>  </section>
+</section>
+<section class="detail" id="asin/0">
+  <div class="detail-header">
+    <a href="#asin/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">asin()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/asin">http://purl.org/ontology/bibo/asin</a></p>  </section>
+</section>
+<section class="detail" id="asin/2">
+  <div class="detail-header">
+    <a href="#asin/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">asin(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#asin/0"><code class="inline">asin/0</code></a></p>  </section>
+</section>
+<section class="detail" id="authorList/0">
+  <div class="detail-header">
+    <a href="#authorList/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">authorList()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/authorList">http://purl.org/ontology/bibo/authorList</a></p>  </section>
+</section>
+<section class="detail" id="authorList/2">
+  <div class="detail-header">
+    <a href="#authorList/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">authorList(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#authorList/0"><code class="inline">authorList/0</code></a></p>  </section>
+</section>
+<section class="detail" id="bdarcus/0">
+  <div class="detail-header">
+    <a href="#bdarcus/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">bdarcus()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/bdarcus">http://purl.org/ontology/bibo/bdarcus</a></p>  </section>
+</section>
+<section class="detail" id="bdarcus/2">
+  <div class="detail-header">
+    <a href="#bdarcus/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">bdarcus(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#bdarcus/0"><code class="inline">bdarcus/0</code></a></p>  </section>
+</section>
+<section class="detail" id="chapter/0">
+  <div class="detail-header">
+    <a href="#chapter/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">chapter()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/chapter">http://purl.org/ontology/bibo/chapter</a></p>  </section>
+</section>
+<section class="detail" id="chapter/2">
+  <div class="detail-header">
+    <a href="#chapter/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">chapter(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#chapter/0"><code class="inline">chapter/0</code></a></p>  </section>
+</section>
+<section class="detail" id="citedBy/0">
+  <div class="detail-header">
+    <a href="#citedBy/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">citedBy()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/citedBy">http://purl.org/ontology/bibo/citedBy</a></p>  </section>
+</section>
+<section class="detail" id="citedBy/2">
+  <div class="detail-header">
+    <a href="#citedBy/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">citedBy(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#citedBy/0"><code class="inline">citedBy/0</code></a></p>  </section>
+</section>
+<section class="detail" id="cites/0">
+  <div class="detail-header">
+    <a href="#cites/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">cites()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/cites">http://purl.org/ontology/bibo/cites</a></p>  </section>
+</section>
+<section class="detail" id="cites/2">
+  <div class="detail-header">
+    <a href="#cites/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">cites(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#cites/0"><code class="inline">cites/0</code></a></p>  </section>
+</section>
+<section class="detail" id="coden/0">
+  <div class="detail-header">
+    <a href="#coden/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">coden()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/coden">http://purl.org/ontology/bibo/coden</a></p>  </section>
+</section>
+<section class="detail" id="coden/2">
+  <div class="detail-header">
+    <a href="#coden/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">coden(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#coden/0"><code class="inline">coden/0</code></a></p>  </section>
+</section>
+<section class="detail" id="content/0">
+  <div class="detail-header">
+    <a href="#content/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">content()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/content">http://purl.org/ontology/bibo/content</a></p>  </section>
+</section>
+<section class="detail" id="content/2">
+  <div class="detail-header">
+    <a href="#content/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">content(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#content/0"><code class="inline">content/0</code></a></p>  </section>
+</section>
+<section class="detail" id="contributorList/0">
+  <div class="detail-header">
+    <a href="#contributorList/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">contributorList()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/contributorList">http://purl.org/ontology/bibo/contributorList</a></p>  </section>
+</section>
+<section class="detail" id="contributorList/2">
+  <div class="detail-header">
+    <a href="#contributorList/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">contributorList(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#contributorList/0"><code class="inline">contributorList/0</code></a></p>  </section>
+</section>
+<section class="detail" id="court/0">
+  <div class="detail-header">
+    <a href="#court/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">court()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/court">http://purl.org/ontology/bibo/court</a></p>  </section>
+</section>
+<section class="detail" id="court/2">
+  <div class="detail-header">
+    <a href="#court/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">court(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#court/0"><code class="inline">court/0</code></a></p>  </section>
+</section>
+<section class="detail" id="degree/0">
+  <div class="detail-header">
+    <a href="#degree/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">degree()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/degree">http://purl.org/ontology/bibo/degree</a></p>  </section>
+</section>
+<section class="detail" id="degree/2">
+  <div class="detail-header">
+    <a href="#degree/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">degree(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#degree/0"><code class="inline">degree/0</code></a></p>  </section>
+</section>
+<section class="detail" id="director/0">
+  <div class="detail-header">
+    <a href="#director/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">director()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/director">http://purl.org/ontology/bibo/director</a></p>  </section>
+</section>
+<section class="detail" id="director/2">
+  <div class="detail-header">
+    <a href="#director/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">director(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#director/0"><code class="inline">director/0</code></a></p>  </section>
+</section>
+<section class="detail" id="distributor/0">
+  <div class="detail-header">
+    <a href="#distributor/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">distributor()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/distributor">http://purl.org/ontology/bibo/distributor</a></p>  </section>
+</section>
+<section class="detail" id="distributor/2">
+  <div class="detail-header">
+    <a href="#distributor/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">distributor(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#distributor/0"><code class="inline">distributor/0</code></a></p>  </section>
+</section>
+<section class="detail" id="doi/0">
+  <div class="detail-header">
+    <a href="#doi/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">doi()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/doi">http://purl.org/ontology/bibo/doi</a></p>  </section>
+</section>
+<section class="detail" id="doi/2">
+  <div class="detail-header">
+    <a href="#doi/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">doi(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#doi/0"><code class="inline">doi/0</code></a></p>  </section>
+</section>
+<section class="detail" id="eanucc13/0">
+  <div class="detail-header">
+    <a href="#eanucc13/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">eanucc13()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/eanucc13">http://purl.org/ontology/bibo/eanucc13</a></p>  </section>
+</section>
+<section class="detail" id="eanucc13/2">
+  <div class="detail-header">
+    <a href="#eanucc13/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">eanucc13(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#eanucc13/0"><code class="inline">eanucc13/0</code></a></p>  </section>
+</section>
+<section class="detail" id="edition/0">
+  <div class="detail-header">
+    <a href="#edition/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">edition()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/edition">http://purl.org/ontology/bibo/edition</a></p>  </section>
+</section>
+<section class="detail" id="edition/2">
+  <div class="detail-header">
+    <a href="#edition/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">edition(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#edition/0"><code class="inline">edition/0</code></a></p>  </section>
+</section>
+<section class="detail" id="editor/0">
+  <div class="detail-header">
+    <a href="#editor/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">editor()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/editor">http://purl.org/ontology/bibo/editor</a></p>  </section>
+</section>
+<section class="detail" id="editor/2">
+  <div class="detail-header">
+    <a href="#editor/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">editor(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#editor/0"><code class="inline">editor/0</code></a></p>  </section>
+</section>
+<section class="detail" id="editorList/0">
+  <div class="detail-header">
+    <a href="#editorList/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">editorList()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/editorList">http://purl.org/ontology/bibo/editorList</a></p>  </section>
+</section>
+<section class="detail" id="editorList/2">
+  <div class="detail-header">
+    <a href="#editorList/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">editorList(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#editorList/0"><code class="inline">editorList/0</code></a></p>  </section>
+</section>
+<section class="detail" id="eissn/0">
+  <div class="detail-header">
+    <a href="#eissn/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">eissn()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/eissn">http://purl.org/ontology/bibo/eissn</a></p>  </section>
+</section>
+<section class="detail" id="eissn/2">
+  <div class="detail-header">
+    <a href="#eissn/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">eissn(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#eissn/0"><code class="inline">eissn/0</code></a></p>  </section>
+</section>
+<section class="detail" id="fgiasson/0">
+  <div class="detail-header">
+    <a href="#fgiasson/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">fgiasson()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/fgiasson">http://purl.org/ontology/bibo/fgiasson</a></p>  </section>
+</section>
+<section class="detail" id="fgiasson/2">
+  <div class="detail-header">
+    <a href="#fgiasson/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">fgiasson(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#fgiasson/0"><code class="inline">fgiasson/0</code></a></p>  </section>
+</section>
+<section class="detail" id="gtin14/0">
+  <div class="detail-header">
+    <a href="#gtin14/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">gtin14()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/gtin14">http://purl.org/ontology/bibo/gtin14</a></p>  </section>
+</section>
+<section class="detail" id="gtin14/2">
+  <div class="detail-header">
+    <a href="#gtin14/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">gtin14(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#gtin14/0"><code class="inline">gtin14/0</code></a></p>  </section>
+</section>
+<section class="detail" id="handle/0">
+  <div class="detail-header">
+    <a href="#handle/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">handle()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/handle">http://purl.org/ontology/bibo/handle</a></p>  </section>
+</section>
+<section class="detail" id="handle/2">
+  <div class="detail-header">
+    <a href="#handle/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">handle(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#handle/0"><code class="inline">handle/0</code></a></p>  </section>
+</section>
+<section class="detail" id="identifier/0">
+  <div class="detail-header">
+    <a href="#identifier/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">identifier()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/identifier">http://purl.org/ontology/bibo/identifier</a></p>  </section>
+</section>
+<section class="detail" id="identifier/2">
+  <div class="detail-header">
+    <a href="#identifier/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">identifier(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#identifier/0"><code class="inline">identifier/0</code></a></p>  </section>
+</section>
+<section class="detail" id="interviewee/0">
+  <div class="detail-header">
+    <a href="#interviewee/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">interviewee()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/interviewee">http://purl.org/ontology/bibo/interviewee</a></p>  </section>
+</section>
+<section class="detail" id="interviewee/2">
+  <div class="detail-header">
+    <a href="#interviewee/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">interviewee(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#interviewee/0"><code class="inline">interviewee/0</code></a></p>  </section>
+</section>
+<section class="detail" id="interviewer/0">
+  <div class="detail-header">
+    <a href="#interviewer/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">interviewer()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/interviewer">http://purl.org/ontology/bibo/interviewer</a></p>  </section>
+</section>
+<section class="detail" id="interviewer/2">
+  <div class="detail-header">
+    <a href="#interviewer/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">interviewer(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#interviewer/0"><code class="inline">interviewer/0</code></a></p>  </section>
+</section>
+<section class="detail" id="isbn/0">
+  <div class="detail-header">
+    <a href="#isbn/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">isbn()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/isbn">http://purl.org/ontology/bibo/isbn</a></p>  </section>
+</section>
+<section class="detail" id="isbn/2">
+  <div class="detail-header">
+    <a href="#isbn/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">isbn(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#isbn/0"><code class="inline">isbn/0</code></a></p>  </section>
+</section>
+<section class="detail" id="isbn10/0">
+  <div class="detail-header">
+    <a href="#isbn10/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">isbn10()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/isbn10">http://purl.org/ontology/bibo/isbn10</a></p>  </section>
+</section>
+<section class="detail" id="isbn10/2">
+  <div class="detail-header">
+    <a href="#isbn10/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">isbn10(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#isbn10/0"><code class="inline">isbn10/0</code></a></p>  </section>
+</section>
+<section class="detail" id="isbn13/0">
+  <div class="detail-header">
+    <a href="#isbn13/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">isbn13()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/isbn13">http://purl.org/ontology/bibo/isbn13</a></p>  </section>
+</section>
+<section class="detail" id="isbn13/2">
+  <div class="detail-header">
+    <a href="#isbn13/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">isbn13(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#isbn13/0"><code class="inline">isbn13/0</code></a></p>  </section>
+</section>
+<section class="detail" id="issn/0">
+  <div class="detail-header">
+    <a href="#issn/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">issn()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/issn">http://purl.org/ontology/bibo/issn</a></p>  </section>
+</section>
+<section class="detail" id="issn/2">
+  <div class="detail-header">
+    <a href="#issn/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">issn(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#issn/0"><code class="inline">issn/0</code></a></p>  </section>
+</section>
+<section class="detail" id="issue/0">
+  <div class="detail-header">
+    <a href="#issue/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">issue()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/issue">http://purl.org/ontology/bibo/issue</a></p>  </section>
+</section>
+<section class="detail" id="issue/2">
+  <div class="detail-header">
+    <a href="#issue/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">issue(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#issue/0"><code class="inline">issue/0</code></a></p>  </section>
+</section>
+<section class="detail" id="issuer/0">
+  <div class="detail-header">
+    <a href="#issuer/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">issuer()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/issuer">http://purl.org/ontology/bibo/issuer</a></p>  </section>
+</section>
+<section class="detail" id="issuer/2">
+  <div class="detail-header">
+    <a href="#issuer/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">issuer(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#issuer/0"><code class="inline">issuer/0</code></a></p>  </section>
+</section>
+<section class="detail" id="lccn/0">
+  <div class="detail-header">
+    <a href="#lccn/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">lccn()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/lccn">http://purl.org/ontology/bibo/lccn</a></p>  </section>
+</section>
+<section class="detail" id="lccn/2">
+  <div class="detail-header">
+    <a href="#lccn/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">lccn(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#lccn/0"><code class="inline">lccn/0</code></a></p>  </section>
+</section>
+<section class="detail" id="locator/0">
+  <div class="detail-header">
+    <a href="#locator/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">locator()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/locator">http://purl.org/ontology/bibo/locator</a></p>  </section>
+</section>
+<section class="detail" id="locator/2">
+  <div class="detail-header">
+    <a href="#locator/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">locator(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#locator/0"><code class="inline">locator/0</code></a></p>  </section>
+</section>
+<section class="detail" id="numPages/0">
+  <div class="detail-header">
+    <a href="#numPages/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">numPages()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/numPages">http://purl.org/ontology/bibo/numPages</a></p>  </section>
+</section>
+<section class="detail" id="numPages/2">
+  <div class="detail-header">
+    <a href="#numPages/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">numPages(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#numPages/0"><code class="inline">numPages/0</code></a></p>  </section>
+</section>
+<section class="detail" id="numVolumes/0">
+  <div class="detail-header">
+    <a href="#numVolumes/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">numVolumes()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/numVolumes">http://purl.org/ontology/bibo/numVolumes</a></p>  </section>
+</section>
+<section class="detail" id="numVolumes/2">
+  <div class="detail-header">
+    <a href="#numVolumes/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">numVolumes(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#numVolumes/0"><code class="inline">numVolumes/0</code></a></p>  </section>
+</section>
+<section class="detail" id="number/0">
+  <div class="detail-header">
+    <a href="#number/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">number()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/number">http://purl.org/ontology/bibo/number</a></p>  </section>
+</section>
+<section class="detail" id="number/2">
+  <div class="detail-header">
+    <a href="#number/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">number(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#number/0"><code class="inline">number/0</code></a></p>  </section>
+</section>
+<section class="detail" id="oclcnum/0">
+  <div class="detail-header">
+    <a href="#oclcnum/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">oclcnum()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/oclcnum">http://purl.org/ontology/bibo/oclcnum</a></p>  </section>
+</section>
+<section class="detail" id="oclcnum/2">
+  <div class="detail-header">
+    <a href="#oclcnum/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">oclcnum(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#oclcnum/0"><code class="inline">oclcnum/0</code></a></p>  </section>
+</section>
+<section class="detail" id="organizer/0">
+  <div class="detail-header">
+    <a href="#organizer/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">organizer()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/organizer">http://purl.org/ontology/bibo/organizer</a></p>  </section>
+</section>
+<section class="detail" id="organizer/2">
+  <div class="detail-header">
+    <a href="#organizer/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">organizer(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#organizer/0"><code class="inline">organizer/0</code></a></p>  </section>
+</section>
+<section class="detail" id="owner/0">
+  <div class="detail-header">
+    <a href="#owner/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">owner()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/owner">http://purl.org/ontology/bibo/owner</a></p>  </section>
+</section>
+<section class="detail" id="owner/2">
+  <div class="detail-header">
+    <a href="#owner/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">owner(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#owner/0"><code class="inline">owner/0</code></a></p>  </section>
+</section>
+<section class="detail" id="pageEnd/0">
+  <div class="detail-header">
+    <a href="#pageEnd/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">pageEnd()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/pageEnd">http://purl.org/ontology/bibo/pageEnd</a></p>  </section>
+</section>
+<section class="detail" id="pageEnd/2">
+  <div class="detail-header">
+    <a href="#pageEnd/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">pageEnd(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#pageEnd/0"><code class="inline">pageEnd/0</code></a></p>  </section>
+</section>
+<section class="detail" id="pageStart/0">
+  <div class="detail-header">
+    <a href="#pageStart/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">pageStart()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/pageStart">http://purl.org/ontology/bibo/pageStart</a></p>  </section>
+</section>
+<section class="detail" id="pageStart/2">
+  <div class="detail-header">
+    <a href="#pageStart/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">pageStart(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#pageStart/0"><code class="inline">pageStart/0</code></a></p>  </section>
+</section>
+<section class="detail" id="pages/0">
+  <div class="detail-header">
+    <a href="#pages/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">pages()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/pages">http://purl.org/ontology/bibo/pages</a></p>  </section>
+</section>
+<section class="detail" id="pages/2">
+  <div class="detail-header">
+    <a href="#pages/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">pages(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#pages/0"><code class="inline">pages/0</code></a></p>  </section>
+</section>
+<section class="detail" id="performer/0">
+  <div class="detail-header">
+    <a href="#performer/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">performer()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/performer">http://purl.org/ontology/bibo/performer</a></p>  </section>
+</section>
+<section class="detail" id="performer/2">
+  <div class="detail-header">
+    <a href="#performer/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">performer(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#performer/0"><code class="inline">performer/0</code></a></p>  </section>
+</section>
+<section class="detail" id="pmid/0">
+  <div class="detail-header">
+    <a href="#pmid/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">pmid()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/pmid">http://purl.org/ontology/bibo/pmid</a></p>  </section>
+</section>
+<section class="detail" id="pmid/2">
+  <div class="detail-header">
+    <a href="#pmid/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">pmid(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#pmid/0"><code class="inline">pmid/0</code></a></p>  </section>
+</section>
+<section class="detail" id="prefixName/0">
+  <div class="detail-header">
+    <a href="#prefixName/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">prefixName()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/prefixName">http://purl.org/ontology/bibo/prefixName</a></p>  </section>
+</section>
+<section class="detail" id="prefixName/2">
+  <div class="detail-header">
+    <a href="#prefixName/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">prefixName(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#prefixName/0"><code class="inline">prefixName/0</code></a></p>  </section>
+</section>
+<section class="detail" id="presentedAt/0">
+  <div class="detail-header">
+    <a href="#presentedAt/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">presentedAt()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/presentedAt">http://purl.org/ontology/bibo/presentedAt</a></p>  </section>
+</section>
+<section class="detail" id="presentedAt/2">
+  <div class="detail-header">
+    <a href="#presentedAt/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">presentedAt(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#presentedAt/0"><code class="inline">presentedAt/0</code></a></p>  </section>
+</section>
+<section class="detail" id="presents/0">
+  <div class="detail-header">
+    <a href="#presents/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">presents()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/presents">http://purl.org/ontology/bibo/presents</a></p>  </section>
+</section>
+<section class="detail" id="presents/2">
+  <div class="detail-header">
+    <a href="#presents/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">presents(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#presents/0"><code class="inline">presents/0</code></a></p>  </section>
+</section>
+<section class="detail" id="producer/0">
+  <div class="detail-header">
+    <a href="#producer/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">producer()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/producer">http://purl.org/ontology/bibo/producer</a></p>  </section>
+</section>
+<section class="detail" id="producer/2">
+  <div class="detail-header">
+    <a href="#producer/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">producer(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#producer/0"><code class="inline">producer/0</code></a></p>  </section>
+</section>
+<section class="detail" id="recipient/0">
+  <div class="detail-header">
+    <a href="#recipient/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">recipient()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/recipient">http://purl.org/ontology/bibo/recipient</a></p>  </section>
+</section>
+<section class="detail" id="recipient/2">
+  <div class="detail-header">
+    <a href="#recipient/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">recipient(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#recipient/0"><code class="inline">recipient/0</code></a></p>  </section>
+</section>
+<section class="detail" id="reproducedIn/0">
+  <div class="detail-header">
+    <a href="#reproducedIn/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">reproducedIn()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/reproducedIn">http://purl.org/ontology/bibo/reproducedIn</a></p>  </section>
+</section>
+<section class="detail" id="reproducedIn/2">
+  <div class="detail-header">
+    <a href="#reproducedIn/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">reproducedIn(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#reproducedIn/0"><code class="inline">reproducedIn/0</code></a></p>  </section>
+</section>
+<section class="detail" id="reversedBy/0">
+  <div class="detail-header">
+    <a href="#reversedBy/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">reversedBy()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/reversedBy">http://purl.org/ontology/bibo/reversedBy</a></p>  </section>
+</section>
+<section class="detail" id="reversedBy/2">
+  <div class="detail-header">
+    <a href="#reversedBy/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">reversedBy(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#reversedBy/0"><code class="inline">reversedBy/0</code></a></p>  </section>
+</section>
+<section class="detail" id="reviewOf/0">
+  <div class="detail-header">
+    <a href="#reviewOf/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">reviewOf()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/reviewOf">http://purl.org/ontology/bibo/reviewOf</a></p>  </section>
+</section>
+<section class="detail" id="reviewOf/2">
+  <div class="detail-header">
+    <a href="#reviewOf/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">reviewOf(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#reviewOf/0"><code class="inline">reviewOf/0</code></a></p>  </section>
+</section>
+<section class="detail" id="section/0">
+  <div class="detail-header">
+    <a href="#section/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">section()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/section">http://purl.org/ontology/bibo/section</a></p>  </section>
+</section>
+<section class="detail" id="section/2">
+  <div class="detail-header">
+    <a href="#section/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">section(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#section/0"><code class="inline">section/0</code></a></p>  </section>
+</section>
+<section class="detail" id="shortDescription/0">
+  <div class="detail-header">
+    <a href="#shortDescription/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">shortDescription()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/shortDescription">http://purl.org/ontology/bibo/shortDescription</a></p>  </section>
+</section>
+<section class="detail" id="shortDescription/2">
+  <div class="detail-header">
+    <a href="#shortDescription/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">shortDescription(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#shortDescription/0"><code class="inline">shortDescription/0</code></a></p>  </section>
+</section>
+<section class="detail" id="shortTitle/0">
+  <div class="detail-header">
+    <a href="#shortTitle/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">shortTitle()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/shortTitle">http://purl.org/ontology/bibo/shortTitle</a></p>  </section>
+</section>
+<section class="detail" id="shortTitle/2">
+  <div class="detail-header">
+    <a href="#shortTitle/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">shortTitle(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#shortTitle/0"><code class="inline">shortTitle/0</code></a></p>  </section>
+</section>
+<section class="detail" id="sici/0">
+  <div class="detail-header">
+    <a href="#sici/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">sici()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/sici">http://purl.org/ontology/bibo/sici</a></p>  </section>
+</section>
+<section class="detail" id="sici/2">
+  <div class="detail-header">
+    <a href="#sici/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">sici(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#sici/0"><code class="inline">sici/0</code></a></p>  </section>
+</section>
+<section class="detail" id="status/0">
+  <div class="detail-header">
+    <a href="#status/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">status()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/status">http://purl.org/ontology/bibo/status</a></p>  </section>
+</section>
+<section class="detail" id="status/2">
+  <div class="detail-header">
+    <a href="#status/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">status(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#status/0"><code class="inline">status/0</code></a></p>  </section>
+</section>
+<section class="detail" id="subsequentLegalDecision/0">
+  <div class="detail-header">
+    <a href="#subsequentLegalDecision/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">subsequentLegalDecision()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/subsequentLegalDecision">http://purl.org/ontology/bibo/subsequentLegalDecision</a></p>  </section>
+</section>
+<section class="detail" id="subsequentLegalDecision/2">
+  <div class="detail-header">
+    <a href="#subsequentLegalDecision/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">subsequentLegalDecision(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#subsequentLegalDecision/0"><code class="inline">subsequentLegalDecision/0</code></a></p>  </section>
+</section>
+<section class="detail" id="suffixName/0">
+  <div class="detail-header">
+    <a href="#suffixName/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">suffixName()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/suffixName">http://purl.org/ontology/bibo/suffixName</a></p>  </section>
+</section>
+<section class="detail" id="suffixName/2">
+  <div class="detail-header">
+    <a href="#suffixName/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">suffixName(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#suffixName/0"><code class="inline">suffixName/0</code></a></p>  </section>
+</section>
+<section class="detail" id="transcriptOf/0">
+  <div class="detail-header">
+    <a href="#transcriptOf/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">transcriptOf()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/transcriptOf">http://purl.org/ontology/bibo/transcriptOf</a></p>  </section>
+</section>
+<section class="detail" id="transcriptOf/2">
+  <div class="detail-header">
+    <a href="#transcriptOf/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">transcriptOf(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#transcriptOf/0"><code class="inline">transcriptOf/0</code></a></p>  </section>
+</section>
+<section class="detail" id="translationOf/0">
+  <div class="detail-header">
+    <a href="#translationOf/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">translationOf()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/translationOf">http://purl.org/ontology/bibo/translationOf</a></p>  </section>
+</section>
+<section class="detail" id="translationOf/2">
+  <div class="detail-header">
+    <a href="#translationOf/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">translationOf(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#translationOf/0"><code class="inline">translationOf/0</code></a></p>  </section>
+</section>
+<section class="detail" id="translator/0">
+  <div class="detail-header">
+    <a href="#translator/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">translator()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/translator">http://purl.org/ontology/bibo/translator</a></p>  </section>
+</section>
+<section class="detail" id="translator/2">
+  <div class="detail-header">
+    <a href="#translator/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">translator(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#translator/0"><code class="inline">translator/0</code></a></p>  </section>
+</section>
+<section class="detail" id="upc/0">
+  <div class="detail-header">
+    <a href="#upc/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">upc()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/upc">http://purl.org/ontology/bibo/upc</a></p>  </section>
+</section>
+<section class="detail" id="upc/2">
+  <div class="detail-header">
+    <a href="#upc/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">upc(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#upc/0"><code class="inline">upc/0</code></a></p>  </section>
+</section>
+<section class="detail" id="uri/0">
+  <div class="detail-header">
+    <a href="#uri/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">uri()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/uri">http://purl.org/ontology/bibo/uri</a></p>  </section>
+</section>
+<section class="detail" id="uri/2">
+  <div class="detail-header">
+    <a href="#uri/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">uri(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#uri/0"><code class="inline">uri/0</code></a></p>  </section>
+</section>
+<section class="detail" id="volume/0">
+  <div class="detail-header">
+    <a href="#volume/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">volume()</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="http://purl.org/ontology/bibo/volume">http://purl.org/ontology/bibo/volume</a></p>  </section>
+</section>
+<section class="detail" id="volume/2">
+  <div class="detail-header">
+    <a href="#volume/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">volume(subject, object)</h1>
+  </div>
+
+  <section class="docstring">
+
+<p><a href="https://hexdocs.pm/rdf/RDF.Description.html"><code class="inline">RDF.Description</code></a> builder for <a href="#volume/0"><code class="inline">volume/0</code></a></p>  </section>
+</section>
+          </div>
+        </section>
+      <footer class="footer">
+        <p>
+          <span class="line">
+            Built using
+            <a href="https://github.com/elixir-lang/ex_doc" title="ExDoc" target="_blank" rel="help noopener">ExDoc</a> (v0.22.0),
+          </span>
+          <span class="line">
+            designed by
+            <a href="https://twitter.com/dignifiedquire" target="_blank" rel="noopener" title="@dignifiedquire">Friedel Ziegelmayer</a>.
+          </span>
+        </p>
+        <p>
+          <button class="line footer-button display-shortcuts-help">
+            Display keyboard shortcuts
+          </button>
+          <button class="line footer-button night-mode-toggle">
+            Toggle night mode
+          </button>
+          <button class="line footer-button display-quick-switch">
+            Go to a HexDocs package
+          </button>
+          <button class="line footer-button tooltips-toggle">
+            <span class="tooltips-option-disable">Disable tooltips</span>
+            <span class="tooltips-option-enable">Enable tooltips</span>
+          </button>
+        </p>
+      </footer>
+    </div>
+  </div>
+</section>
+</div>
+  </body>
+</html>

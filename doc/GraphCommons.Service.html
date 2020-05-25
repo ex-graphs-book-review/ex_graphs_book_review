@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="ExDoc v0.22.0">
+    <meta name="project" content=" vdev">
+    <title>GraphCommons.Service —  vdev</title>
+    <link rel="stylesheet" href="dist/elixir-e589b8fad3dab6230c65.css" />
+    <script src="dist/sidebar_items-8a0dc2c1ad.js"></script>
+      <script src="docs_config.js"></script>
+    <script async src="dist/app-5c0c23dfec2d63ae33a2.js"></script>
+  </head>
+  <body data-type="modules">
+    <script>try { if(localStorage.getItem('night-mode') === 'true') document.body.className += ' night-mode'; } catch (e) { }</script>
+<div class="main">
+
+<button class="sidebar-button sidebar-toggle">
+  <span class="icon-menu" title="Collapse/expand sidebar"></span>
+</button>
+
+<section class="sidebar">
+  <form class="sidebar-search" action="search.html">
+    <button type="submit" class="search-button">
+      <span class="icon-search" aria-hidden="true"></span>
+    </button>
+    <button type="button" tabindex="-1" class="search-close-button">
+      <span class="icon-cross" title="Cancel search"></span>
+    </button>
+    <label class="search-label">
+      <input name="q" type="text" id="search-list" class="search-input" placeholder="Search..." aria-label="Search" autocomplete="off" />
+    </label>
+  </form>
+
+  <div class="autocomplete">
+    <div class="autocomplete-results">
+    </div>
+  </div>
+
+  <div class="sidebar-header">
+    <div class="sidebar-projectDetails">
+      <a href="readme.html" class="sidebar-projectName">
+      </a>
+      <h2 class="sidebar-projectVersion">
+        vdev
+      </h2>
+    </div>
+  </div>
+
+  <ul class="sidebar-listNav">
+    <li><a id="extras-list" href="#full-list">Pages</a></li>
+
+      <li><a id="modules-list" href="#full-list">Modules</a></li>
+
+  </ul>
+  <div class="gradient"></div>
+  <ul id="full-list" class="sidebar-fullList"></ul>
+</section>
+
+<section class="content">
+  <div class="content-outer">
+    <div id="content" class="content-inner">
+
+      <h1>
+        <small class="app-vsn"> vdev</small>
+GraphCommons.Service <small>behaviour</small>      </h1>
+
+
+        <section id="moduledoc">
+<p>Module defining graph service behaviour callbacks.</p><p>This behaviour defines a CRUD interface to a graph service with the following callbacks:</p><ul><li><code class="inline">graph_create/1</code></li><li><code class="inline">graph_read/0</code></li><li><code class="inline">graph_update/1</code></li><li><code class="inline">graph_delete/0</code></li></ul><p>Added to that basic set is an optional callback:</p><ul><li><code class="inline">graph_info/0</code></li></ul><p>And lastly we also define a couple callbacks for querying the graph:</p><ul><li><code class="inline">query_graph/1</code></li><li><code class="inline">query_graph!/1</code></li></ul><p>For interactive use the following function helpers are provided:</p><ul><li><a href="https://hexdocs.pm/graph_commons/GraphCommons.Utils.html#cypher!/1"><code class="inline">GraphCommons.Utils.cypher!/1</code></a></li><li><a href="https://hexdocs.pm/graph_commons/GraphCommons.Utils.html#gremlin!/1"><code class="inline">GraphCommons.Utils.gremlin!/1</code></a></li><li><a href="https://hexdocs.pm/graph_commons/GraphCommons.Utils.html#libgraph!/1"><code class="inline">GraphCommons.Utils.libgraph!/1</code></a></li><li><a href="https://hexdocs.pm/graph_commons/GraphCommons.Utils.html#sparql!/1"><code class="inline">GraphCommons.Utils.sparql!/1</code></a></li></ul><p>These latter will typically be imported so that they can be invoked with no namespacing required, e.g <code class="inline">cypher/1</code>, <code class="inline">gremlin!/1</code>, <code class="inline">libgraph!/1</code>, <code class="inline">sparql!/1</code>.</p>        </section>
+
+        <section id="summary" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#summary">
+              <span class="icon-link" aria-hidden="true"></span>
+              <span class="sr-only">Link to this section</span>
+            </a>
+            Summary
+          </h1>
+  <div class="summary-callbacks summary">
+    <h2>
+      <a href="#callbacks">Callbacks</a>
+    </h2>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#c:graph_create/1">graph_create(arg1)</a>
+  </div>
+    <div class="summary-synopsis"><p>Creates graph in the service graph store.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#c:graph_delete/0">graph_delete()</a>
+  </div>
+    <div class="summary-synopsis"><p>Deletes graph in the service graph store.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#c:graph_info/0">graph_info()</a>
+  </div>
+    <div class="summary-synopsis"><p>Reports on graph in the service graph store.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#c:graph_read/0">graph_read()</a>
+  </div>
+    <div class="summary-synopsis"><p>Reads graph from the service graph store.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#c:graph_update/1">graph_update(arg1)</a>
+  </div>
+    <div class="summary-synopsis"><p>Writes graph to the service graph store.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#c:query_graph/1">query_graph(arg1)</a>
+  </div>
+    <div class="summary-synopsis"><p>Queries graph in the service graph store.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#c:query_graph/2">query_graph(arg1, map)</a>
+  </div>
+    <div class="summary-synopsis"><p>Queries graph in the service graph store.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#c:query_graph!/1">query_graph!(arg1)</a>
+  </div>
+    <div class="summary-synopsis"><p>Queries graph in the service graph store with direct result.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#c:query_graph!/2">query_graph!(arg1, map)</a>
+  </div>
+    <div class="summary-synopsis"><p>Queries graph in the service graph store with direct result.</p></div>
+</div>
+  </div>
+        </section>
+
+        <section id="callbacks" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#callbacks">
+              <span class="icon-link" aria-hidden="true"></span>
+              <span class="sr-only">Link to this section</span>
+            </a>
+Callbacks          </h1>
+          <div class="callbacks-list">
+<section class="detail" id="c:graph_create/1">
+  <div class="detail-header">
+    <a href="#c:graph_create/1" class="detail-link" title="Link to this callback">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this callback</span>
+    </a>
+    <h1 class="signature">graph_create(arg1)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>graph_create(<a href="https://hexdocs.pm/graph_commons/GraphCommons.Graph.html#t:t/0">GraphCommons.Graph.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Creates graph in the service graph store.</p>  </section>
+</section>
+<section class="detail" id="c:graph_delete/0">
+  <div class="detail-header">
+    <a href="#c:graph_delete/0" class="detail-link" title="Link to this callback">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this callback</span>
+    </a>
+    <h1 class="signature">graph_delete()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>graph_delete() :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Deletes graph in the service graph store.</p>  </section>
+</section>
+<section class="detail" id="c:graph_info/0">
+  <div class="detail-header">
+    <a href="#c:graph_info/0" class="detail-link" title="Link to this callback">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this callback</span>
+    </a>
+    <h1 class="signature">graph_info()</h1>
+      <span class="note">(optional)</span>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>graph_info() :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Reports on graph in the service graph store.</p>  </section>
+</section>
+<section class="detail" id="c:graph_read/0">
+  <div class="detail-header">
+    <a href="#c:graph_read/0" class="detail-link" title="Link to this callback">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this callback</span>
+    </a>
+    <h1 class="signature">graph_read()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>graph_read() :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Reads graph from the service graph store.</p>  </section>
+</section>
+<section class="detail" id="c:graph_update/1">
+  <div class="detail-header">
+    <a href="#c:graph_update/1" class="detail-link" title="Link to this callback">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this callback</span>
+    </a>
+    <h1 class="signature">graph_update(arg1)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>graph_update(<a href="https://hexdocs.pm/graph_commons/GraphCommons.Graph.html#t:t/0">GraphCommons.Graph.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Writes graph to the service graph store.</p>  </section>
+</section>
+<section class="detail" id="c:query_graph/1">
+  <div class="detail-header">
+    <a href="#c:query_graph/1" class="detail-link" title="Link to this callback">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this callback</span>
+    </a>
+    <h1 class="signature">query_graph(arg1)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>query_graph(<a href="https://hexdocs.pm/graph_commons/GraphCommons.Query.html#t:t/0">GraphCommons.Query.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Queries graph in the service graph store.</p>  </section>
+</section>
+<section class="detail" id="c:query_graph/2">
+  <div class="detail-header">
+    <a href="#c:query_graph/2" class="detail-link" title="Link to this callback">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this callback</span>
+    </a>
+    <h1 class="signature">query_graph(arg1, map)</h1>
+      <span class="note">(optional)</span>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>query_graph(<a href="https://hexdocs.pm/graph_commons/GraphCommons.Query.html#t:t/0">GraphCommons.Query.t</a>(), <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">map</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Queries graph in the service graph store.</p>  </section>
+</section>
+<section class="detail" id="c:query_graph!/1">
+  <div class="detail-header">
+    <a href="#c:query_graph!/1" class="detail-link" title="Link to this callback">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this callback</span>
+    </a>
+    <h1 class="signature">query_graph!(arg1)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>query_graph!(<a href="https://hexdocs.pm/graph_commons/GraphCommons.Query.html#t:t/0">GraphCommons.Query.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Queries graph in the service graph store with direct result.</p>  </section>
+</section>
+<section class="detail" id="c:query_graph!/2">
+  <div class="detail-header">
+    <a href="#c:query_graph!/2" class="detail-link" title="Link to this callback">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this callback</span>
+    </a>
+    <h1 class="signature">query_graph!(arg1, map)</h1>
+      <span class="note">(optional)</span>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>query_graph!(<a href="https://hexdocs.pm/graph_commons/GraphCommons.Query.html#t:t/0">GraphCommons.Query.t</a>(), <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">map</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Queries graph in the service graph store with direct result.</p>  </section>
+</section>
+          </div>
+        </section>
+      <footer class="footer">
+        <p>
+          <span class="line">
+            Built using
+            <a href="https://github.com/elixir-lang/ex_doc" title="ExDoc" target="_blank" rel="help noopener">ExDoc</a> (v0.22.0),
+          </span>
+          <span class="line">
+            designed by
+            <a href="https://twitter.com/dignifiedquire" target="_blank" rel="noopener" title="@dignifiedquire">Friedel Ziegelmayer</a>.
+          </span>
+        </p>
+        <p>
+          <button class="line footer-button display-shortcuts-help">
+            Display keyboard shortcuts
+          </button>
+          <button class="line footer-button night-mode-toggle">
+            Toggle night mode
+          </button>
+          <button class="line footer-button display-quick-switch">
+            Go to a HexDocs package
+          </button>
+          <button class="line footer-button tooltips-toggle">
+            <span class="tooltips-option-disable">Disable tooltips</span>
+            <span class="tooltips-option-enable">Enable tooltips</span>
+          </button>
+        </p>
+      </footer>
+    </div>
+  </div>
+</section>
+</div>
+  </body>
+</html>

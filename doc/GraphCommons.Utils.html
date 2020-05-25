@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="ExDoc v0.22.0">
+    <meta name="project" content=" vdev">
+    <title>GraphCommons.Utils —  vdev</title>
+    <link rel="stylesheet" href="dist/elixir-e589b8fad3dab6230c65.css" />
+    <script src="dist/sidebar_items-8a0dc2c1ad.js"></script>
+      <script src="docs_config.js"></script>
+    <script async src="dist/app-5c0c23dfec2d63ae33a2.js"></script>
+  </head>
+  <body data-type="modules">
+    <script>try { if(localStorage.getItem('night-mode') === 'true') document.body.className += ' night-mode'; } catch (e) { }</script>
+<div class="main">
+
+<button class="sidebar-button sidebar-toggle">
+  <span class="icon-menu" title="Collapse/expand sidebar"></span>
+</button>
+
+<section class="sidebar">
+  <form class="sidebar-search" action="search.html">
+    <button type="submit" class="search-button">
+      <span class="icon-search" aria-hidden="true"></span>
+    </button>
+    <button type="button" tabindex="-1" class="search-close-button">
+      <span class="icon-cross" title="Cancel search"></span>
+    </button>
+    <label class="search-label">
+      <input name="q" type="text" id="search-list" class="search-input" placeholder="Search..." aria-label="Search" autocomplete="off" />
+    </label>
+  </form>
+
+  <div class="autocomplete">
+    <div class="autocomplete-results">
+    </div>
+  </div>
+
+  <div class="sidebar-header">
+    <div class="sidebar-projectDetails">
+      <a href="readme.html" class="sidebar-projectName">
+      </a>
+      <h2 class="sidebar-projectVersion">
+        vdev
+      </h2>
+    </div>
+  </div>
+
+  <ul class="sidebar-listNav">
+    <li><a id="extras-list" href="#full-list">Pages</a></li>
+
+      <li><a id="modules-list" href="#full-list">Modules</a></li>
+
+  </ul>
+  <div class="gradient"></div>
+  <ul id="full-list" class="sidebar-fullList"></ul>
+</section>
+
+<section class="content">
+  <div class="content-outer">
+    <div id="content" class="content-inner">
+
+      <h1>
+        <small class="app-vsn"> vdev</small>
+GraphCommons.Utils      </h1>
+
+
+        <section id="moduledoc">
+<p>Module providing helper functions.</p>        </section>
+
+        <section id="summary" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#summary">
+              <span class="icon-link" aria-hidden="true"></span>
+              <span class="sr-only">Link to this section</span>
+            </a>
+            Summary
+          </h1>
+  <div class="summary-functions summary">
+    <h2>
+      <a href="#functions">Functions</a>
+    </h2>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#close_socket/1">close_socket(socket)</a>
+  </div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#cypher/1">cypher(query_string)</a>
+  </div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#cypher!/1">cypher!(query_string)</a>
+  </div>
+    <div class="summary-synopsis"><p>Queries a <a href="https://hexdocs.pm/property_graph/PropertyGraph.html"><code class="inline">PropertyGraph</code></a> graph store with a <code class="inline">query_string</code> string arg.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#cypher!/2">cypher!(query_string, query_params)</a>
+  </div>
+    <div class="summary-synopsis"><p>Queries a <a href="https://hexdocs.pm/property_graph/PropertyGraph.html"><code class="inline">PropertyGraph</code></a> graph store with a <code class="inline">query_string</code> string arg and a <code class="inline">query_params</code> map arg.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#dgraph!/1">dgraph!(query_string)</a>
+  </div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#eval/1">eval(string)</a>
+  </div>
+    <div class="summary-synopsis"><p>Returns result of evaluating a string.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#eval_script/1">eval_script(script)</a>
+  </div>
+    <div class="summary-synopsis"><p>Returns result of evaluating a script bundled with the <code class="inline">:graph_commons</code> app.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#graph_modules/0">graph_modules()</a>
+  </div>
+    <div class="summary-synopsis"><p>Generates keyword list of app, module pairs from graph modules used in this umbrella app.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#graph_service/1">graph_service(graph_module)</a>
+  </div>
+    <div class="summary-synopsis"><p>Macro to set graph service with <code class="inline">graph_module</code>.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#gremlin!/1">gremlin!(query_string)</a>
+  </div>
+    <div class="summary-synopsis"><p>Queries a <code class="inline">TinkerGraph</code> graph store with a <code class="inline">query_string</code> arg.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#gs/1">gs(graph_module)</a>
+  </div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#help/0">help()</a>
+  </div>
+    <div class="summary-synopsis"><p>Prints out ...</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#help/1">help(arg)</a>
+  </div>
+    <div class="summary-synopsis"><p>Prints out ...</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#is_module/1">is_module(graph_module)</a>
+  </div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#libgraph!/1">libgraph!(query_string)</a>
+  </div>
+    <div class="summary-synopsis"><p>Queries a <a href="https://hexdocs.pm/native_graph/NativeGraph.html"><code class="inline">NativeGraph</code></a> graph store with a <code class="inline">query_string</code> arg.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#list_apps/0">list_apps()</a>
+  </div>
+    <div class="summary-synopsis"><p>Prints out apps used in this umbrella app.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#list_functions/1">list_functions(module)</a>
+  </div>
+    <div class="summary-synopsis"><p>Prints out functions used in module.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#list_graph_modules/0">list_graph_modules()</a>
+  </div>
+    <div class="summary-synopsis"><p>Prints out toplevel graph modules used in this umbrella app.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#list_macros/1">list_macros(module)</a>
+  </div>
+    <div class="summary-synopsis"><p>Prints out macros used in module.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#list_modules/1">list_modules(app)</a>
+  </div>
+    <div class="summary-synopsis"><p>Prints out modules used in app.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#open_socket/2">open_socket(address, port)</a>
+  </div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#repeat/2">repeat(times, block)</a>
+  </div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#sparql/1">sparql(query_string)</a>
+  </div>
+    <div class="summary-synopsis"><p>Queries a <a href="https://hexdocs.pm/rdf_graph/RDFGraph.html"><code class="inline">RDFGraph</code></a> graph store with a <code class="inline">query_string</code> arg.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#sparql!/1">sparql!(query_string)</a>
+  </div>
+    <div class="summary-synopsis"><p>Queries a <a href="https://hexdocs.pm/rdf_graph/RDFGraph.html"><code class="inline">RDFGraph</code></a> graph store with a <code class="inline">query_string</code> arg.</p></div>
+</div>
+<div class="summary-row">
+  <div class="summary-signature">
+    <a href="#sparql!/2">sparql!(query_string, query_params)</a>
+  </div>
+    <div class="summary-synopsis"><p>Queries a <a href="https://hexdocs.pm/rdf_graph/RDFGraph.html"><code class="inline">RDFGraph</code></a> graph store with a <code class="inline">query_string</code> string arg and a <code class="inline">query_params</code> map arg.</p></div>
+</div>
+  </div>
+        </section>
+
+        <section id="functions" class="details-list">
+          <h1 class="section-heading">
+            <a class="hover-link" href="#functions">
+              <span class="icon-link" aria-hidden="true"></span>
+              <span class="sr-only">Link to this section</span>
+            </a>
+Functions          </h1>
+          <div class="functions-list">
+<section class="detail" id="close_socket/1">
+  <div class="detail-header">
+    <a href="#close_socket/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">close_socket(socket)</h1>
+  </div>
+
+  <section class="docstring">
+
+  </section>
+</section>
+<section class="detail" id="cypher/1">
+  <div class="detail-header">
+    <a href="#cypher/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">cypher(query_string)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>cypher(<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+  </section>
+</section>
+<section class="detail" id="cypher!/1">
+  <div class="detail-header">
+    <a href="#cypher!/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">cypher!(query_string)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>cypher!({<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>(), <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">map</a>()}) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+          <pre>cypher!(<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Queries a <a href="https://hexdocs.pm/property_graph/PropertyGraph.html"><code class="inline">PropertyGraph</code></a> graph store with a <code class="inline">query_string</code> string arg.</p>  </section>
+</section>
+<section class="detail" id="cypher!/2">
+  <div class="detail-header">
+    <a href="#cypher!/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">cypher!(query_string, query_params)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>cypher!(<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>(), <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">map</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Queries a <a href="https://hexdocs.pm/property_graph/PropertyGraph.html"><code class="inline">PropertyGraph</code></a> graph store with a <code class="inline">query_string</code> string arg and a <code class="inline">query_params</code> map arg.</p>  </section>
+</section>
+<section class="detail" id="dgraph!/1">
+  <div class="detail-header">
+    <a href="#dgraph!/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">dgraph!(query_string)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>dgraph!(<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+  </section>
+</section>
+<section class="detail" id="eval/1">
+  <div class="detail-header">
+    <a href="#eval/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">eval(string)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>eval(<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Returns result of evaluating a string.</p>  </section>
+</section>
+<section class="detail" id="eval_script/1">
+  <div class="detail-header">
+    <a href="#eval_script/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">eval_script(script)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>eval_script(<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Returns result of evaluating a script bundled with the <code class="inline">:graph_commons</code> app.</p>  </section>
+</section>
+<section class="detail" id="graph_modules/0">
+  <div class="detail-header">
+    <a href="#graph_modules/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">graph_modules()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>graph_modules() :: <a href="https://hexdocs.pm/elixir/typespecs.html#built-in-types">keyword</a>()</pre>
+      </div>
+
+<p>Generates keyword list of app, module pairs from graph modules used in this umbrella app.</p>  </section>
+</section>
+<section class="detail" id="graph_service/1">
+  <div class="detail-header">
+    <a href="#graph_service/1" class="detail-link" title="Link to this macro">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this macro</span>
+    </a>
+    <h1 class="signature">graph_service(graph_module)</h1>
+      <span class="note">(macro)</span>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>graph_service(<a href="https://hexdocs.pm/elixir/typespecs.html#built-in-types">module</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#built-in-types">module</a>()</pre>
+          <pre>graph_service(<a href="https://hexdocs.pm/elixir/typespecs.html#built-in-types">module</a>()) :: <a href="https://hexdocs.pm/graph_commons/GraphCommons.Service.GraphInfo.html#t:t/0">GraphCommons.Service.GraphInfo.t</a>()</pre>
+      </div>
+
+<p>Macro to set graph service with <code class="inline">graph_module</code>.</p>  </section>
+</section>
+<section class="detail" id="gremlin!/1">
+  <div class="detail-header">
+    <a href="#gremlin!/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">gremlin!(query_string)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>gremlin!(<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Queries a <code class="inline">TinkerGraph</code> graph store with a <code class="inline">query_string</code> arg.</p>  </section>
+</section>
+<section class="detail" id="gs/1">
+  <div class="detail-header">
+    <a href="#gs/1" class="detail-link" title="Link to this macro">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this macro</span>
+    </a>
+    <h1 class="signature">gs(graph_module)</h1>
+      <span class="note">(macro)</span>
+  </div>
+
+  <section class="docstring">
+
+  </section>
+</section>
+<section class="detail" id="help/0">
+  <div class="detail-header">
+    <a href="#help/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">help()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>help() :: :ok</pre>
+      </div>
+
+<p>Prints out ...</p><h2 id="help/0-examples" class="section-heading">
+  <a href="#help/0-examples" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  Examples
+</h2>
+<pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">help</span><span class="w">
+</span><span class="p" data-group-id="3951285272-1">[</span><span class="ss">:graph_commons</span><span class="p" data-group-id="3951285272-1">]</span><span class="w">
+</span><span class="ss">:ok</span></code></pre>  </section>
+</section>
+<section class="detail" id="help/1">
+  <div class="detail-header">
+    <a href="#help/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">help(arg)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>help(<a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">atom</a>()) :: :ok</pre>
+      </div>
+
+<p>Prints out ...</p>  </section>
+</section>
+<section class="detail" id="is_module/1">
+  <div class="detail-header">
+    <a href="#is_module/1" class="detail-link" title="Link to this macro">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this macro</span>
+    </a>
+    <h1 class="signature">is_module(graph_module)</h1>
+      <span class="note">(macro)</span>
+  </div>
+
+  <section class="docstring">
+
+  </section>
+</section>
+<section class="detail" id="libgraph!/1">
+  <div class="detail-header">
+    <a href="#libgraph!/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">libgraph!(query_string)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>libgraph!(<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Queries a <a href="https://hexdocs.pm/native_graph/NativeGraph.html"><code class="inline">NativeGraph</code></a> graph store with a <code class="inline">query_string</code> arg.</p>  </section>
+</section>
+<section class="detail" id="list_apps/0">
+  <div class="detail-header">
+    <a href="#list_apps/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">list_apps()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>list_apps() :: :ok</pre>
+      </div>
+
+<p>Prints out apps used in this umbrella app.</p><h2 id="list_apps/0-examples" class="section-heading">
+  <a href="#list_apps/0-examples" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  Examples
+</h2>
+<pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">list_apps</span><span class="w">
+</span><span class="p" data-group-id="3940210490-1">[</span><span class="ss">:graph_browser</span><span class="p">,</span><span class="w"> </span><span class="ss">:graph_commons</span><span class="p">,</span><span class="w"> </span><span class="ss">:graph_connect</span><span class="p">,</span><span class="w"> </span><span class="ss">:graph_transform</span><span class="p">,</span><span class="w">
+ </span><span class="ss">:native_graph</span><span class="p">,</span><span class="w"> </span><span class="ss">:property_graph</span><span class="p">,</span><span class="w"> </span><span class="ss">:rdf_graph</span><span class="p" data-group-id="3940210490-1">]</span><span class="w">
+</span><span class="ss">:ok</span></code></pre>  </section>
+</section>
+<section class="detail" id="list_functions/1">
+  <div class="detail-header">
+    <a href="#list_functions/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">list_functions(module)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>list_functions(<a href="https://hexdocs.pm/elixir/typespecs.html#built-in-types">module</a>()) :: :ok</pre>
+      </div>
+
+<p>Prints out functions used in module.</p><h2 id="list_functions/1-examples" class="section-heading">
+  <a href="#list_functions/1-examples" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  Examples
+</h2>
+<pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">list_functions</span><span class="p" data-group-id="2562759558-1">(</span><span class="nc">GraphCommons</span><span class="p" data-group-id="2562759558-1">)</span><span class="w">
+</span><span class="p" data-group-id="2562759558-2">[</span><span class="nc">GraphCommons</span><span class="p">,</span><span class="w"> </span><span class="nc">GraphCommons.Graph</span><span class="p">,</span><span class="w"> </span><span class="nc">GraphCommons.Query</span><span class="p">,</span><span class="w"> </span><span class="nc">GraphCommons.Utils</span><span class="p">,</span><span class="w">
+ </span><span class="nc">Inspect.GraphCommons.Graph</span><span class="p">,</span><span class="w"> </span><span class="nc">Inspect.GraphCommons.Query</span><span class="p" data-group-id="2562759558-2">]</span><span class="w">
+</span><span class="ss">:ok</span></code></pre>  </section>
+</section>
+<section class="detail" id="list_graph_modules/0">
+  <div class="detail-header">
+    <a href="#list_graph_modules/0" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">list_graph_modules()</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>list_graph_modules() :: [<a href="https://hexdocs.pm/elixir/typespecs.html#built-in-types">module</a>(), ...]</pre>
+      </div>
+
+<p>Prints out toplevel graph modules used in this umbrella app.</p>  </section>
+</section>
+<section class="detail" id="list_macros/1">
+  <div class="detail-header">
+    <a href="#list_macros/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">list_macros(module)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>list_macros(<a href="https://hexdocs.pm/elixir/typespecs.html#built-in-types">module</a>()) :: :ok</pre>
+      </div>
+
+<p>Prints out macros used in module.</p><h2 id="list_macros/1-examples" class="section-heading">
+  <a href="#list_macros/1-examples" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  Examples
+</h2>
+<pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">list_macros</span><span class="p" data-group-id="6649855269-1">(</span><span class="nc">GraphCommons.Utils</span><span class="p" data-group-id="6649855269-1">)</span><span class="w">
+</span><span class="p" data-group-id="6649855269-2">[</span><span class="ss">graph_service</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="ss">gs</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="ss">is_module</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p" data-group-id="6649855269-2">]</span><span class="w">
+</span><span class="ss">:ok</span></code></pre>  </section>
+</section>
+<section class="detail" id="list_modules/1">
+  <div class="detail-header">
+    <a href="#list_modules/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">list_modules(app)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>list_modules(<a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">atom</a>()) :: :ok</pre>
+      </div>
+
+<p>Prints out modules used in app.</p><h2 id="list_modules/1-examples" class="section-heading">
+  <a href="#list_modules/1-examples" class="hover-link"><span class="icon-link" aria-hidden="true"></span></a>
+  Examples
+</h2>
+<pre><code class="nohighlight makeup elixir"><span class="gp unselectable">iex&gt; </span><span class="n">list_mods</span><span class="p" data-group-id="8040148501-1">(</span><span class="ss">:graph_commons</span><span class="p" data-group-id="8040148501-1">)</span><span class="w">
+</span><span class="p" data-group-id="8040148501-2">[</span><span class="ss">help</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="ss">list_apps</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="ss">list_functions</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="ss">list_modules</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p" data-group-id="8040148501-2">]</span><span class="w">
+</span><span class="ss">:ok</span></code></pre>  </section>
+</section>
+<section class="detail" id="open_socket/2">
+  <div class="detail-header">
+    <a href="#open_socket/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">open_socket(address, port)</h1>
+  </div>
+
+  <section class="docstring">
+
+  </section>
+</section>
+<section class="detail" id="repeat/2">
+  <div class="detail-header">
+    <a href="#repeat/2" class="detail-link" title="Link to this macro">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this macro</span>
+    </a>
+    <h1 class="signature">repeat(times, block)</h1>
+      <span class="note">(macro)</span>
+  </div>
+
+  <section class="docstring">
+
+  </section>
+</section>
+<section class="detail" id="sparql/1">
+  <div class="detail-header">
+    <a href="#sparql/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">sparql(query_string)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>sparql(<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Queries a <a href="https://hexdocs.pm/rdf_graph/RDFGraph.html"><code class="inline">RDFGraph</code></a> graph store with a <code class="inline">query_string</code> arg.</p>  </section>
+</section>
+<section class="detail" id="sparql!/1">
+  <div class="detail-header">
+    <a href="#sparql!/1" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">sparql!(query_string)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>sparql!(<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Queries a <a href="https://hexdocs.pm/rdf_graph/RDFGraph.html"><code class="inline">RDFGraph</code></a> graph store with a <code class="inline">query_string</code> arg.</p>  </section>
+</section>
+<section class="detail" id="sparql!/2">
+  <div class="detail-header">
+    <a href="#sparql!/2" class="detail-link" title="Link to this function">
+      <span class="icon-link" aria-hidden="true"></span>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature">sparql!(query_string, query_params)</h1>
+  </div>
+
+  <section class="docstring">
+      <h2>Specs</h2>
+      <div class="specs">
+          <pre>sparql!(<a href="https://hexdocs.pm/elixir/String.html#t:t/0">String.t</a>(), <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">map</a>()) :: <a href="https://hexdocs.pm/elixir/typespecs.html#basic-types">any</a>()</pre>
+      </div>
+
+<p>Queries a <a href="https://hexdocs.pm/rdf_graph/RDFGraph.html"><code class="inline">RDFGraph</code></a> graph store with a <code class="inline">query_string</code> string arg and a <code class="inline">query_params</code> map arg.</p>  </section>
+</section>
+          </div>
+        </section>
+      <footer class="footer">
+        <p>
+          <span class="line">
+            Built using
+            <a href="https://github.com/elixir-lang/ex_doc" title="ExDoc" target="_blank" rel="help noopener">ExDoc</a> (v0.22.0),
+          </span>
+          <span class="line">
+            designed by
+            <a href="https://twitter.com/dignifiedquire" target="_blank" rel="noopener" title="@dignifiedquire">Friedel Ziegelmayer</a>.
+          </span>
+        </p>
+        <p>
+          <button class="line footer-button display-shortcuts-help">
+            Display keyboard shortcuts
+          </button>
+          <button class="line footer-button night-mode-toggle">
+            Toggle night mode
+          </button>
+          <button class="line footer-button display-quick-switch">
+            Go to a HexDocs package
+          </button>
+          <button class="line footer-button tooltips-toggle">
+            <span class="tooltips-option-disable">Disable tooltips</span>
+            <span class="tooltips-option-enable">Enable tooltips</span>
+          </button>
+        </p>
+      </footer>
+    </div>
+  </div>
+</section>
+</div>
+  </body>
+</html>
